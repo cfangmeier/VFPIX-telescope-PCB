@@ -17,7 +17,7 @@ How this repository is organized
 As far as we know, no repository has been used. All the layouts we have were kept in ZIP files. This repository therefore tries to collect all the previous states and provides the most recent release.
 
 The branches are:
-* *master:* As usual, contains the latest state
-* *YYYY-MM-DD_filename.zip:* Reflects exactly the content of filename.zip. Date corresponds to the newwest files found inside the zip file.
+* **master:** As usual, contains the latest state
+* **YYYY-MM-DD_filename.zip:** Reflects exactly the content of filename.zip. Date corresponds to the newwest files found inside the zip file.
 
 
