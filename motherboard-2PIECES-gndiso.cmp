@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 9/12/2012 4:22:07 PM
+
+BeginCmp
+TimeStamp = /505098D4;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /505098D7;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /505098D9;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /503360E8;
+Reference = Linker1;
+ValeurCmp = CONN_20X2;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5033625F;
+Reference = Linker2;
+ValeurCmp = CONN_20X2;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50335E74;
+Reference = LinkerToTB1;
+ValeurCmp = CONN_20X2;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB208C1;
+Reference = X1;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB208BF;
+Reference = X2;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB211D6;
+Reference = X3;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB211D8;
+Reference = X4;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB208C0;
+Reference = Y1;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB208BE;
+Reference = Y2;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB211D7;
+Reference = Y3;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB211D9;
+Reference = Y4;
+ValeurCmp = MEC1;
+IdModule  = X1;
+EndCmp
+
+EndListe
