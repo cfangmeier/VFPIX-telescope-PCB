@@ -1,0 +1,681 @@
+# EESchema Netlist Version 1.1 created  8/21/2012 4:17:24 PM
+(
+ ( /502CB86C $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 /GND )
+  (    2 /GND )
+ )
+ ( /502CB861 $noname  P5 CONN_2 {Lib=CONN_2}
+  (    1 /RG )
+  (    2 /RG )
+ )
+ ( /502CB85B $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 /Vthresh )
+  (    2 /Vthresh )
+ )
+ ( /502CB855 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 /AREF )
+  (    2 /AREF )
+ )
+ ( /502CB850 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 /CAL_Tel )
+  (    2 /CAL_Tel )
+ )
+ ( /502CB712 $noname  NullCap1 C {Lib=C}
+  (    1 /GND )
+  (    2 N-000080 )
+ )
+ ( /502CB701 $noname  Null1 CONN_3 {Lib=CONN_3}
+  (    1 N-000080 )
+  (    2 /Null )
+  (    3 /GND )
+ )
+ ( /502CB55C $noname  IS2Switch1 SWITCH_INV_MSM {Lib=SWITCH_INV_MSM}
+  (    1 /IS1d )
+  (    2 /IS2d )
+  (    3 /GND )
+ )
+ ( /502CB15A $noname  R4 300ohm {Lib=R}
+  (    1 /RPHI2d )
+  (    2 /GND )
+ )
+ ( /502CB159 $noname  R6 300ohm {Lib=R}
+  (    1 /RBId )
+  (    2 /GND )
+ )
+ ( /502CB158 $noname  R8 300ohm {Lib=R}
+  (    1 /CSd )
+  (    2 /GND )
+ )
+ ( /502CB157 $noname  R14 300ohm {Lib=R}
+  (    1 /IS1d )
+  (    2 /GND )
+ )
+ ( /502CB156 $noname  R12 300ohm {Lib=R}
+  (    1 /SRd )
+  (    2 /GND )
+ )
+ ( /502CB155 $noname  R10 300ohm {Lib=R}
+  (    1 /R12d )
+  (    2 /GND )
+ )
+ ( /502CB154 $noname  R24 300ohm {Lib=R}
+  (    1 /SBId )
+  (    2 /GND )
+ )
+ ( /502CB153 $noname  R26 300ohm {Lib=R}
+  (    1 /SEBd )
+  (    2 /GND )
+ )
+ ( /502CB152 $noname  R18 300ohm {Lib=R}
+  (    1 /LEd )
+  (    2 /GND )
+ )
+ ( /502CB151 $noname  R22 300ohm {Lib=R}
+  (    1 /SPHI2d )
+  (    2 /GND )
+ )
+ ( /502CB150 $noname  R20 300ohm {Lib=R}
+  (    1 /SPHI1d )
+  (    2 /GND )
+ )
+ ( /502CB14F $noname  R16 300ohm {Lib=R}
+  (    1 /RESETd )
+  (    2 /GND )
+ )
+ ( /502CB14E $noname  R2 300ohm {Lib=R}
+  (    1 /RPHI1d )
+  (    2 /GND )
+ )
+ ( /502CB139 $noname  R1 100ohm {Lib=R}
+  (    1 /RPHI1 )
+  (    2 /RPHI1d )
+ )
+ ( /502CB138 $noname  R15 100ohm {Lib=R}
+  (    1 /RESET )
+  (    2 /RESETd )
+ )
+ ( /502CB137 $noname  R19 100ohm {Lib=R}
+  (    1 /SPHI1 )
+  (    2 /SPHI1d )
+ )
+ ( /502CB136 $noname  R21 100ohm {Lib=R}
+  (    1 /SPHI2 )
+  (    2 /SPHI2d )
+ )
+ ( /502CB135 $noname  R17 100ohm {Lib=R}
+  (    1 /LE )
+  (    2 /LEd )
+ )
+ ( /502CB134 $noname  R25 100ohm {Lib=R}
+  (    1 /SEB )
+  (    2 /SEBd )
+ )
+ ( /502CB133 $noname  R23 100ohm {Lib=R}
+  (    1 /SBI )
+  (    2 /SBId )
+ )
+ ( /502CB129 $noname  R9 100ohm {Lib=R}
+  (    1 /R12 )
+  (    2 /R12d )
+ )
+ ( /502CB128 $noname  R11 100ohm {Lib=R}
+  (    1 /SR )
+  (    2 /SRd )
+ )
+ ( /502CB127 $noname  R13 100ohm {Lib=R}
+  (    1 /IS1 )
+  (    2 /IS1d )
+ )
+ ( /502CB10D $noname  R7 100ohm {Lib=R}
+  (    1 /CS )
+  (    2 /CSd )
+ )
+ ( /502CB100 $noname  R5 100ohm {Lib=R}
+  (    1 /RBI )
+  (    2 /RBId )
+ )
+ ( /502CAFED $noname  R3 100ohm {Lib=R}
+  (    1 /RPHI2 )
+  (    2 /RPHI2d )
+ )
+ ( /4FB27559 $noname  HVin1 LEMO2 {Lib=LEMO2}
+  (    1 /HV )
+  (    2 /GND )
+ )
+ ( /4FB2754D $noname  RBOSwitch1 SWITCH_INV_MSM {Lib=SWITCH_INV_MSM}
+  (    1 /RBO1 )
+  (    2 /RBO )
+  (    3 /RBO2 )
+ )
+ ( /4FB2752C $noname  Telescope1 CONN_20X2 {Lib=CONN_20X2}
+  (    1 /GND )
+  (    2 /-AIN2 )
+  (    3 /GND )
+  (    4 /+AIN2 )
+  (    5 /GND )
+  (    6 /RBO2 )
+  (    7 /AREF )
+  (    8 /RBO1 )
+  (    9 /GND )
+  (   10 /-AIN1 )
+  (   11 /GND )
+  (   12 /+AIN1 )
+  (   13 /GND )
+  (   14 /SEBd )
+  (   15 /CAL_Tel )
+  (   16 /SBId )
+  (   17 /SPHI1d )
+  (   18 /SPHI2d )
+  (   19 /LEd )
+  (   20 /Null )
+  (   21 /IS1d )
+  (   22 /RESETd )
+  (   23 /SRd )
+  (   24 /IS2d )
+  (   25 /RG )
+  (   26 ? )
+  (   27 /CSd )
+  (   28 /R12d )
+  (   29 ? )
+  (   30 /Vthresh )
+  (   31 /RPHI1d )
+  (   32 /RBId )
+  (   33 ? )
+  (   34 /RPHI2d )
+  (   35 /VA+ )
+  (   36 /VD+ )
+  (   37 ? )
+  (   38 ? )
+  (   39 /HV )
+  (   40 ? )
+ )
+ ( /4FB27518 $noname  Testboard2 CONN_13X2 {Lib=CONN_13X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 /IS1 )
+  (   10 /CS )
+  (   11 /RESET )
+  (   12 /GND )
+  (   13 /LE )
+  (   14 /GND )
+  (   15 /SPHI2 )
+  (   16 /GND )
+  (   17 /SPHI1 )
+  (   18 /GND )
+  (   19 /SBI )
+  (   20 /GND )
+  (   21 /SEB )
+  (   22 /GND )
+  (   23 /CAL )
+  (   24 /GND )
+  (   25 /RBO )
+  (   26 /GND )
+ )
+ ( /4FB27511 $noname  Testboard1 CONN_20X2 {Lib=CONN_20X2}
+  (    1 ? )
+  (    2 ? )
+  (    3 /-AIN2 )
+  (    4 /+AIN2 )
+  (    5 /GND )
+  (    6 /GND )
+  (    7 ? )
+  (    8 ? )
+  (    9 /GND )
+  (   10 /GND )
+  (   11 /-AIN1 )
+  (   12 /+AIN1 )
+  (   13 /GND )
+  (   14 /GND )
+  (   15 ? )
+  (   16 ? )
+  (   17 /+5V_ANA )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 /SR )
+  (   24 /R12 )
+  (   25 /RPHI1 )
+  (   26 /RPHI2 )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 /RBI )
+  (   31 ? )
+  (   32 ? )
+  (   33 /VD+ )
+  (   34 /VD+ )
+  (   35 /VA+ )
+  (   36 /VA+ )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+ )
+ ( /4FB27501 $noname  RG1 POT {Lib=POT}
+  (    1 /+5V_ANA )
+  (    2 /RG )
+  (    3 /GND )
+ )
+ ( /4FB274FB $noname  Vthresh1 POT {Lib=POT}
+  (    1 /+5V_ANA )
+  (    2 /Vthresh )
+  (    3 /GND )
+ )
+ ( /4FB274F6 $noname  Aref1 POT {Lib=POT}
+  (    1 /+5V_ANA )
+  (    2 /AREF )
+  (    3 /GND )
+ )
+ ( /4FB274F2 $noname  Cal1 POT {Lib=POT}
+  (    1 /CAL )
+  (    2 /CAL_Tel )
+  (    3 /GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component NullCap1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 25 "/AREF" "AREF"
+ Telescope1 7
+ Aref1 2
+ P3 2
+ P3 1
+Net 36 "/+AIN1" "+AIN1"
+ Testboard1 12
+ Telescope1 12
+Net 37 "/-AIN1" "-AIN1"
+ Testboard1 11
+ Telescope1 10
+Net 38 "/RBI" "RBI"
+ R5 1
+ Testboard1 30
+Net 39 "/GND" "GND"
+ Testboard2 20
+ Testboard2 12
+ HVin1 2
+ Telescope1 1
+ Telescope1 3
+ Telescope1 5
+ Telescope1 9
+ Telescope1 11
+ Telescope1 13
+ Testboard1 14
+ R18 2
+ R14 2
+ R12 2
+ R10 2
+ R24 2
+ R26 2
+ R22 2
+ R20 2
+ R16 2
+ R2 2
+ R4 2
+ R6 2
+ Null1 3
+ P1 1
+ P1 2
+ NullCap1 1
+ R8 2
+ IS2Switch1 3
+ Cal1 3
+ Aref1 3
+ Testboard1 9
+ Vthresh1 3
+ Testboard2 24
+ Testboard1 6
+ Testboard2 14
+ Testboard2 26
+ Testboard1 5
+ Testboard2 22
+ Testboard2 18
+ Testboard1 13
+ Testboard2 16
+ RG1 3
+ Testboard1 10
+Net 40 "/SR" "SR"
+ R11 1
+ Testboard1 23
+Net 41 "/+AIN2" "+AIN2"
+ Testboard1 4
+ Telescope1 4
+Net 42 "/-AIN2" "-AIN2"
+ Telescope1 2
+ Testboard1 3
+Net 43 "/SBI" "SBI"
+ R23 1
+ Testboard2 19
+Net 44 "/SPHI1" "SPHI1"
+ R19 1
+ Testboard2 17
+Net 45 "/SPHI2" "SPHI2"
+ Testboard2 15
+ R21 1
+Net 46 "/LE" "LE"
+ R17 1
+ Testboard2 13
+Net 47 "/CAL" "CAL"
+ Cal1 1
+ Testboard2 23
+Net 48 "/+5V_ANA" "+5V_ANA"
+ Vthresh1 1
+ Testboard1 17
+ RG1 1
+ Aref1 1
+Net 49 "/RPHI2" "RPHI2"
+ R3 1
+ Testboard1 26
+Net 50 "/RPHI1" "RPHI1"
+ Testboard1 25
+ R1 1
+Net 51 "/R12" "R12"
+ Testboard1 24
+ R9 1
+Net 52 "/RBO1" "RBO1"
+ RBOSwitch1 1
+ Telescope1 8
+Net 53 "/SEBd" "SEBd"
+ R26 1
+ Telescope1 14
+ R25 2
+Net 54 "/SRd" "SRd"
+ R11 2
+ R12 1
+ Telescope1 23
+Net 55 "/RBId" "RBId"
+ R5 2
+ Telescope1 32
+ R6 1
+Net 56 "/RESETd" "RESETd"
+ R16 1
+ Telescope1 22
+ R15 2
+Net 57 "/RPHI1d" "RPHI1d"
+ Telescope1 31
+ R1 2
+ R2 1
+Net 58 "/IS1d" "IS1d"
+ IS2Switch1 1
+ Telescope1 21
+ R13 2
+ R14 1
+Net 59 "/Vthresh" "Vthresh"
+ Vthresh1 2
+ Telescope1 30
+ P4 1
+ P4 2
+Net 60 "/Null" "Null"
+ Telescope1 20
+ Null1 2
+Net 61 "/IS2d" "IS2d"
+ Telescope1 24
+ IS2Switch1 2
+Net 62 "/RBO2" "RBO2"
+ RBOSwitch1 3
+ Telescope1 6
+Net 63 "/RBO" "RBO"
+ Testboard2 25
+ RBOSwitch1 2
+Net 64 "/HV" "HV"
+ Telescope1 39
+ HVin1 1
+Net 65 "/SEB" "SEB"
+ Testboard2 21
+ R25 1
+Net 66 "/RESET" "RESET"
+ R15 1
+ Testboard2 11
+Net 67 "/CS" "CS"
+ R7 1
+ Testboard2 10
+Net 68 "/IS1" "IS1"
+ R13 1
+ Testboard2 9
+Net 69 "/LEd" "LEd"
+ R17 2
+ R18 1
+ Telescope1 19
+Net 70 "/R12d" "R12d"
+ R9 2
+ R10 1
+ Telescope1 28
+Net 71 "/SPHI2d" "SPHI2d"
+ R22 1
+ Telescope1 18
+ R21 2
+Net 72 "/CSd" "CSd"
+ R7 2
+ R8 1
+ Telescope1 27
+Net 73 "/SPHI1d" "SPHI1d"
+ R20 1
+ Telescope1 17
+ R19 2
+Net 74 "/VD+" "VD+"
+ Testboard1 33
+ Testboard1 34
+ Telescope1 36
+Net 75 "/SBId" "SBId"
+ R23 2
+ R24 1
+ Telescope1 16
+Net 76 "/VA+" "VA+"
+ Testboard1 36
+ Testboard1 35
+ Telescope1 35
+Net 77 "/RG" "RG"
+ Telescope1 25
+ P5 2
+ P5 1
+ RG1 2
+Net 78 "/CAL_Tel" "CAL_Tel"
+ P2 1
+ Telescope1 15
+ Cal1 2
+ P2 2
+Net 79 "/RPHI2d" "RPHI2d"
+ R3 2
+ Telescope1 34
+ R4 1
+Net 80 "" ""
+ NullCap1 2
+ Null1 1
+}
+#End
