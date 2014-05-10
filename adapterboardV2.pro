@@ -1,10 +1,5 @@
-update=8/16/2012 12:13:33 PM
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=19.11.2013 17:23:53
+last_client=cvpcb
 [pcbnew]
 version=1
 PadDrlX=320
@@ -23,7 +18,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=adapterboardV2.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -38,3 +32,9 @@ LibName11=Switch
 LibName12=LEMO
 LibName13=POT
 LibName14=smd_capacitors
+LibDir=../AdapterBoard-MotherBoard-Redesign
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
