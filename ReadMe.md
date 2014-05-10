@@ -20,4 +20,6 @@ The branches are:
 * **master:** As usual, contains the latest state
 * **YYYY-MM-DD_filename.zip:** Reflects exactly the content of filename.zip. Date corresponds to the newwest files found inside the zip file.
 
+The tags refer to the corresponding branches (where appropriate) and are a convenient way to get tarballs and zip files.
+
 
