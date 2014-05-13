@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Mon Aug 26 11:01:02 2013
+
+BeginCmp
+TimeStamp = /52173503;
+Reference = APC1;
+ValeurCmp = APC128;
+IdModule  = APC128;
+EndCmp
+
+BeginCmp
+TimeStamp = /5217378F;
+Reference = APC2;
+ValeurCmp = APC128;
+IdModule  = APC128;
+EndCmp
+
+BeginCmp
+TimeStamp = /5217377A;
+Reference = APC3;
+ValeurCmp = APC128;
+IdModule  = APC128;
+EndCmp
+
+BeginCmp
+TimeStamp = /52173799;
+Reference = APC4;
+ValeurCmp = APC128;
+IdModule  = APC128;
+EndCmp
+
+BeginCmp
+TimeStamp = /52174693;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Cap1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /521746F0;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Cap1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52174709;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Cap1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52174708;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Cap1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52173637;
+Reference = P1;
+ValeurCmp = CONN_20X2;
+IdModule  = MEC_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /52173982;
+Reference = P2;
+ValeurCmp = CONN_20X2;
+IdModule  = MEC_F;
+EndCmp
+
+BeginCmp
+TimeStamp = /521745EC;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = Sensor;
+EndCmp
+
+BeginCmp
+TimeStamp = /521B188A;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52174608;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Pot_2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5217463B;
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = Pot_2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52174644;
+Reference = RV3;
+ValeurCmp = POT;
+IdModule  = Pot_2MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52174643;
+Reference = RV4;
+ValeurCmp = POT;
+IdModule  = Pot_2MM;
+EndCmp
+
+EndListe
