@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon Aug 26 10:59:18 2013
+EESchema Schematic File Version 2  date Mon Aug 26 11:00:25 2013
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,10 +50,10 @@ Aref_res
 Text Label 5800 4950 2    60   ~ 0
 Aref
 $Comp
-L R R?
+L R R1
 U 1 1 521B188A
 P 6050 4950
-F 0 "R?" V 6130 4950 50  0000 C CNN
+F 0 "R1" V 6130 4950 50  0000 C CNN
 F 1 "R" V 6050 4950 50  0000 C CNN
 	1    6050 4950
 	0    1    1    0   
