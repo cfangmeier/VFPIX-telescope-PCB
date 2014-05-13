@@ -225,23 +225,27 @@
  ( /521745EC Sensor S1 CONN_1
   ( 2 /Vbias )
  )
+ ( /521B188A SM0603_Resistor R1 R
+  ( 1 /Aref_res )
+  ( 2 /Aref )
+ )
  ( /52174608 Pot_2MM RV1 POT
-  ( 1 /Aref )
+  ( 1 /Aref_res )
   ( 2 /Aref1 )
   ( 3 /GND )
  )
  ( /5217463B Pot_2MM RV2 POT
-  ( 1 /Aref )
+  ( 1 /Aref_res )
   ( 2 /Aref2 )
   ( 3 /GND )
  )
  ( /52174644 Pot_2MM RV3 POT
-  ( 1 /Aref )
+  ( 1 /Aref_res )
   ( 2 /Aref3 )
   ( 3 /GND )
  )
  ( /52174643 Pot_2MM RV4 POT
-  ( 1 /Aref )
+  ( 1 /Aref_res )
   ( 2 /Aref4 )
   ( 3 /GND )
  )
