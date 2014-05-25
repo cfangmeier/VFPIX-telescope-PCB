@@ -30,4 +30,8 @@ The branches are:
 
 The tags refer to the corresponding branches (where appropriate) and are a convenient way to get tarballs and zip files.
 
+Some useful links on how to use github
+--------------------------------------
+* [Fork a repo](https://help.github.com/articles/fork-a-repo) If you like to make a change that should be go back to this repo, make a fork and clone from that fork before you start working
+* [Keep in sync](https://help.github.com/articles/syncing-a-fork) Use this to keep in sync with the main repo
 
