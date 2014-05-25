@@ -14,11 +14,11 @@ Some links to past reports/TWikis:
 
 Directory structure
 -------------------
-* **adapterboard** board to connect the telescope to the (old) analog testboard
-* **lib** Has all the part and footprint libraries
-* **motherboard** backbone boards for the telescope, one board makes one leg of the telescope
-* **sensorboard2011** sensorboard in its first incarnation
-* **sensorboard2013** sensorboard in current incarnation, includes potentiometers for voltage adjustments
+* **adapterboard**: board to connect the telescope to the (old) analog testboard
+* **lib**: Has all the part and footprint libraries
+* **motherboard**: backbone boards for the telescope, one board makes one leg of the telescope
+* **sensorboard2011**: sensorboard in its first incarnation
+* **sensorboard2013**: sensorboard in current incarnation, includes potentiometers for voltage adjustments
 
 How this repository is organized
 --------------------------------
