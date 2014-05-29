@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Thu 29 May 2014 05:11:23 PM CDT
+
+BeginCmp
+TimeStamp = /53866840;
+Reference = APC1;
+ValeurCmp = APC128;
+IdModule  = apc128:APC128;
+EndCmp
+
+BeginCmp
+TimeStamp = /538667C4;
+Reference = P1;
+ValeurCmp = CONN_20X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+EndListe

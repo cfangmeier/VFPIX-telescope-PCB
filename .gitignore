@@ -1,0 +1,7 @@
+# Kicad backup files
+*.bak
+*.bck
+*.lst
+*.net
+*.dsn
+*.ses

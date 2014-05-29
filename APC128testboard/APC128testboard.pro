@@ -1,4 +1,4 @@
-update=Wed 28 May 2014 05:50:17 PM CDT
+update=Thu 29 May 2014 05:48:59 PM CDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,10 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+LibDir=../lib
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -84,5 +87,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/caleb/Sources/VFPIX-telescope-PCB/lib/apc128
-LibName32=/home/caleb/Sources/VFPIX-telescope-PCB/lib/mec1
+LibName31=apc128
+LibName32=ad8129
