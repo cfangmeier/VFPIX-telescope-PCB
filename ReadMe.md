@@ -20,6 +20,10 @@ Directory structure
 * **sensorboard2011**: sensorboard in its first incarnation
 * **sensorboard2013**: sensorboard in current incarnation, includes potentiometers for voltage adjustments
 
+*UPDATE*: The above have been moved into legacy since they use an old version of
+ kicad board files.
+
+
 How this repository is organized
 --------------------------------
 As far as we know, no repository has been used. All the layouts we have were kept in ZIP files. This repository therefore tries to collect all the previous states and provides the most recent release.
