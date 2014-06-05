@@ -5,3 +5,8 @@
 *.net
 *.dsn
 *.ses
+*.kicad_pcb-bak
+
+# Kicad documentation files (unused)
+*.dcm
+
