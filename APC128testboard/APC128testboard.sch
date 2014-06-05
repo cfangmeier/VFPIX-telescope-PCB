@@ -41,9 +41,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "APC128 Test Board"
-Date "28 may 2014"
+Date "05 Jun 2014"
 Rev "0.1"
-Comp "Univ. of Nebr. - HEP"
+Comp "C. Fangmeier ; Univ. of Nebraska, Lincoln"
 Comment1 ""
 Comment2 ""
 Comment3 ""
