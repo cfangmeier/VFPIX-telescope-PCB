@@ -1,4 +1,4 @@
-update=Wed 04 Jun 2014 04:20:04 PM CDT
+update=Thu 05 Jun 2014 04:39:59 PM CDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -91,3 +91,4 @@ LibName31=valves
 LibName32=apc128
 LibName33=ad8129
 LibName34=AD5334
+LibName35=spypad
