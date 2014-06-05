@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name apc128)(type Legacy)(uri ${KIPRJMOD}/../lib/apc128.mod)(options "")(descr ""))
+  (lib (name APC128)(type Legacy)(uri ${KIPRJMOD}/../mod/APC128.mod)(options "")(descr ""))
+  (lib (name TSSOP)(type KiCad)(uri ${KIPRJMOD}/../mod/TSSOP.pretty)(options "")(descr ""))
 )

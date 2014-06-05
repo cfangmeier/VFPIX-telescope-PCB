@@ -1,17 +1,325 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Thu 29 May 2014 05:11:23 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Thu 05 Jun 2014 12:33:40 AM CDT
 
 BeginCmp
-TimeStamp = /53866840;
-Reference = APC1;
-ValeurCmp = APC128;
-IdModule  = apc128:APC128;
+TimeStamp = /538FEB86;
+Reference = P1;
+ValeurCmp = MAXV_CONNB;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
 EndCmp
 
 BeginCmp
 TimeStamp = /538667C4;
-Reference = P1;
-ValeurCmp = CONN_20X2;
+Reference = P2;
+ValeurCmp = MAXV_CONNA;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9CEE;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9CE8;
+Reference = R2;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9CFA;
+Reference = R3;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9CF4;
+Reference = R4;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D06;
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D00;
+Reference = R6;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D12;
+Reference = R7;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D0C;
+Reference = R8;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D1E;
+Reference = R9;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D18;
+Reference = R10;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D2A;
+Reference = R11;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D24;
+Reference = R12;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D36;
+Reference = R13;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D30;
+Reference = R14;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D42;
+Reference = R15;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9D3C;
+Reference = R16;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5387D36B;
+Reference = R17;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5387C8FF;
+Reference = R18;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E8D52;
+Reference = R19;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E8D4C;
+Reference = R20;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E8DC2;
+Reference = R21;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E8DBC;
+Reference = R22;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E8DCE;
+Reference = R23;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E8DC8;
+Reference = R24;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9382;
+Reference = R25;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E937C;
+Reference = R26;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E938E;
+Reference = R27;
+ValeurCmp = 100;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /538E9388;
+Reference = R28;
+ValeurCmp = 300;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53906C07;
+Reference = R29;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53906C01;
+Reference = R30;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53906B11;
+Reference = R31;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53906A99;
+Reference = R32;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390DEEE;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390DDE5;
+Reference = RV2;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390DE3D;
+Reference = RV3;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390DCB8;
+Reference = RV4;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /53909FF2;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390A0F9;
+Reference = SW2;
+ValeurCmp = SWITCH_INV;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390A145;
+Reference = SW3;
+ValeurCmp = SWITCH_INV;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5390A192;
+Reference = SW4;
+ValeurCmp = SWITCH_INV;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53866840;
+Reference = U1;
+ValeurCmp = APC128;
+IdModule  = APC128:APC128;
+EndCmp
+
+BeginCmp
+TimeStamp = /5387BAEB;
+Reference = U2;
+ValeurCmp = AD8129;
+IdModule  = SOIC_Packages:SOIC-8_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5387BCA9;
+Reference = U3;
+ValeurCmp = AD8129;
+IdModule  = SOIC_Packages:SOIC-8_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53901F4E;
+Reference = U4;
+ValeurCmp = AD5334;
+IdModule  = TSSOP:TSSOP24;
 EndCmp
 
 EndListe
