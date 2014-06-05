@@ -12,6 +12,14 @@ Some links to past reports/TWikis:
 * [Horisberger, Pitzl 1993](http://www.sciencedirect.com/science/article/pii/016890029390338I) Paper on APC128 chip
 * [Documentation on the 250 μm version](http://hep.ph.liv.ac.uk/~tsurin/Data/17_APC128UMC25/)
 
+Directory structure
+-------------------
+* **adapterboard**: board to connect the telescope to the (old) analog testboard
+* **lib**: Has all the part and footprint libraries
+* **motherboard**: backbone boards for the telescope, one board makes one leg of the telescope
+* **sensorboard2011**: sensorboard in its first incarnation
+* **sensorboard2013**: sensorboard in current incarnation, includes potentiometers for voltage adjustments
+
 How this repository is organized
 --------------------------------
 As far as we know, no repository has been used. All the layouts we have were kept in ZIP files. This repository therefore tries to collect all the previous states and provides the most recent release.
@@ -22,4 +30,8 @@ The branches are:
 
 The tags refer to the corresponding branches (where appropriate) and are a convenient way to get tarballs and zip files.
 
+Some useful links on how to use github
+--------------------------------------
+* [Fork a repo](https://help.github.com/articles/fork-a-repo) If you like to make a change that should be go back to this repo, make a fork and clone from that fork before you start working
+* [Keep in sync](https://help.github.com/articles/syncing-a-fork) Use this to keep in sync with the main repo
 
