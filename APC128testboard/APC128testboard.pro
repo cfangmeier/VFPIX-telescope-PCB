@@ -1,4 +1,4 @@
-update=Thu 05 Jun 2014 04:39:59 PM CDT
+update=Fri 06 Jun 2014 09:40:46 AM CDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -57,7 +57,7 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=ad7226
+LibName1=extras
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -89,6 +89,3 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=apc128
-LibName33=ad8129
-LibName34=AD5334
-LibName35=spypad
