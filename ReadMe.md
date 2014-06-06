@@ -14,14 +14,19 @@ Some links to past reports/TWikis:
 
 Directory structure
 -------------------
-* **adapterboard**: board to connect the telescope to the (old) analog testboard
-* **lib**: Has all the part and footprint libraries
-* **motherboard**: backbone boards for the telescope, one board makes one leg of the telescope
-* **sensorboard2011**: sensorboard in its first incarnation
-* **sensorboard2013**: sensorboard in current incarnation, includes potentiometers for voltage adjustments
 
-*UPDATE*: The above have been moved into legacy since they use an old version of
- kicad board files.
+* **APC128Testboard**: board for testing the noise and speed characteristics of 
+                       the APC128 chip used for reading out strip detectors.
+* **lib**: home for KiCad library files not included in a standard KiCad 
+           distribution
+* **mod**: for for KiCad(and other) footprint files.
+* **legacy**: The contents of this directory were made using a previous, and 
+              somewhat incompatible, version of KiCad.
+..* **adapterboard**: board to connect the telescope to the (old) analog testboard
+..* **lib**: Has all the part and footprint libraries
+..* **motherboard**: backbone boards for the telescope, one board makes one leg of the telescope
+..* **sensorboard2011**: sensorboard in its first incarnation
+..* **sensorboard2013**: sensorboard in current incarnation, includes potentiometers for voltage adjustments
 
 
 How this repository is organized
@@ -30,11 +35,11 @@ As far as we know, no repository has been used. All the layouts we have were kep
 
 The branches are:
 * **master:** As usual, contains the latest state
-* **YYYY-MM-DD_filename.zip:** Reflects exactly the content of filename.zip. Date corresponds to the newwest files found inside the zip file.
+* **YYYY-MM-DD_filename.zip:** Reflects exactly the content of filename.zip. Date corresponds to the newest files found inside the zip file.
 
 The tags refer to the corresponding branches (where appropriate) and are a convenient way to get tarballs and zip files.
 
-Some useful links on how to use github
+Some useful links on how to use Github
 --------------------------------------
 * [Fork a repo](https://help.github.com/articles/fork-a-repo) If you like to make a change that should be go back to this repo, make a fork and clone from that fork before you start working
 * [Keep in sync](https://help.github.com/articles/syncing-a-fork) Use this to keep in sync with the main repo
