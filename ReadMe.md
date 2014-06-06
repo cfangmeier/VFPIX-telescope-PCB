@@ -22,11 +22,11 @@ Directory structure
 * **mod**: for for KiCad(and other) footprint files.
 * **legacy**: The contents of this directory were made using a previous, and 
               somewhat incompatible, version of KiCad.
-..* **adapterboard**: board to connect the telescope to the (old) analog testboard
-..* **lib**: Has all the part and footprint libraries
-..* **motherboard**: backbone boards for the telescope, one board makes one leg of the telescope
-..* **sensorboard2011**: sensorboard in its first incarnation
-..* **sensorboard2013**: sensorboard in current incarnation, includes potentiometers for voltage adjustments
+  * **adapterboard**: board to connect the telescope to the (old) analog testboard
+  * **lib**: Has all the part and footprint libraries
+  * **motherboard**: backbone boards for the telescope, one board makes one leg of the telescope
+  * **sensorboard2011**: sensorboard in its first incarnation
+  * **sensorboard2013**: sensorboard in current incarnation, includes potentiometers for voltage adjustments
 
 
 How this repository is organized
