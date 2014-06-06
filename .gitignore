@@ -10,3 +10,5 @@
 # Kicad documentation files (unused)
 *.dcm
 
+#vim swap files
+*.swp
