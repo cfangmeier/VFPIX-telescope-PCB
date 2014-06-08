@@ -335,33 +335,33 @@ Text Label 6900 4850 1    60   ~ 0
 SPhi1_d
 Text Label 7100 4850 1    60   ~ 0
 SPhi2_d
-Text Label 9550 2700 0    60   ~ 0
-LE
-Text Label 9550 2800 0    60   ~ 0
-Reset
-Text Label 9550 2900 0    60   ~ 0
-IS1
-Text Label 9550 3000 0    60   ~ 0
-IS2
-Text Label 9550 3100 0    60   ~ 0
-SR
 Text Label 9550 3300 0    60   ~ 0
-R12
+LE
+Text Label 11150 3300 2    60   ~ 0
+Reset
 Text Label 9550 3400 0    60   ~ 0
-CS
+IS1
+Text Label 11150 3400 2    60   ~ 0
+IS2
 Text Label 9550 3500 0    60   ~ 0
-RBI
+SR
+Text Label 11150 3500 2    60   ~ 0
+R12
 Text Label 9550 3600 0    60   ~ 0
-RPhi1
+CS
+Text Label 11150 3600 2    60   ~ 0
+RBI
 Text Label 9550 3700 0    60   ~ 0
+RPhi1
+Text Label 11150 3700 2    60   ~ 0
 RPhi2
 Text Label 9550 3800 0    60   ~ 0
 SEB
-Text Label 9550 3900 0    60   ~ 0
+Text Label 11150 3800 2    60   ~ 0
 SBI
-Text Label 9550 4000 0    60   ~ 0
+Text Label 9550 3900 0    60   ~ 0
 SPhi1
-Text Label 9550 4200 0    60   ~ 0
+Text Label 11150 3900 2    60   ~ 0
 SPhi2
 $Comp
 L R R33
@@ -393,39 +393,39 @@ Text Label 4600 4850 1    60   ~ 0
 VDIG
 Text Label 4500 4850 1    60   ~ 0
 VANA
-Text Label 9550 4300 0    60   ~ 0
+Text Label 9550 4000 0    60   ~ 0
 CAL
-Text Label 9550 4400 0    60   ~ 0
+Text Label 11150 3000 2    60   ~ 0
 CS_N
 Text Label 6000 4850 1    60   ~ 0
 RBO
-Text Label 9550 4500 0    60   ~ 0
+Text Label 11150 3100 2    60   ~ 0
 WR_N
-Text Label 9550 4600 0    60   ~ 0
+Text Label 9550 4200 0    60   ~ 0
 A0
-Text Label 11150 4600 2    60   ~ 0
+Text Label 9550 4300 0    60   ~ 0
 A1
-Text Label 11150 4500 2    60   ~ 0
+Text Label 11150 2900 2    60   ~ 0
 LDAC_N
-Text Label 11150 4400 2    60   ~ 0
-PD_N
-Text Label 11150 4300 2    60   ~ 0
-DB0
-Text Label 11150 4200 2    60   ~ 0
-DB1
 Text Label 11150 4000 2    60   ~ 0
+PD_N
+Text Label 11150 4200 2    60   ~ 0
+DB0
+Text Label 11150 4300 2    60   ~ 0
+DB1
+Text Label 11150 4400 2    60   ~ 0
 DB2
-Text Label 11150 3900 2    60   ~ 0
+Text Label 11150 4500 2    60   ~ 0
 DB3
-Text Label 11150 3800 2    60   ~ 0
+Text Label 11150 4600 2    60   ~ 0
 DB4
-Text Label 11150 3700 2    60   ~ 0
+Text Label 9550 4600 0    60   ~ 0
 DB5
-Text Label 11150 3600 2    60   ~ 0
+Text Label 9550 4500 0    60   ~ 0
 DB6
-Text Label 11150 3500 2    60   ~ 0
+Text Label 9550 4400 0    60   ~ 0
 DB7
-Text Label 11150 3400 2    60   ~ 0
+Text Label 11150 2800 2    60   ~ 0
 CLR_N
 $Comp
 L SPYPAD P17
@@ -472,7 +472,7 @@ Text Label 8600 5600 3    60   ~ 0
 CAL
 Text Notes 10000 4850 0    60   ~ 0
 Max V uses 3.3V\nlogic levels.
-Text Notes 9500 3000 3    60   ~ 0
+Text Notes 9150 3000 3    60   ~ 0
 Connect to Max V Eval-board\nDigikey: DK-DEV-5M570ZN
 Text Notes 1200 3950 0    60   ~ 0
 Select Pot or DAC as \nanalog sources for APC
@@ -1133,11 +1133,6 @@ F 3 "" H 10750 1750 60  0000 C CNN
 	1    10750 1750
 	-1   0    0    1   
 $EndComp
-NoConn ~ 11150 2700
-NoConn ~ 11150 2800
-NoConn ~ 11150 2900
-NoConn ~ 11150 3000
-NoConn ~ 11150 3100
 $Comp
 L SPYPAD P29
 U 1 1 5393FB4A
@@ -1762,5 +1757,10 @@ Connection ~ 2150 1700
 Connection ~ 1950 1700
 Connection ~ 4150 1700
 Connection ~ 3950 1700
-NoConn ~ 11150 3300
+NoConn ~ 9550 2700
+NoConn ~ 9550 2800
+NoConn ~ 9550 2900
+NoConn ~ 9550 3000
+NoConn ~ 9550 3100
+NoConn ~ 11150 2700
 $EndSCHEMATC
