@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Fri 06 Jun 2014 06:45:32 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Mon 09 Jun 2014 06:10:23 PM CDT
 
 BeginCmp
 TimeStamp = /539406CE;
@@ -78,6 +78,13 @@ IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /5395EAEF;
+Reference = J1;
+ValeurCmp = CONN-SCSI68;
+IdModule  = SCSI:SCSI68up;
+EndCmp
+
+BeginCmp
 TimeStamp = /5391DE4F;
 Reference = JP1;
 ValeurCmp = JUMPER3;
@@ -141,17 +148,17 @@ IdModule  = extras:LEMO_EPL.00.250.NTN;
 EndCmp
 
 BeginCmp
-TimeStamp = /539224C6;
+TimeStamp = /53964AEB;
 Reference = K3;
 ValeurCmp = LEMO-;
 IdModule  = extras:LEMO_EPL.00.250.NTN;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AC7F;
+TimeStamp = /5397D346;
 Reference = P1;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
@@ -162,199 +169,136 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AC37;
+TimeStamp = /5397D2EC;
 Reference = P3;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392A416;
+TimeStamp = /5397D293;
 Reference = P4;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392A3B4;
+TimeStamp = /5397D23B;
 Reference = P5;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AACE;
+TimeStamp = /5397D1E4;
 Reference = P6;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AB19;
+TimeStamp = /5397D18E;
 Reference = P7;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AB5D;
+TimeStamp = /5397D139;
 Reference = P8;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392ACC8;
+TimeStamp = /5397D0D9;
 Reference = P9;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392ABA2;
+TimeStamp = /5397D035;
 Reference = P10;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392ABF0;
+TimeStamp = /5397CFDB;
 Reference = P11;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AD20;
+TimeStamp = /5397CF8A;
 Reference = P12;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AD6B;
+TimeStamp = /5397CF3A;
 Reference = P13;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392ADC3;
+TimeStamp = /5397CEEB;
 Reference = P14;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392AE10;
+TimeStamp = /5397CD6D;
 Reference = P15;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392AE5E;
-Reference = P16;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5393AE37;
 Reference = P17;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5392AF01;
 Reference = P18;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392AEB1;
-Reference = P19;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392AFA4;
-Reference = P20;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5392AF52;
 Reference = P21;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392AFF7;
-Reference = P22;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392B04B;
-Reference = P23;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392B0A8;
-Reference = P24;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392B102;
-Reference = P25;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392B15D;
-Reference = P26;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392B1B5;
-Reference = P27;
-ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /53922DDA;
 Reference = P28;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5393FB4A;
 Reference = P29;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /5393FBC0;
+TimeStamp = /53964AF7;
 Reference = P30;
 ValeurCmp = SPYPAD;
-IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
@@ -414,10 +358,31 @@ IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
-TimeStamp = /5392FE62;
+TimeStamp = /53964AF1;
 Reference = R9;
 ValeurCmp = 0;
 IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /539756D1;
+Reference = R10;
+ValeurCmp = 0;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53961927;
+Reference = R11;
+ValeurCmp = ?;
+IdModule  = SMD_Packages:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5396174D;
+Reference = R12;
+ValeurCmp = 0;
+IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
