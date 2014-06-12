@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Mon 09 Jun 2014 06:10:23 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 11 Jun 2014 04:00:52 PM CDT
 
 BeginCmp
 TimeStamp = /539406CE;
@@ -15,7 +15,7 @@ IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /53945E78;
+TimeStamp = /5398D049;
 Reference = C3;
 ValeurCmp = .1uF;
 IdModule  = SMD_Packages:SM0603_Capa;
@@ -29,7 +29,7 @@ IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /53945E7E;
+TimeStamp = /5398D04F;
 Reference = C5;
 ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SM0603_Capa;
@@ -46,34 +46,6 @@ BeginCmp
 TimeStamp = /53920B16;
 Reference = C7;
 ValeurCmp = 1uF;
-IdModule  = SMD_Packages:SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53944CF9;
-Reference = C8;
-ValeurCmp = .1uF;
-IdModule  = SMD_Packages:SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53945FA2;
-Reference = C9;
-ValeurCmp = .1uF;
-IdModule  = SMD_Packages:SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53944CFF;
-Reference = C10;
-ValeurCmp = 10uF;
-IdModule  = SMD_Packages:SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /53945FA8;
-Reference = C11;
-ValeurCmp = 10uF;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
@@ -260,6 +232,13 @@ IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
+TimeStamp = /5399C679;
+Reference = P16;
+ValeurCmp = SPYPAD;
+IdModule  = SCSI:testpad;
+EndCmp
+
+BeginCmp
 TimeStamp = /5393AE37;
 Reference = P17;
 ValeurCmp = SPYPAD;
@@ -302,37 +281,9 @@ IdModule  = SCSI:testpad;
 EndCmp
 
 BeginCmp
-TimeStamp = /539357BD;
+TimeStamp = /5398DC89;
 Reference = R1;
-ValeurCmp = RG;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /53935EEB;
-Reference = R2;
-ValeurCmp = RF;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /5392E8A1;
-Reference = R3;
 ValeurCmp = 50;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /53922308;
-Reference = R4;
-ValeurCmp = RG;
-IdModule  = SMD_Packages:SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /53923698;
-Reference = R5;
-ValeurCmp = RF;
 IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
@@ -431,35 +382,35 @@ BeginCmp
 TimeStamp = /5390DEEE;
 Reference = RV1;
 ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+IdModule  = extras:Pot-Bourns3310Y;
 EndCmp
 
 BeginCmp
 TimeStamp = /5390DDE5;
 Reference = RV2;
 ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+IdModule  = extras:Pot-Bourns3310Y;
 EndCmp
 
 BeginCmp
 TimeStamp = /5390DE3D;
 Reference = RV3;
 ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+IdModule  = extras:Pot-Bourns3310Y;
 EndCmp
 
 BeginCmp
 TimeStamp = /5390DCB8;
 Reference = RV4;
 ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+IdModule  = extras:Pot-Bourns3310Y;
 EndCmp
 
 BeginCmp
 TimeStamp = /53941ED8;
 Reference = RV5;
 ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
+IdModule  = extras:Pot-Bourns3310Y;
 EndCmp
 
 BeginCmp
@@ -470,16 +421,9 @@ IdModule  = APC128:APC128;
 EndCmp
 
 BeginCmp
-TimeStamp = /5387BAEB;
+TimeStamp = /539894A6;
 Reference = U2;
-ValeurCmp = AD8129;
-IdModule  = SOIC_Packages:SOIC-8_N;
-EndCmp
-
-BeginCmp
-TimeStamp = /539222F3;
-Reference = U3;
-ValeurCmp = AD8129;
+ValeurCmp = AD8131;
 IdModule  = SOIC_Packages:SOIC-8_N;
 EndCmp
 

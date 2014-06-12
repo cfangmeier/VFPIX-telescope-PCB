@@ -1,0 +1,10 @@
+APCTestboard Bill of Materials,,,,,
+,,,,,
+DESCR, VENDOR,Vendor Part number,Manufacturer Part Number, NUMBER, UNIT PRICE
+,,,,,
+"8 R array, 43 Ohm", Digikey,RHM1630CT-ND, MNR18ERAPJ430,2,$0.21
+"8 R array, 300 Ohm", Digikey,RHM1553CT-ND, MNR18ERAPJ301,2,$0.21
+-5V Regulator,Digikey,MAX1719EUT+TCT-ND,MAX1719EUT+T,1,$1.70
+Differential amplifier,Digikey,AD8131ARZ-REEL7CT-ND,AD8131ARZ-REEL7,1,$4.93
+"4 channel, 8-bit DAC",Digikey,AD5334BRUZ-REEL7CT-ND,AD5334BRUZ-REEL7,1,$8.50
+1k POT,Digikey,3310Y-001-102L-ND,AD9233BCPZ-125,5,$2.53
