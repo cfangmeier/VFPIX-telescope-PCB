@@ -40,7 +40,7 @@ encoding utf-8
 Sheet 1 1
 Title "APC128 Test Board"
 Date "05 Jun 2014"
-Rev "0.3"
+Rev "0.4"
 Comp "C. Fangmeier ; Univ. of Nebraska, Lincoln"
 Comment1 ""
 Comment2 ""
