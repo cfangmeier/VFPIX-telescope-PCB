@@ -8,3 +8,8 @@ DESCR, VENDOR,Vendor Part number,Manufacturer Part Number, NUMBER, UNIT PRICE
 Differential amplifier,Digikey,AD8131ARZ-REEL7CT-ND,AD8131ARZ-REEL7,1,$4.93
 "4 channel, 8-bit DAC",Digikey,AD5334BRUZ-REEL7CT-ND,AD5334BRUZ-REEL7,1,$8.50
 1k POT,Digikey,3310Y-001-102L-ND,AD9233BCPZ-125,5,$2.53
+1uH inductor,Digikey,490-6699-1-ND,LQM2HPN1R0MJ0L,1,$0.40
+3.3V Regulator,Digikey,ADP2108AUJZ-3.3-R7CT-ND,ADP2108AUJZ-3.3-R7,1,$1.75
+,,,,,
+5V 1A Power supply,Digikey,T977-P6P-ND,EPS050100-P6P,1,$9.69
+Barrel Jack,Digikey,CP-002B-ND,PJ-002B,1,$0.93

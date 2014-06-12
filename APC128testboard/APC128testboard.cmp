@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 11 Jun 2014 04:00:52 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 11 Jun 2014 09:35:18 PM CDT
 
 BeginCmp
 TimeStamp = /539406CE;
@@ -47,6 +47,27 @@ TimeStamp = /53920B16;
 Reference = C7;
 ValeurCmp = 1uF;
 IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539A09B2;
+Reference = C8;
+ValeurCmp = 4.7uF;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539A09F9;
+Reference = C9;
+ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539A6C0C;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = Connect:BARREL_JACK;
 EndCmp
 
 BeginCmp
@@ -124,6 +145,13 @@ TimeStamp = /53964AEB;
 Reference = K3;
 ValeurCmp = LEMO-;
 IdModule  = extras:LEMO_EPL.00.250.NTN;
+EndCmp
+
+BeginCmp
+TimeStamp = /539A0A88;
+Reference = L1;
+ValeurCmp = 1uH;
+IdModule  = extras:SMD_1008;
 EndCmp
 
 BeginCmp
@@ -425,6 +453,13 @@ TimeStamp = /539894A6;
 Reference = U2;
 ValeurCmp = AD8131;
 IdModule  = SOIC_Packages:SOIC-8_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5399E440;
+Reference = U3;
+ValeurCmp = ADP2108;
+IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 
 BeginCmp

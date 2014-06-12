@@ -50,12 +50,12 @@ $EndDescr
 $Comp
 L CONN_20X2 P2
 U 1 1 538667C4
-P 10350 3650
-F 0 "P2" H 10350 4700 60  0000 C CNN
-F 1 "MAXV_CONNA" V 10350 3650 50  0000 C CNN
-F 2 "" H 10350 3650 60  0000 C CNN
-F 3 "" H 10350 3650 60  0000 C CNN
-	1    10350 3650
+P 9700 3950
+F 0 "P2" H 9700 5000 60  0000 C CNN
+F 1 "MAXV_CONNA" V 9700 3950 50  0000 C CNN
+F 2 "" H 9700 3950 60  0000 C CNN
+F 3 "" H 9700 3950 60  0000 C CNN
+	1    9700 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -75,14 +75,10 @@ Text Label 4800 5600 2    60   ~ 0
 Aout
 Text Label 5600 4750 1    60   ~ 0
 GND
-Text Label 11150 4100 2    60   ~ 0
+Text Label 10500 4400 2    60   ~ 0
 GND
-Text Label 11150 3200 2    60   ~ 0
+Text Label 10500 3500 2    60   ~ 0
 GND
-Text Label 9550 4100 0    60   ~ 0
-3.3V
-Text Label 9550 3200 0    60   ~ 0
-5V
 $Comp
 L AD5334 U4
 U 1 1 53901F4E
@@ -321,33 +317,33 @@ Text Label 5200 4750 1    60   ~ 0
 SPhi1_d
 Text Label 5400 4750 1    60   ~ 0
 SPhi2_d
-Text Label 9550 3300 0    60   ~ 0
+Text Label 8900 3600 0    60   ~ 0
 LE
-Text Label 11150 3300 2    60   ~ 0
+Text Label 10500 3600 2    60   ~ 0
 Reset
-Text Label 9550 3400 0    60   ~ 0
+Text Label 8900 3700 0    60   ~ 0
 IS1
-Text Label 11150 3400 2    60   ~ 0
+Text Label 10500 3700 2    60   ~ 0
 IS2
-Text Label 9550 3500 0    60   ~ 0
+Text Label 8900 3800 0    60   ~ 0
 SR
-Text Label 11150 3500 2    60   ~ 0
+Text Label 10500 3800 2    60   ~ 0
 R12
-Text Label 9550 3600 0    60   ~ 0
+Text Label 8900 3900 0    60   ~ 0
 CS
-Text Label 11150 3600 2    60   ~ 0
+Text Label 10500 3900 2    60   ~ 0
 RBI
-Text Label 9550 3700 0    60   ~ 0
+Text Label 8900 4000 0    60   ~ 0
 RPhi1
-Text Label 11150 3700 2    60   ~ 0
+Text Label 10500 4000 2    60   ~ 0
 RPhi2
-Text Label 9550 3800 0    60   ~ 0
+Text Label 8900 4100 0    60   ~ 0
 SEB
-Text Label 11150 3800 2    60   ~ 0
+Text Label 10500 4100 2    60   ~ 0
 SBI
-Text Label 9550 3900 0    60   ~ 0
+Text Label 8900 4200 0    60   ~ 0
 SPhi1
-Text Label 11150 3900 2    60   ~ 0
+Text Label 10500 4200 2    60   ~ 0
 SPhi2
 $Comp
 L R R33
@@ -379,39 +375,39 @@ Text Label 2900 4750 1    60   ~ 0
 VDIG
 Text Label 2800 4750 1    60   ~ 0
 VANA
-Text Label 9550 4000 0    60   ~ 0
+Text Label 8900 4300 0    60   ~ 0
 CAL
-Text Label 11150 2800 2    60   ~ 0
+Text Label 10500 3100 2    60   ~ 0
 CS_N
 Text Label 4300 4750 1    60   ~ 0
 RBO
-Text Label 11150 2900 2    60   ~ 0
+Text Label 10500 3200 2    60   ~ 0
 WR_N
-Text Label 11150 3000 2    60   ~ 0
+Text Label 10500 3300 2    60   ~ 0
 A0
-Text Label 11150 3100 2    60   ~ 0
+Text Label 10500 3400 2    60   ~ 0
 A1
-Text Label 11150 4600 2    60   ~ 0
+Text Label 10500 4900 2    60   ~ 0
 LDAC_N
-Text Label 9550 4600 0    60   ~ 0
+Text Label 8900 4900 0    60   ~ 0
 PD_N
-Text Label 11150 4500 2    60   ~ 0
+Text Label 10500 4800 2    60   ~ 0
 DB0
-Text Label 9550 4500 0    60   ~ 0
+Text Label 8900 4800 0    60   ~ 0
 DB1
-Text Label 11150 4400 2    60   ~ 0
+Text Label 10500 4700 2    60   ~ 0
 DB2
-Text Label 9550 4400 0    60   ~ 0
+Text Label 8900 4700 0    60   ~ 0
 DB3
-Text Label 11150 4300 2    60   ~ 0
+Text Label 10500 4600 2    60   ~ 0
 DB4
-Text Label 9550 4300 0    60   ~ 0
+Text Label 8900 4600 0    60   ~ 0
 DB5
-Text Label 11150 4200 2    60   ~ 0
+Text Label 10500 4500 2    60   ~ 0
 DB6
-Text Label 9550 4200 0    60   ~ 0
+Text Label 8900 4500 0    60   ~ 0
 DB7
-Text Label 11150 4000 2    60   ~ 0
+Text Label 10500 4300 2    60   ~ 0
 CLR_N
 $Comp
 L SPYPAD P17
@@ -426,19 +422,19 @@ F 3 "" H 3200 6950 60  0000 C CNN
 $EndComp
 Text Label 5500 4750 1    60   ~ 0
 NULL
-Text Label 10750 1350 3    60   ~ 0
+Text Label 2200 2350 3    60   ~ 0
 NULL
-Text Label 10150 2400 0    60   ~ 0
+Text Label 1600 3400 0    60   ~ 0
 GND
 $Comp
 L C C1
 U 1 1 539406CE
-P 11000 2150
-F 0 "C1" H 11000 2250 40  0000 L CNN
-F 1 "C" H 11006 2065 40  0000 L CNN
-F 2 "" H 11038 2000 30  0000 C CNN
-F 3 "" H 11000 2150 60  0000 C CNN
-	1    11000 2150
+P 2450 3150
+F 0 "C1" H 2450 3250 40  0000 L CNN
+F 1 "C" H 2456 3065 40  0000 L CNN
+F 2 "" H 2488 3000 30  0000 C CNN
+F 3 "" H 2450 3150 60  0000 C CNN
+	1    2450 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -456,9 +452,9 @@ Text Label 9250 6100 2    60   ~ 0
 CAL_POT
 Text Label 8600 5600 3    60   ~ 0
 CAL
-Text Notes 10000 4850 0    60   ~ 0
+Text Notes 9350 5150 0    60   ~ 0
 Max V uses 3.3V\nlogic levels.
-Text Notes 9450 3050 3    60   ~ 0
+Text Notes 8800 3350 3    60   ~ 0
 Connect to Max V Eval-board\nDigikey: DK-DEV-5M570ZN
 Text Notes 1200 3950 0    60   ~ 0
 Select Pot or DAC as \nanalog sources for APC
@@ -558,54 +554,54 @@ Vamp-
 $Comp
 L MAX1719 U5
 U 1 1 5391EE24
-P 9300 1100
-F 0 "U5" H 9300 1000 50  0000 C CNN
-F 1 "MAX1719" H 9300 1200 50  0000 C CNN
-F 2 "MODULE" H 9300 1100 50  0001 C CNN
-F 3 "DOCUMENTATION" H 9300 1100 50  0001 C CNN
-	1    9300 1100
+P 8600 1050
+F 0 "U5" H 8450 1300 50  0000 C CNN
+F 1 "MAX1719" H 8400 800 50  0000 C CNN
+F 2 "MODULE" H 8600 1050 50  0001 C CNN
+F 3 "DOCUMENTATION" H 8600 1050 50  0001 C CNN
+	1    8600 1050
 	-1   0    0    1   
 $EndComp
-Text Label 8200 1000 0    60   ~ 0
+Text Label 7850 950  0    60   ~ 0
 GND
-Text Label 8200 1100 0    60   ~ 0
+Text Label 7850 1050 0    60   ~ 0
 5V
-Text Label 10400 1100 2    60   ~ 0
+Text Label 9700 1050 2    60   ~ 0
 5V
 $Comp
 L C C6
 U 1 1 5392071C
-P 9300 650
-F 0 "C6" H 9300 750 40  0000 L CNN
-F 1 "1uF" H 9306 565 40  0000 L CNN
-F 2 "" H 9338 500 30  0000 C CNN
-F 3 "" H 9300 650 60  0000 C CNN
-	1    9300 650 
+P 8800 650
+F 0 "C6" H 8800 750 40  0000 L CNN
+F 1 "1uF" H 8806 565 40  0000 L CNN
+F 2 "" H 8838 500 30  0000 C CNN
+F 3 "" H 8800 650 60  0000 C CNN
+	1    8800 650 
 	0    1    1    0   
 $EndComp
 $Comp
 L C C7
 U 1 1 53920B16
-P 9300 1550
-F 0 "C7" H 9300 1650 40  0000 L CNN
-F 1 "1uF" H 9306 1465 40  0000 L CNN
-F 2 "" H 9338 1400 30  0000 C CNN
-F 3 "" H 9300 1550 60  0000 C CNN
-	1    9300 1550
+P 8800 1450
+F 0 "C7" H 8800 1550 40  0000 L CNN
+F 1 "1uF" H 8806 1365 40  0000 L CNN
+F 2 "" H 8838 1300 30  0000 C CNN
+F 3 "" H 8800 1450 60  0000 C CNN
+	1    8800 1450
 	0    1    1    0   
 $EndComp
-Text Label 10400 1200 2    60   ~ 0
+Text Label 9700 1150 2    60   ~ 0
 -5V
 $Comp
 L SPYPAD P28
 U 1 1 53922DDA
-P 10000 1350
-F 0 "P28" H 10080 1350 40  0000 L CNN
-F 1 "SPYPAD" H 10000 1400 30  0001 C CNN
-F 2 "" H 10000 1350 60  0000 C CNN
-F 3 "" H 10000 1350 60  0000 C CNN
-	1    10000 1350
-	-1   0    0    1   
+P 9600 1350
+F 0 "P28" H 9680 1350 40  0000 L CNN
+F 1 "SPYPAD" H 9600 1400 30  0001 C CNN
+F 2 "" H 9600 1350 60  0000 C CNN
+F 3 "" H 9600 1350 60  0000 C CNN
+	1    9600 1350
+	1    0    0    -1  
 $EndComp
 $Comp
 L R_PACK8 RP1
@@ -712,7 +708,7 @@ F 3 "" H 5050 2050 30  0000 C CNN
 	1    5050 2050
 	0    1    -1   0   
 $EndComp
-Text Notes 8750 1750 0    60   ~ 0
+Text Notes 9500 700  0    60   ~ 0
 -5V Voltage Regulator
 Text Notes 550  2450 0    60   ~ 0
 Amp Voltage Source Selector
@@ -732,12 +728,12 @@ $EndComp
 $Comp
 L JUMPER3 JP7
 U 1 1 5393CB41
-P 10750 1750
-F 0 "JP7" H 10800 1650 40  0000 L CNN
-F 1 "JUMPER3" H 10750 1850 40  0000 C CNN
-F 2 "" H 10750 1750 60  0000 C CNN
-F 3 "" H 10750 1750 60  0000 C CNN
-	1    10750 1750
+P 2200 2750
+F 0 "JP7" H 2250 2650 40  0000 L CNN
+F 1 "JUMPER3" H 2200 2850 40  0000 C CNN
+F 2 "" H 2200 2750 60  0000 C CNN
+F 3 "" H 2200 2750 60  0000 C CNN
+	1    2200 2750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -773,7 +769,7 @@ F 3 "" H 2450 1750 60  0000 C CNN
 	1    2450 1750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 11150 2700
+NoConn ~ 10500 3000
 $Comp
 L CONN-SCSI68 J1
 U 1 1 5395EAEF
@@ -860,13 +856,13 @@ Text Label 8000 5150 2    60   ~ 0
 DTB_IO1
 Text Label 8000 5250 2    60   ~ 0
 DTB_IO3
-Text Label 9550 2700 0    60   ~ 0
+Text Label 8900 3000 0    60   ~ 0
 DTB_IO0
-Text Label 9550 2900 0    60   ~ 0
+Text Label 8900 3200 0    60   ~ 0
 DTB_IO1
-Text Label 9550 2800 0    60   ~ 0
+Text Label 8900 3100 0    60   ~ 0
 DTB_IO2
-Text Label 9550 3000 0    60   ~ 0
+Text Label 8900 3300 0    60   ~ 0
 DTB_IO3
 Text Notes 6600 4100 1    60   ~ 0
 To DTB
@@ -1048,14 +1044,131 @@ F 3 "" H 2450 900 60  0000 C CNN
 	1    2900 1200
 	1    0    0    -1  
 $EndComp
+Text Label 2150 1050 0    60   ~ 0
+Adum
+Text Label 3650 1050 2    60   ~ 0
+Aout
+Text Label 2150 1150 0    60   ~ 0
+GND
+NoConn ~ 3350 1150
+Text Label 2150 1250 0    60   ~ 0
+Vamp+
+Text Label 3650 1250 2    60   ~ 0
+Vamp-
+Text Label 2150 1350 0    60   ~ 0
++OUT
+Text Label 3650 1350 2    60   ~ 0
+-OUT
+$Comp
+L C C3
+U 1 1 5398D049
+P 3350 1750
+F 0 "C3" H 3350 1850 40  0000 L CNN
+F 1 ".1uF" H 3356 1665 40  0000 L CNN
+F 2 "" H 3388 1600 30  0000 C CNN
+F 3 "" H 3350 1750 60  0000 C CNN
+	1    3350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5398D04F
+P 3550 1750
+F 0 "C5" H 3550 1850 40  0000 L CNN
+F 1 "10uF" H 3556 1665 40  0000 L CNN
+F 2 "" H 3588 1600 30  0000 C CNN
+F 3 "" H 3550 1750 60  0000 C CNN
+	1    3550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5398DC89
+P 4500 2300
+F 0 "R1" V 4580 2300 40  0000 C CNN
+F 1 "50" V 4507 2301 40  0000 C CNN
+F 2 "" V 4430 2300 30  0000 C CNN
+F 3 "" H 4500 2300 30  0000 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+Text Label 4750 2550 2    60   ~ 0
+GND
+Text Label 4100 2050 0    60   ~ 0
++OUT
+Text Label 4100 1150 0    60   ~ 0
+-OUT
+Text Notes 4400 1650 0    60   ~ 0
+Out to Scope
+Text Label 7200 6500 1    60   ~ 0
+GND
+Text Label 7400 2150 2    60   ~ 0
+GND
+Text Label 8900 3400 0    60   ~ 0
+RBO
+$Comp
+L SPYPAD P16
+U 1 1 5399C679
+P 9150 6250
+F 0 "P16" H 9230 6250 40  0000 L CNN
+F 1 "SPYPAD" H 9150 6300 30  0001 C CNN
+F 2 "" H 9150 6250 60  0000 C CNN
+F 3 "" H 9150 6250 60  0000 C CNN
+	1    9150 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L ADP2108 U3
+U 1 1 5399E440
+P 9250 2150
+F 0 "U3" H 9450 2150 60  0000 C CNN
+F 1 "ADP2108" H 9450 2550 60  0000 C CNN
+F 2 "" H 9050 1950 60  0000 C CNN
+F 3 "" H 9050 1950 60  0000 C CNN
+	1    9250 2150
+	1    0    0    -1  
+$EndComp
+Text Label 8450 1850 0    60   ~ 0
+5V
+Text Label 8450 2450 0    60   ~ 0
+GND
+$Comp
+L C C8
+U 1 1 539A09B2
+P 8650 2150
+F 0 "C8" H 8650 2250 40  0000 L CNN
+F 1 "4.7uF" H 8656 2065 40  0000 L CNN
+F 2 "" H 8688 2000 30  0000 C CNN
+F 3 "" H 8650 2150 60  0000 C CNN
+	1    8650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 539A09F9
+P 10250 2100
+F 0 "C9" H 10250 2200 40  0000 L CNN
+F 1 "10uF" H 10256 2015 40  0000 L CNN
+F 2 "" H 10288 1950 30  0000 C CNN
+F 3 "" H 10250 2100 60  0000 C CNN
+	1    10250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR_SMALL L1
+U 1 1 539A0A88
+P 10050 2150
+F 0 "L1" H 10100 2250 50  0000 C CNN
+F 1 "1uH" H 10050 2100 50  0000 C CNN
+F 2 "" H 10050 2150 60  0000 C CNN
+F 3 "" H 10050 2150 60  0000 C CNN
+	1    10050 2150
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	9950 3200 9550 3200
+	10100 3500 10500 3500
 Wire Wire Line
-	10750 3200 11150 3200
-Wire Wire Line
-	9950 4100 9550 4100
-Wire Wire Line
-	10750 4100 11150 4100
+	10100 4400 10500 4400
 Wire Wire Line
 	4600 4400 4600 5250
 Wire Wire Line
@@ -1255,75 +1368,75 @@ Wire Wire Line
 Wire Wire Line
 	3000 4400 3000 4750
 Wire Wire Line
-	9950 2800 9550 2800
+	9300 3100 8900 3100
 Wire Wire Line
-	9950 2900 9550 2900
+	9300 3200 8900 3200
 Wire Wire Line
-	9950 3000 9550 3000
+	9300 3300 8900 3300
 Wire Wire Line
-	9950 3100 9550 3100
+	9300 3400 8900 3400
 Wire Wire Line
-	9950 3300 9550 3300
+	9300 3600 8900 3600
 Wire Wire Line
-	9950 3400 9550 3400
+	9300 3700 8900 3700
 Wire Wire Line
-	9950 3500 9550 3500
+	9300 3800 8900 3800
 Wire Wire Line
-	9950 3600 9550 3600
+	9300 3900 8900 3900
 Wire Wire Line
-	9950 3700 9550 3700
+	9300 4000 8900 4000
 Wire Wire Line
-	9950 3800 9550 3800
+	9300 4100 8900 4100
 Wire Wire Line
-	9950 3900 9550 3900
+	9300 4200 8900 4200
 Wire Wire Line
-	9950 4000 9550 4000
+	9300 4300 8900 4300
 Wire Wire Line
-	9950 4200 9550 4200
+	9300 4500 8900 4500
 Wire Wire Line
-	9950 4300 9550 4300
+	9300 4600 8900 4600
 Wire Wire Line
-	9950 4400 9550 4400
+	9300 4700 8900 4700
 Wire Wire Line
-	9950 4500 9550 4500
+	9300 4800 8900 4800
 Wire Wire Line
-	9950 4600 9550 4600
+	9300 4900 8900 4900
 Wire Wire Line
-	10750 4600 11150 4600
+	10100 4900 10500 4900
 Wire Wire Line
-	10750 4500 11150 4500
+	10100 4800 10500 4800
 Wire Wire Line
-	10750 4400 11150 4400
+	10100 4700 10500 4700
 Wire Wire Line
-	10750 4300 11150 4300
+	10100 4600 10500 4600
 Wire Wire Line
-	10750 4200 11150 4200
+	10100 4500 10500 4500
 Wire Wire Line
-	10750 4000 11150 4000
+	10100 4300 10500 4300
 Wire Wire Line
-	10750 3900 11150 3900
+	10100 4200 10500 4200
 Wire Wire Line
-	10750 3800 11150 3800
+	10100 4100 10500 4100
 Wire Wire Line
-	10750 3700 11150 3700
+	10100 4000 10500 4000
 Wire Wire Line
-	10750 3600 11150 3600
+	10100 3900 10500 3900
 Wire Wire Line
-	10750 3500 11150 3500
+	10100 3800 10500 3800
 Wire Wire Line
-	10750 3400 11150 3400
+	10100 3700 10500 3700
 Wire Wire Line
-	10750 3300 11150 3300
+	10100 3600 10500 3600
 Wire Wire Line
-	10750 3100 11150 3100
+	10100 3400 10500 3400
 Wire Wire Line
-	10750 3000 11150 3000
+	10100 3300 10500 3300
 Wire Wire Line
-	10750 2900 11150 2900
+	10100 3200 10500 3200
 Wire Wire Line
-	10750 2800 11150 2800
+	10100 3100 10500 3100
 Wire Wire Line
-	10750 2700 11150 2700
+	10100 3000 10500 3000
 Wire Wire Line
 	2950 6800 3400 6800
 Wire Wire Line
@@ -1337,13 +1450,13 @@ Wire Wire Line
 Wire Wire Line
 	5500 4400 5500 4750
 Wire Wire Line
-	10750 1650 10750 1350
+	2200 2650 2200 2350
 Wire Wire Line
-	10500 2400 10500 1750
+	1950 3400 1950 2750
 Wire Wire Line
-	11000 1750 11000 1950
+	2450 2750 2450 2950
 Wire Wire Line
-	10150 2400 11000 2400
+	1600 3400 2450 3400
 Connection ~ 9300 6350
 Wire Wire Line
 	8750 6100 9250 6100
@@ -1370,36 +1483,35 @@ Wire Wire Line
 Wire Wire Line
 	1100 1300 1500 1300
 Wire Wire Line
-	8200 1000 8550 1000
+	7850 950  8200 950 
 Wire Wire Line
-	8550 1100 8200 1100
+	8200 1050 7850 1050
 Wire Wire Line
-	8150 1200 8550 1200
+	8150 1150 8200 1150
 Wire Wire Line
-	10050 1000 10400 1000
+	9350 950  9450 950 
 Wire Wire Line
-	10050 1100 10400 1100
+	9350 1050 9700 1050
 Wire Wire Line
-	10050 1200 10400 1200
+	9350 1150 9700 1150
 Wire Wire Line
-	8150 1200 8150 650 
+	8150 1150 8150 650 
 Wire Wire Line
-	8150 650  9100 650 
+	8150 650  8600 650 
 Wire Wire Line
-	10400 1000 10400 650 
+	9450 950  9450 650 
 Wire Wire Line
-	10400 650  9500 650 
+	9450 650  9000 650 
 Wire Wire Line
-	10150 1200 10150 1550
+	9450 1150 9450 1450
 Wire Wire Line
-	10150 1550 9500 1550
-Connection ~ 10150 1200
+	9450 1450 9000 1450
+Connection ~ 9450 1150
 Wire Wire Line
-	9100 1550 8450 1550
+	8600 1450 8100 1450
 Wire Wire Line
-	8450 1550 8450 1000
-Connection ~ 8450 1000
-Connection ~ 10150 1350
+	8100 1450 8100 950 
+Connection ~ 8100 950 
 Wire Wire Line
 	1000 7250 1000 7350
 Wire Wire Line
@@ -1462,9 +1574,9 @@ Connection ~ 4800 5400
 Connection ~ 4600 5150
 Connection ~ 4500 5150
 Wire Wire Line
-	11000 2400 11000 2350
+	2450 3400 2450 3350
 Connection ~ 5400 2050
-Connection ~ 10500 2400
+Connection ~ 1950 3400
 Wire Wire Line
 	2450 1450 2450 1550
 Wire Wire Line
@@ -1515,7 +1627,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 5250 8000 5250
 Wire Wire Line
-	9950 2700 9550 2700
+	9300 3000 8900 3000
 Connection ~ 7450 1300
 Connection ~ 6950 1300
 Wire Wire Line
@@ -1526,33 +1638,18 @@ Wire Wire Line
 Connection ~ 2700 7350
 Wire Wire Line
 	2450 1050 2150 1050
-Text Label 2150 1050 0    60   ~ 0
-Adum
 Wire Wire Line
 	3350 1050 3650 1050
-Text Label 3650 1050 2    60   ~ 0
-Aout
 Wire Wire Line
 	2450 1150 2150 1150
-Text Label 2150 1150 0    60   ~ 0
-GND
-NoConn ~ 3350 1150
 Wire Wire Line
 	2000 1250 2450 1250
 Wire Wire Line
 	3350 1250 3800 1250
-Text Label 2150 1250 0    60   ~ 0
-Vamp+
-Text Label 3650 1250 2    60   ~ 0
-Vamp-
 Wire Wire Line
 	3350 1350 3650 1350
 Wire Wire Line
 	2450 1350 2150 1350
-Text Label 2150 1350 0    60   ~ 0
-+OUT
-Text Label 3650 1350 2    60   ~ 0
--OUT
 Wire Wire Line
 	2000 1250 2000 1450
 Wire Wire Line
@@ -1562,28 +1659,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 1450 3350 1450
 Connection ~ 2250 1450
-$Comp
-L C C3
-U 1 1 5398D049
-P 3350 1750
-F 0 "C3" H 3350 1850 40  0000 L CNN
-F 1 ".1uF" H 3356 1665 40  0000 L CNN
-F 2 "" H 3388 1600 30  0000 C CNN
-F 3 "" H 3350 1750 60  0000 C CNN
-	1    3350 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C5
-U 1 1 5398D04F
-P 3550 1750
-F 0 "C5" H 3550 1850 40  0000 L CNN
-F 1 "10uF" H 3556 1665 40  0000 L CNN
-F 2 "" H 3588 1600 30  0000 C CNN
-F 3 "" H 3550 1750 60  0000 C CNN
-	1    3550 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 1450 3350 1550
 Wire Wire Line
@@ -1593,19 +1668,6 @@ Wire Wire Line
 	1650 1950 3550 1950
 Connection ~ 3350 1950
 Connection ~ 2450 1950
-$Comp
-L R R1
-U 1 1 5398DC89
-P 4500 2300
-F 0 "R1" V 4580 2300 40  0000 C CNN
-F 1 "50" V 4507 2301 40  0000 C CNN
-F 2 "" V 4430 2300 30  0000 C CNN
-F 3 "" H 4500 2300 30  0000 C CNN
-	1    4500 2300
-	1    0    0    -1  
-$EndComp
-Text Label 4750 2550 2    60   ~ 0
-GND
 Wire Wire Line
 	4750 2550 4500 2550
 Wire Wire Line
@@ -1614,12 +1676,6 @@ Wire Wire Line
 	4100 1150 4800 1150
 Connection ~ 4500 1150
 Connection ~ 4500 2050
-Text Label 4100 2050 0    60   ~ 0
-+OUT
-Text Label 4100 1150 0    60   ~ 0
--OUT
-Text Notes 4400 1650 0    60   ~ 0
-Out to Scope
 Wire Wire Line
 	1650 1450 1650 1950
 Wire Wire Line
@@ -1627,21 +1683,15 @@ Wire Wire Line
 Connection ~ 2250 1950
 Connection ~ 1650 1700
 Wire Wire Line
-	8150 6250 6350 6250
-Text Label 7200 6500 1    60   ~ 0
-GND
+	6350 6250 8150 6250
 Wire Wire Line
 	7200 2150 8150 2150
-Text Label 7400 2150 2    60   ~ 0
-GND
-Text Label 9550 3100 0    60   ~ 0
-RBO
 Wire Wire Line
 	7200 6250 7200 6500
 Wire Wire Line
 	8150 2150 8150 6250
 Wire Wire Line
-	6350 6250 6350 2450
+	6350 2450 6350 6250
 Connection ~ 7200 6250
 Wire Wire Line
 	7700 2650 8150 2650
@@ -1685,16 +1735,67 @@ Connection ~ 8150 4750
 Wire Wire Line
 	7700 5450 8150 5450
 Connection ~ 8150 5450
+Connection ~ 7300 6650
+Connection ~ 9450 1350
+Wire Wire Line
+	8450 1850 8950 1850
+Wire Wire Line
+	8950 2050 8850 2050
+Wire Wire Line
+	8850 2050 8850 1850
+Connection ~ 8850 1850
+Wire Wire Line
+	8450 2450 10250 2450
+Wire Wire Line
+	8650 1950 8650 1850
+Connection ~ 8650 1850
+Connection ~ 8650 2450
+Wire Wire Line
+	9950 1900 10400 1900
+Wire Wire Line
+	10050 2400 9950 2400
+Wire Wire Line
+	9950 2400 9950 2000
+Connection ~ 10050 1900
+Connection ~ 10250 1900
+Wire Wire Line
+	10250 2450 10250 2300
+Connection ~ 8900 2450
+Text Label 10400 1900 1    60   ~ 0
+3.3V
+NoConn ~ 9300 3500
+NoConn ~ 9300 4400
+Wire Wire Line
+	8650 2350 8650 2450
+Wire Wire Line
+	8950 1950 8900 1950
+Wire Wire Line
+	8900 1950 8900 2450
 $Comp
-L SPYPAD P16
-U 1 1 5399C679
-P 9150 6250
-F 0 "P16" H 9230 6250 40  0000 L CNN
-F 1 "SPYPAD" H 9150 6300 30  0001 C CNN
-F 2 "" H 9150 6250 60  0000 C CNN
-F 3 "" H 9150 6250 60  0000 C CNN
-	1    9150 6250
+L BARREL_JACK CON1
+U 1 1 539A6C0C
+P 10850 1300
+F 0 "CON1" H 10850 1550 60  0000 C CNN
+F 1 "BARREL_JACK" H 10850 1100 60  0000 C CNN
+F 2 "" H 10850 1300 60  0000 C CNN
+F 3 "" H 10850 1300 60  0000 C CNN
+	1    10850 1300
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	10750 1600 10750 1700
+Wire Wire Line
+	10750 1700 10850 1700
+Wire Wire Line
+	10850 1600 10850 1900
+Connection ~ 10850 1700
+Wire Wire Line
+	10950 1600 10950 1900
+Text Label 10950 1900 1    60   ~ 0
+5V
+Text Label 10850 1900 1    60   ~ 0
+GND
+Text Notes 9050 2550 0    60   ~ 0
+3.3V Voltage Regulator
 Connection ~ 9150 6100
 $EndSCHEMATC
