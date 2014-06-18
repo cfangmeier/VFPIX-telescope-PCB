@@ -1,37 +1,37 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 11 Jun 2014 09:35:18 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Tue 17 Jun 2014 05:25:57 PM CDT
 
 BeginCmp
 TimeStamp = /539406CE;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = SMD_Packages:SM0603;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /5394558C;
+TimeStamp = /539B5033/539FB459;
 Reference = C2;
-ValeurCmp = .1uF;
+ValeurCmp = 10u;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /5398D049;
+TimeStamp = /539B5033/539FB7FF;
 Reference = C3;
-ValeurCmp = .1uF;
+ValeurCmp = 10u;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /53945592;
+TimeStamp = /539B5033/539FB45F;
 Reference = C4;
-ValeurCmp = 10uF;
+ValeurCmp = .1u;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /5398D04F;
+TimeStamp = /539B5033/539FB805;
 Reference = C5;
-ValeurCmp = 10uF;
+ValeurCmp = .1u;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
@@ -60,6 +60,76 @@ BeginCmp
 TimeStamp = /539A09F9;
 Reference = C9;
 ValeurCmp = 10uF;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539FB5FF;
+Reference = C10;
+ValeurCmp = 10u;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539FB522;
+Reference = C11;
+ValeurCmp = 10u;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539FB605;
+Reference = C12;
+ValeurCmp = .1u;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539FB528;
+Reference = C13;
+ValeurCmp = .1u;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539B8238;
+Reference = C14;
+ValeurCmp = 10u;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539B8279;
+Reference = C15;
+ValeurCmp = .1u;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/53A0C73B;
+Reference = C16;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/53A0C6F4;
+Reference = C17;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539B8298;
+Reference = C20;
+ValeurCmp = 10u;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539B82DE;
+Reference = C23;
+ValeurCmp = .1u;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
@@ -122,6 +192,20 @@ EndCmp
 BeginCmp
 TimeStamp = /5393CB41;
 Reference = JP7;
+ValeurCmp = JUMPER3;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539BE9D3;
+Reference = JP8;
+ValeurCmp = JUMPER3;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539BEA3A;
+Reference = JP9;
 ValeurCmp = JUMPER3;
 IdModule  = Connect:SIL-3;
 EndCmp
@@ -316,6 +400,34 @@ IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
+TimeStamp = /539B5033/53A0BD99;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/53A0BC51;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/53A0BD93;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/53A0BBC4;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
 TimeStamp = /5392ED03;
 Reference = R6;
 ValeurCmp = 50;
@@ -449,10 +561,10 @@ IdModule  = APC128:APC128;
 EndCmp
 
 BeginCmp
-TimeStamp = /539894A6;
+TimeStamp = /539B5033/539F699F;
 Reference = U2;
-ValeurCmp = AD8131;
-IdModule  = SOIC_Packages:SOIC-8_N;
+ValeurCmp = ADA4950-1;
+IdModule  = extras:ADA4950-1;
 EndCmp
 
 BeginCmp
@@ -474,6 +586,20 @@ TimeStamp = /5391EE24;
 Reference = U5;
 ValeurCmp = MAX1719;
 IdModule  = SMD_Packages:SOT23_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539FBE8E;
+Reference = U6;
+ValeurCmp = AD8130;
+IdModule  = SOIC_Packages:SOIC-8_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/539FBF55;
+Reference = U7;
+ValeurCmp = AD8130;
+IdModule  = SOIC_Packages:SOIC-8_N;
 EndCmp
 
 EndListe
