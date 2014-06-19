@@ -456,7 +456,7 @@ Text Notes 9350 5150 0    60   ~ 0
 Max V uses 3.3V\nlogic levels.
 Text Notes 8800 3350 3    60   ~ 0
 Connect to Max V Eval-board\nDigikey: DK-DEV-5M570ZN
-Text Notes 1200 3950 0    60   ~ 0
+Text Notes 950  4100 0    60   ~ 0
 Select Pot or DAC as \nanalog sources for APC
 Text Notes 2550 5950 0    60   ~ 0
 Voltage Dividers \n3.3V-->2.2V
@@ -1685,7 +1685,7 @@ $Sheet
 S 2400 1100 1050 1500
 U 539B5033
 F0 "Amplifier Stage" 60
-F1 "APC128Testboard_ampstage.sch" 60
+F1 "APC128testboard_ampstage.sch" 60
 F2 "GND" I L 2400 1700 60 
 F3 "OUT+" O R 3450 1350 60 
 F4 "OUT-" O R 3450 1250 60 

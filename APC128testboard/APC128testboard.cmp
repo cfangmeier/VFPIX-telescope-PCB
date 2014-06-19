@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Tue 17 Jun 2014 05:25:57 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Wed 18 Jun 2014 12:46:29 PM CDT
 
 BeginCmp
 TimeStamp = /539406CE;
@@ -242,7 +242,7 @@ BeginCmp
 TimeStamp = /5397D346;
 Reference = P1;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
@@ -256,140 +256,147 @@ BeginCmp
 TimeStamp = /5397D2EC;
 Reference = P3;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397D293;
 Reference = P4;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397D23B;
 Reference = P5;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397D1E4;
 Reference = P6;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397D18E;
 Reference = P7;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397D139;
 Reference = P8;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397D0D9;
 Reference = P9;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397D035;
 Reference = P10;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397CFDB;
 Reference = P11;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397CF8A;
 Reference = P12;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397CF3A;
 Reference = P13;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397CEEB;
 Reference = P14;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5397CD6D;
 Reference = P15;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5399C679;
 Reference = P16;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5393AE37;
 Reference = P17;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5392AF01;
 Reference = P18;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0D172;
+Reference = P19;
+ValeurCmp = SPYPAD;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5392AF52;
 Reference = P21;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /53922DDA;
 Reference = P28;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /5393FB4A;
 Reference = P29;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
 TimeStamp = /53964AF7;
 Reference = P30;
 ValeurCmp = SPYPAD;
-IdModule  = SCSI:testpad;
+IdModule  = extras:testpad;
 EndCmp
 
 BeginCmp
@@ -459,21 +466,42 @@ BeginCmp
 TimeStamp = /539756D1;
 Reference = R10;
 ValeurCmp = 0;
-IdModule  = SMD_Packages:SM0603;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53961927;
 Reference = R11;
 ValeurCmp = ?;
-IdModule  = SMD_Packages:SM0603;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /5396174D;
 Reference = R12;
 ValeurCmp = 0;
-IdModule  = SMD_Packages:SM0603;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A0EAE5;
+Reference = R13;
+ValeurCmp = ?;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/53A1CCE6;
+Reference = R14;
+ValeurCmp = 0;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B5033/53A1CD33;
+Reference = R15;
+ValeurCmp = 0;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp

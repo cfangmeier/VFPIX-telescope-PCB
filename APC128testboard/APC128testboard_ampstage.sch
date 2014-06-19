@@ -188,16 +188,14 @@ Text Label 5750 2300 2    60   ~ 0
 GND
 Text Label 2900 2150 0    60   ~ 0
 GND
-Text Label 3600 2000 0    60   ~ 0
+Text Label 2950 1900 0    60   ~ 0
 IN+
-Text Label 3600 2300 0    60   ~ 0
+Text Label 2950 2400 0    60   ~ 0
 IN-
 Text Label 7100 4100 0    60   ~ 0
 4950OUT-
 Text Label 7100 3450 0    60   ~ 0
 4950OUT+
-NoConn ~ 3850 2100
-NoConn ~ 3850 2200
 $Comp
 L C C2
 U 1 1 539FB459
@@ -486,16 +484,16 @@ Wire Wire Line
 	3150 2150 2900 2150
 Connection ~ 3150 2150
 Wire Wire Line
-	3850 2000 3600 2000
+	3850 1900 3850 2000
 Wire Wire Line
-	3850 2300 3600 2300
+	3850 2400 3850 2300
 Wire Wire Line
 	2700 5200 3550 5200
 Wire Wire Line
 	2700 3600 2700 5200
 Connection ~ 2700 4400
 Wire Wire Line
-	3550 3600 2700 3600
+	2700 3600 3550 3600
 Connection ~ 3450 1800
 Connection ~ 3250 2900
 Connection ~ 3250 1400
@@ -539,4 +537,46 @@ Connection ~ 5050 5450
 Wire Wire Line
 	4550 5650 4600 5650
 Connection ~ 4550 5450
+$Comp
+L R R14
+U 1 1 53A1CCE6
+P 3550 2050
+F 0 "R14" V 3630 2050 40  0000 C CNN
+F 1 "0" V 3557 2051 40  0000 C CNN
+F 2 "" V 3480 2050 30  0000 C CNN
+F 3 "" H 3550 2050 30  0000 C CNN
+	1    3550 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R15
+U 1 1 53A1CD33
+P 3550 2250
+F 0 "R15" V 3630 2250 40  0000 C CNN
+F 1 "0" V 3557 2251 40  0000 C CNN
+F 2 "" V 3480 2250 30  0000 C CNN
+F 3 "" H 3550 2250 30  0000 C CNN
+	1    3550 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2400 3850 2400
+Wire Wire Line
+	3300 2400 3300 2250
+Wire Wire Line
+	2950 1900 3850 1900
+Wire Wire Line
+	3300 1900 3300 2050
+Connection ~ 3300 1900
+Connection ~ 3300 2400
+Wire Wire Line
+	3800 2250 3800 2200
+Wire Wire Line
+	3800 2200 3850 2200
+Wire Wire Line
+	3800 2050 3800 2100
+Wire Wire Line
+	3800 2100 3850 2100
+Text Notes 2800 2600 1    60   ~ 0
+connect 0 Ohm resistors \nfor x3 amplification
 $EndSCHEMATC
