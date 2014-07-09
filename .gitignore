@@ -12,3 +12,6 @@
 
 #vim swap files
 *.swp
+
+# Dirs of Gerber(and other) outputs 
+*/out/*
