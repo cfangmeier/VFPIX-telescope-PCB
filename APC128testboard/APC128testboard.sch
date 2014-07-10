@@ -562,8 +562,6 @@ F 3 "DOCUMENTATION" H 8600 1050 50  0001 C CNN
 $EndComp
 Text Label 7850 950  0    60   ~ 0
 GND
-Text Label 7850 1050 0    60   ~ 0
-5V
 Text Label 9700 1050 2    60   ~ 0
 5V
 $Comp
@@ -1409,8 +1407,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 950  8200 950 
 Wire Wire Line
-	8200 1050 7850 1050
-Wire Wire Line
 	8150 1150 8200 1150
 Wire Wire Line
 	9350 950  9450 950 
@@ -1739,4 +1735,6 @@ Connection ~ 5650 1300
 Connection ~ 5150 1300
 Connection ~ 3850 1350
 Connection ~ 3850 1250
+Wire Wire Line
+	8200 950  8200 1050
 $EndSCHEMATC
