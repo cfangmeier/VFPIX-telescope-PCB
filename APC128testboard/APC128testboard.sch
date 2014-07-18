@@ -459,7 +459,7 @@ Connect to Max V Eval-board\nDigikey: DK-DEV-5M570ZN
 Text Notes 950  4100 0    60   ~ 0
 Select Pot or DAC as \nanalog sources for APC
 Text Notes 2550 5950 0    60   ~ 0
-Voltage Dividers \n3.3V-->2.2V
+Voltage Dividers \n3.3V-->2.9V
 Text Notes 4700 6050 0    60   ~ 0
 DAC for setting some \nanalog levels
 $Comp
