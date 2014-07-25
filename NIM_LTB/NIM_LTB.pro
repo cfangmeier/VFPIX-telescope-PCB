@@ -1,30 +1,11 @@
-update=Thu 24 Jul 2014 01:06:29 PM CDT
+update=Thu 24 Jul 2014 06:28:55 PM CDT
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
 [general]
 version=1
 [eeschema]
@@ -72,3 +53,29 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=extras
+[pcbnew]
+version=1
+LastNetListRead=NIM_LTB.net
+UseCmpFile=1
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    0.650001"
+PadSizeV="    2.150001"
+PcbTextSizeV="    1.500000"
+PcbTextSizeH="    1.500000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    1.000000"
+ModuleTextSizeH="    1.000000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.100000"
+ModuleOutlineThickness="    0.150000"
+[pcbnew/libraries]
+LibDir=
+LibName1=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/adapter
+LibName2=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/APC128
+LibName3=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/con-subd
+LibName4=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/M50-3101045
+LibName5=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/ref-packages

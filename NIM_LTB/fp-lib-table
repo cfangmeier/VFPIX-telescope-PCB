@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name extras)(type KiCad)(uri /home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/extras.pretty)(options "")(descr ""))
+  (lib (name ref-packages)(type Legacy)(uri /home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/ref-packages.mod)(options "")(descr ""))
+)
