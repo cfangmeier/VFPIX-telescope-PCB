@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 24 Jul 2014 07:46:03 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 25 Jul 2014 06:10:57 PM CDT
 
 BeginCmp
 TimeStamp = /53D16DAC;
@@ -29,6 +29,27 @@ IdModule  = SMD_Packages:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /53D2E85A;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2ECB0;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2ED03;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
 TimeStamp = /53D1DD06;
 Reference = D1;
 ValeurCmp = MMBZ5228BS;
@@ -53,14 +74,14 @@ BeginCmp
 TimeStamp = /53D16AC4;
 Reference = R1;
 ValeurCmp = 51R;
-IdModule  = SMD_Packages:SM0402;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D21A02;
 Reference = R2;
 ValeurCmp = 51R;
-IdModule  = SMD_Packages:SM0402;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
@@ -99,22 +120,8 @@ IdModule  = SMD_Packages:SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D21A2D;
-Reference = R8;
-ValeurCmp = 10k;
-IdModule  = SMD_Packages:SM0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /53D17A94;
 Reference = R9;
-ValeurCmp = 3k9;
-IdModule  = SMD_Packages:SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D21A33;
-Reference = R10;
 ValeurCmp = 3k9;
 IdModule  = SMD_Packages:SM0402;
 EndCmp
@@ -134,30 +141,16 @@ IdModule  = SMD_Packages:SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D137F1;
-Reference = R13;
-ValeurCmp = 100R;
-IdModule  = SMD_Packages:SM0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D166DC;
-Reference = R14;
-ValeurCmp = 100R;
-IdModule  = SMD_Packages:SM0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /53D14A8E;
 Reference = R15;
-ValeurCmp = 330R;
+ValeurCmp = 600R;
 IdModule  = SMD_Packages:SM0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D1670B;
 Reference = R16;
-ValeurCmp = 330R;
+ValeurCmp = 600R;
 IdModule  = SMD_Packages:SM0402;
 EndCmp
 
@@ -178,15 +171,15 @@ EndCmp
 BeginCmp
 TimeStamp = /53D15612;
 Reference = R19;
-ValeurCmp = 120R;
-IdModule  = SMD_Packages:SM0402;
+ValeurCmp = 200R;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D16728;
 Reference = R20;
-ValeurCmp = 120R;
-IdModule  = SMD_Packages:SM0402;
+ValeurCmp = 200R;
+IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
 BeginCmp
