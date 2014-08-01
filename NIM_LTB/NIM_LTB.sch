@@ -68,17 +68,15 @@ F 3 "" H 5100 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 4850 5100 4850
+	5100 5150 5250 5150
 Wire Wire Line
-	5100 4850 5100 5700
+	5100 5150 5100 5700
 Wire Wire Line
 	5250 5350 5100 5350
 Connection ~ 5100 5350
 Wire Wire Line
 	5250 5250 5100 5250
 Connection ~ 5100 5250
-Wire Wire Line
-	5250 5150 5100 5150
 Connection ~ 5100 5150
 $Comp
 L GND #PWR02
@@ -94,12 +92,8 @@ $EndComp
 Wire Wire Line
 	6200 5350 6050 5350
 Wire Wire Line
-	6200 4850 6200 5700
-Wire Wire Line
 	6050 5250 6200 5250
 Connection ~ 6200 5350
-Wire Wire Line
-	6050 4850 6200 4850
 Connection ~ 6200 5250
 Wire Wire Line
 	5250 4950 4850 4950
@@ -741,4 +735,8 @@ Wire Wire Line
 	4050 1900 3900 1900
 Wire Wire Line
 	4150 1850 4150 1550
+Wire Wire Line
+	6200 5250 6200 5700
+NoConn ~ 6050 4850
+NoConn ~ 5250 4850
 $EndSCHEMATC
