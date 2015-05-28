@@ -1,6 +1,6 @@
-update=Thu 24 Jul 2014 06:28:55 PM CDT
+update=Fri 20 Feb 2015 05:12:14 PM CST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -79,3 +79,16 @@ LibName2=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/APC128
 LibName3=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/con-subd
 LibName4=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/M50-3101045
 LibName5=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/ref-packages
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
