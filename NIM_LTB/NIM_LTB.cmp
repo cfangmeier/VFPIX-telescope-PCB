@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-23 BZR 5622)-product   date = Mon 15 Jun 2015 10:24:50 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-04-23 BZR 5622)-product   date = Tue 16 Jun 2015 11:10:51 AM CDT
 
 BeginCmp
 TimeStamp = /53D16DAC;
@@ -60,14 +60,14 @@ BeginCmp
 TimeStamp = /53D1DD06;
 Reference = D1;
 ValeurCmp = MMBZ5228BS;
-IdModule  = ref-packages:-SOT363_PHILIPS;
+IdModule  = extras:SOT363_long;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D1DA8F;
 Reference = D2;
 ValeurCmp = BAT74S;
-IdModule  = ref-packages:-SOT363_PHILIPS;
+IdModule  = extras:SOT363_long;
 EndCmp
 
 BeginCmp
@@ -157,14 +157,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53D14A8E;
 Reference = R11;
-ValeurCmp = 600R;
+ValeurCmp = 620R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D1670B;
 Reference = R12;
-ValeurCmp = 600R;
+ValeurCmp = 620R;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
@@ -207,14 +207,14 @@ BeginCmp
 TimeStamp = /53D1E72F;
 Reference = U1;
 ValeurCmp = MAX962;
-IdModule  = ref-packages:-TSSOP8;
+IdModule  = extras:TSSOP8-cmpct;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D1CC36;
 Reference = U2;
 ValeurCmp = UMX4NTR;
-IdModule  = ref-packages:-SOT363_PHILIPS;
+IdModule  = extras:SOT363_long;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=Fri 20 Feb 2015 05:12:14 PM CST
+update=Tue 16 Jun 2015 11:24:49 AM CDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -53,32 +53,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=extras
-[pcbnew]
-version=1
-LastNetListRead=NIM_LTB.net
-UseCmpFile=1
-PadDrill="    0.000000"
-PadDrillOvalY="    0.000000"
-PadSizeH="    0.650001"
-PadSizeV="    2.150001"
-PcbTextSizeV="    1.500000"
-PcbTextSizeH="    1.500000"
-PcbTextThickness="    0.300000"
-ModuleTextSizeV="    1.000000"
-ModuleTextSizeH="    1.000000"
-ModuleTextSizeThickness="    0.150000"
-SolderMaskClearance="    0.000000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.200000"
-BoardOutlineThickness="    0.100000"
-ModuleOutlineThickness="    0.150000"
-[pcbnew/libraries]
-LibDir=
-LibName1=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/adapter
-LibName2=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/APC128
-LibName3=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/con-subd
-LibName4=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/M50-3101045
-LibName5=/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/ref-packages
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -88,7 +62,24 @@ SubpartFirstId=65
 NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
 LabSize=60
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=NIM_LTB.net
+UseCmpFile=0
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=0.6500009999999999
+PadSizeV=2.150001
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
