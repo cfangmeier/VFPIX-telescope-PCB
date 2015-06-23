@@ -10,8 +10,9 @@
 # Kicad documentation files (unused)
 *.dcm
 
-#vim swap files
+#vim local files
 *.swp
+Session.vim
 
 # Dirs of Gerber(and other) outputs 
 */out/*
