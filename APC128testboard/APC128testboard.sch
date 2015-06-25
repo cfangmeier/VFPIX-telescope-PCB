@@ -33,7 +33,7 @@ LIBS:valves
 LIBS:apc128
 LIBS:conn-scsi68
 LIBS:APC128testboard-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1087,6 +1087,70 @@ F 3 "" H 10050 2150 60  0000 C CNN
 	1    10050 2150
 	0    1    1    0   
 $EndComp
+Text Label 10400 1900 1    60   ~ 0
+3.3V
+NoConn ~ 9300 3500
+NoConn ~ 9300 4400
+$Comp
+L BARREL_JACK CON1
+U 1 1 539A6C0C
+P 10850 1300
+F 0 "CON1" H 10850 1550 60  0000 C CNN
+F 1 "BARREL_JACK" H 10850 1100 60  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 10850 1300 60  0001 C CNN
+F 3 "" H 10850 1300 60  0000 C CNN
+	1    10850 1300
+	0    1    1    0   
+$EndComp
+Text Label 10950 1900 1    60   ~ 0
+5V
+Text Label 10850 1900 1    60   ~ 0
+GND
+Text Notes 9050 2550 0    60   ~ 0
+3.3V Voltage Regulator
+$Sheet
+S 2400 1100 1050 1500
+U 539B5033
+F0 "Amplifier Stage" 60
+F1 "APC128testboard_ampstage.sch" 60
+F2 "GND" I L 2400 1700 60 
+F3 "OUT+" O R 3450 1350 60 
+F4 "OUT-" O R 3450 1250 60 
+F5 "V+" I L 2400 1450 60 
+F6 "V-" I L 2400 1950 60 
+F7 "IN+" I L 2400 2300 60 
+F8 "IN-" I L 2400 2400 60 
+$EndSheet
+Text Label 2150 2300 0    60   ~ 0
+Aout
+Text Label 2150 2400 0    60   ~ 0
+Adum
+Text Label 4150 1250 2    60   ~ 0
+OUT-
+Text Label 4150 1350 2    60   ~ 0
+OUT+
+$Comp
+L SPYPAD P19
+U 1 1 53A0D172
+P 10150 1750
+F 0 "P19" H 10230 1750 40  0000 L CNN
+F 1 "SPYPAD" H 10150 1800 30  0001 C CNN
+F 2 "SCSI:testpad" H 10150 1750 60  0001 C CNN
+F 3 "" H 10150 1750 60  0000 C CNN
+	1    10150 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R13
+U 1 1 53A0EAE5
+P 5400 1300
+F 0 "R13" V 5480 1300 40  0000 C CNN
+F 1 "?" V 5407 1301 40  0000 C CNN
+F 2 "SMD_Packages:SM0603_Resistor" V 5330 1300 30  0001 C CNN
+F 3 "" H 5400 1300 30  0000 C CNN
+	1    5400 1300
+	0    -1   1    0   
+$EndComp
 Wire Wire Line
 	10100 3500 10500 3500
 Wire Wire Line
@@ -1362,9 +1426,9 @@ Wire Wire Line
 Wire Wire Line
 	2950 6800 3400 6800
 Wire Wire Line
-	2950 6750 2950 6850
+	2950 6650 2950 6950
 Wire Wire Line
-	2950 6250 2950 6100
+	2950 6100 2950 6350
 Wire Wire Line
 	2900 4400 2900 4750
 Wire Wire Line
@@ -1376,9 +1440,9 @@ Wire Wire Line
 Wire Wire Line
 	1150 3650 1150 3000
 Wire Wire Line
-	1650 3000 1650 3200
+	1650 3000 1650 3250
 Wire Wire Line
-	800  3650 1650 3650
+	1650 3650 800  3650
 Connection ~ 9300 6350
 Wire Wire Line
 	8750 6100 9250 6100
@@ -1417,18 +1481,18 @@ Wire Wire Line
 Wire Wire Line
 	8150 1150 8150 650 
 Wire Wire Line
-	8150 650  8600 650 
+	8150 650  8650 650 
 Wire Wire Line
 	9450 950  9450 650 
 Wire Wire Line
-	9450 650  9000 650 
+	9450 650  8950 650 
 Wire Wire Line
-	9450 1150 9450 1450
+	9450 1450 9450 1150
 Wire Wire Line
-	9450 1450 9000 1450
+	8950 1450 9450 1450
 Connection ~ 9450 1150
 Wire Wire Line
-	8600 1450 8100 1450
+	8100 1450 8650 1450
 Wire Wire Line
 	8100 1450 8100 950 
 Connection ~ 8100 950 
@@ -1480,7 +1544,7 @@ Connection ~ 2950 6800
 Wire Wire Line
 	3850 750  3600 750 
 Wire Wire Line
-	5150 1850 5150 2000
+	5150 1750 5150 2000
 Wire Wire Line
 	4500 5250 4300 5250
 Wire Wire Line
@@ -1494,13 +1558,13 @@ Connection ~ 4800 5400
 Connection ~ 4600 5150
 Connection ~ 4500 5150
 Wire Wire Line
-	1650 3650 1650 3600
+	1650 3550 1650 3650
 Connection ~ 5150 1950
 Connection ~ 1150 3650
 Wire Wire Line
 	6950 1900 6950 1900
 Wire Wire Line
-	6950 1900 6950 2050
+	6950 1800 6950 2050
 Wire Wire Line
 	6950 2050 6500 2050
 Wire Wire Line
@@ -1508,7 +1572,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2850 6700 2850
 Wire Wire Line
-	7450 1900 7450 2050
+	7450 1800 7450 2050
 Wire Wire Line
 	7450 2050 7900 2050
 Wire Wire Line
@@ -1516,13 +1580,13 @@ Wire Wire Line
 Wire Wire Line
 	7900 2850 7700 2850
 Wire Wire Line
-	6950 900  6950 1400
+	6950 900  6950 1500
 Wire Wire Line
-	7450 900  7450 1400
+	7450 900  7450 1500
 Wire Wire Line
 	5750 2000 5950 2000
 Wire Wire Line
-	5650 1850 5650 2000
+	5650 1750 5650 2000
 Connection ~ 5650 1950
 Wire Wire Line
 	6700 5150 6400 5150
@@ -1545,9 +1609,9 @@ Connection ~ 2700 7350
 Wire Wire Line
 	3850 1850 3600 1850
 Wire Wire Line
-	5150 1000 5150 1350
+	5150 1000 5150 1450
 Wire Wire Line
-	5650 1000 5650 1350
+	5650 1000 5650 1450
 Wire Wire Line
 	950  1700 2400 1700
 Connection ~ 1650 1700
@@ -1614,9 +1678,9 @@ Wire Wire Line
 	8850 2050 8850 1850
 Connection ~ 8850 1850
 Wire Wire Line
-	8450 2450 10250 2450
+	10250 2450 8450 2450
 Wire Wire Line
-	8650 1950 8650 1850
+	8650 1850 8650 2000
 Connection ~ 8650 1850
 Connection ~ 8650 2450
 Wire Wire Line
@@ -1628,29 +1692,14 @@ Wire Wire Line
 Connection ~ 10050 1900
 Connection ~ 10250 1900
 Wire Wire Line
-	10250 2450 10250 2300
+	10250 2250 10250 2450
 Connection ~ 8900 2450
-Text Label 10400 1900 1    60   ~ 0
-3.3V
-NoConn ~ 9300 3500
-NoConn ~ 9300 4400
 Wire Wire Line
-	8650 2350 8650 2450
+	8650 2300 8650 2450
 Wire Wire Line
 	8950 1950 8900 1950
 Wire Wire Line
 	8900 1950 8900 2450
-$Comp
-L BARREL_JACK CON1
-U 1 1 539A6C0C
-P 10850 1300
-F 0 "CON1" H 10850 1550 60  0000 C CNN
-F 1 "BARREL_JACK" H 10850 1100 60  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 10850 1300 60  0001 C CNN
-F 3 "" H 10850 1300 60  0000 C CNN
-	1    10850 1300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10750 1600 10750 1700
 Wire Wire Line
@@ -1660,12 +1709,6 @@ Wire Wire Line
 Connection ~ 10850 1700
 Wire Wire Line
 	10950 1600 10950 1900
-Text Label 10950 1900 1    60   ~ 0
-5V
-Text Label 10850 1900 1    60   ~ 0
-GND
-Text Notes 9050 2550 0    60   ~ 0
-3.3V Voltage Regulator
 Connection ~ 9150 6100
 Wire Wire Line
 	1650 1700 1650 1450
@@ -1677,64 +1720,42 @@ Wire Wire Line
 	2250 1300 2250 1450
 Wire Wire Line
 	2250 1450 2400 1450
-$Sheet
-S 2400 1100 1050 1500
-U 539B5033
-F0 "Amplifier Stage" 60
-F1 "APC128testboard_ampstage.sch" 60
-F2 "GND" I L 2400 1700 60 
-F3 "OUT+" O R 3450 1350 60 
-F4 "OUT-" O R 3450 1250 60 
-F5 "V+" I L 2400 1450 60 
-F6 "V-" I L 2400 1950 60 
-F7 "IN+" I L 2400 2300 60 
-F8 "IN-" I L 2400 2400 60 
-$EndSheet
 Wire Wire Line
 	2400 2300 2150 2300
 Wire Wire Line
 	2400 2400 2150 2400
-Text Label 2150 2300 0    60   ~ 0
-Aout
-Text Label 2150 2400 0    60   ~ 0
-Adum
 Wire Wire Line
 	3450 1250 4150 1250
 Wire Wire Line
 	3450 1350 4150 1350
-Text Label 4150 1250 2    60   ~ 0
-OUT-
-Text Label 4150 1350 2    60   ~ 0
-OUT+
-$Comp
-L SPYPAD P19
-U 1 1 53A0D172
-P 10150 1750
-F 0 "P19" H 10230 1750 40  0000 L CNN
-F 1 "SPYPAD" H 10150 1800 30  0001 C CNN
-F 2 "SCSI:testpad" H 10150 1750 60  0001 C CNN
-F 3 "" H 10150 1750 60  0000 C CNN
-	1    10150 1750
-	0    -1   -1   0   
-$EndComp
 Connection ~ 10150 1900
 Connection ~ 3600 1250
 Connection ~ 3600 1350
-$Comp
-L R R13
-U 1 1 53A0EAE5
-P 5400 1300
-F 0 "R13" V 5480 1300 40  0000 C CNN
-F 1 "?" V 5407 1301 40  0000 C CNN
-F 2 "SMD_Packages:SM0603_Resistor" V 5330 1300 30  0001 C CNN
-F 3 "" H 5400 1300 30  0000 C CNN
-	1    5400 1300
-	0    -1   1    0   
-$EndComp
 Connection ~ 5650 1300
 Connection ~ 5150 1300
 Connection ~ 3850 1350
 Connection ~ 3850 1250
 Wire Wire Line
 	8200 950  8200 1050
+Wire Wire Line
+	3600 750  3600 850 
+Wire Wire Line
+	3600 1850 3600 1750
+Wire Wire Line
+	3600 1350 3600 1450
+Wire Wire Line
+	3600 1250 3600 1150
+Wire Wire Line
+	5250 1300 5150 1300
+Wire Wire Line
+	5550 1300 5650 1300
+Connection ~ 6950 1900
+Wire Wire Line
+	7450 1300 7350 1300
+Wire Wire Line
+	7050 1300 6950 1300
+Wire Wire Line
+	10250 1900 10250 1950
+Wire Wire Line
+	2950 7350 2950 7250
 $EndSCHEMATC

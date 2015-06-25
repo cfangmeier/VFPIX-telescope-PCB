@@ -33,7 +33,7 @@ LIBS:valves
 LIBS:apc128
 LIBS:conn-scsi68
 LIBS:APC128testboard-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -397,30 +397,30 @@ Connection ~ 3250 4400
 Wire Wire Line
 	2800 5000 3550 5000
 Wire Wire Line
-	3250 5000 3250 4800
+	3250 4750 3250 5000
 Wire Wire Line
-	3050 5000 3050 4800
+	3050 4750 3050 5000
 Connection ~ 3250 5000
 Wire Wire Line
 	4450 5000 5250 5000
 Wire Wire Line
-	4750 5000 4750 4800
+	4750 4750 4750 5000
 Wire Wire Line
-	4950 5000 4950 4800
+	4950 4750 4950 5000
 Connection ~ 4750 5000
 Wire Wire Line
-	3250 3800 3250 4000
+	3250 3800 3250 4050
 Wire Wire Line
 	2800 3800 3550 3800
 Wire Wire Line
-	3050 4000 3050 3800
+	3050 3800 3050 4050
 Connection ~ 3250 3800
 Wire Wire Line
-	4750 4000 4750 3800
+	4750 3800 4750 4050
 Wire Wire Line
 	4450 3800 5250 3800
 Wire Wire Line
-	4950 3800 4950 4000
+	4950 3800 4950 4050
 Connection ~ 4750 3800
 Wire Wire Line
 	3550 3900 3350 3900
@@ -498,16 +498,16 @@ Connection ~ 3450 1800
 Connection ~ 3250 2900
 Connection ~ 3250 1400
 Wire Wire Line
-	5050 5100 5050 5650
+	5050 5650 5050 5100
 Connection ~ 5050 5100
 Wire Wire Line
 	4550 5200 4550 5650
 Wire Wire Line
 	4550 5200 4450 5200
 Wire Wire Line
-	4550 5450 4250 5450
+	4150 5450 4650 5450
 Wire Wire Line
-	3750 5450 3450 5450
+	3450 5450 3850 5450
 Wire Wire Line
 	3450 5450 3450 5200
 Connection ~ 3450 5200
@@ -519,23 +519,23 @@ Wire Wire Line
 Wire Wire Line
 	4550 3600 4450 3600
 Wire Wire Line
-	4550 3350 4250 3350
+	4150 3350 4650 3350
 Wire Wire Line
-	3750 3350 3450 3350
+	3450 3350 3850 3350
 Wire Wire Line
 	3450 3350 3450 3600
 Connection ~ 3450 3600
 Wire Wire Line
-	5050 3150 5000 3150
+	4950 3150 5050 3150
 Connection ~ 5050 3350
 Wire Wire Line
-	4600 3150 4550 3150
+	4550 3150 4650 3150
 Connection ~ 4550 3350
 Wire Wire Line
-	5050 5650 5000 5650
+	4950 5650 5050 5650
 Connection ~ 5050 5450
 Wire Wire Line
-	4550 5650 4600 5650
+	4550 5650 4650 5650
 Connection ~ 4550 5450
 $Comp
 L R R14
@@ -579,4 +579,40 @@ Wire Wire Line
 	3800 2100 3850 2100
 Text Notes 2800 2600 1    60   ~ 0
 connect 0 Ohm resistors \nfor x3 amplification
+Wire Wire Line
+	3250 4350 3250 4450
+Wire Wire Line
+	3050 4350 3050 4450
+Wire Wire Line
+	4950 3350 5050 3350
+Wire Wire Line
+	4950 4350 4950 4450
+Wire Wire Line
+	4750 4350 4750 4450
+Wire Wire Line
+	4950 5450 5050 5450
+Wire Wire Line
+	3450 2900 3450 2850
+Wire Wire Line
+	3250 2900 3250 2850
+Wire Wire Line
+	3250 2550 3250 2500
+Wire Wire Line
+	3450 2500 3450 2550
+Wire Wire Line
+	3300 2250 3400 2250
+Wire Wire Line
+	3800 2250 3700 2250
+Wire Wire Line
+	3800 2050 3700 2050
+Wire Wire Line
+	3300 2050 3400 2050
+Wire Wire Line
+	3450 1800 3450 1750
+Wire Wire Line
+	3250 1800 3250 1750
+Wire Wire Line
+	3250 1400 3250 1450
+Wire Wire Line
+	3450 1400 3450 1450
 $EndSCHEMATC
