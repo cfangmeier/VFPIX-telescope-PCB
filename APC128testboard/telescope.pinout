@@ -1,49 +1,6 @@
-#NET Mapping
-#Signal Name , GPIO Number , HSMC Pin (GPIO) , HSMC Pin(FPGA) , FPGA Pin
-#DTB_IO0     , 1           , 64              , 97             , G5
-#X           , 2           , 70              , 91             , M1
-#DTB_IO2     , 3           , 66              , 95             , G6
-#CS_N        , 4           , 72              , 89             , M2
-#DTB_IO1     , 5           , 69              , 92             , R1
-#WR_N        , 6           , 76              , 85             , M3
-#DTB_IO3     , 7           , 71              , 90             , R2
-#A0          , 8           , 78              , 83             , M4
-#RBO         , 9           , 75              , 86             , U5
-#A1          , 10          , 82              , 79             , P1
-#X           , 11          , X               , X              , X
-#GND         , 12          , X               , X              , X
-#LE          , 13          , 77              , 84             , U6
-#Reset       , 14          , 84              , 77             , P2
-#IS1         , 15          , 81              , 80             , U1
-#IS2         , 16          , 88              , 73             , M7
-#SR          , 17          , 83              , 78             , U2
-#R12         , 18          , 90              , 71             , M8
-#CS          , 19          , 63              , 98             , Y1
-#RBI         , 20          , 94              , 67             , R4
-#RPhi1       , 21          , 65              , 96             , Y2
-#RPhi2       , 22          , 96              , 65             , R3
-#SEB         , 23          , 87              , 74             , V1
-#SBI         , 24          , 100             , 61             , T3
-#SPhi1       , 25          , 89              , 72             , V2
-#SPhi2       , 26          , 102             , 59             , T4
-#CAL         , 27          , 93              , 68             , W1
-#CLR_N       , 28          , 106             , 55             , V3
-#X           , 29          , X               , X              , X
-#GND         , 30          , X               , X              , X
-#DB7         , 31          , 95              , 66             , W2
-#DB6         , 32          , 108             , 53             , V4
-#DB5         , 33          , 99              , 62             , U4
-#DB4         , 34          , 112             , 49             , R6
-#DB3         , 35          , 101             , 60             , U3
-#DB2         , 36          , 114             , 47             , R7
-#DB1         , 37          , 105             , 56             , Y3
-#DB0         , 38          , 111             , 50             , AB1
-#PD_N        , 39          , 107             , 54             , Y4
-#LDAC_N      , 40          , 113             , 48             , AB2
-
-mapping: Signal DEBUG-GPIO
+mapping: APC128Testboard-Signals DEBUG-GPIO 
 DTB_IO0     , 1
-NC1         , 2
+XNCX1       , 2
 DTB_IO2     , 3
 CS_N        , 4
 DTB_IO1     , 5
@@ -52,7 +9,7 @@ DTB_IO3     , 7
 A0          , 8
 RBO         , 9
 A1          , 10
-NC2         , 11
+XNCX2       , 11
 GND         , 12
 LE          , 13
 Reset       , 14
@@ -70,7 +27,7 @@ SPhi1       , 25
 SPhi2       , 26
 CAL         , 27
 CLR_N       , 28
-NC3         , 29
+XNCX3       , 29
 GND         , 30
 DB7         , 31
 DB6         , 32
@@ -127,7 +84,7 @@ mapping: DEBUG-GPIO DEBUG-HSMC
 40 , 96
 
 
-mapping: THDB-HSMC FPGA-HSMC(B)
+mapping: THDB-HSMC FPGA-HSMC
 1   , 160
 2   , 159
 3   , 158
@@ -248,69 +205,101 @@ mapping: THDB-HSMC FPGA-HSMC(B)
 118 , 43
 119 , 42
 120 , 41
-121 , X
-122 , X
+121 , XNCX1
+122 , XNCX2
 123 , 40
 124 , 39
 125 , 38
 126 , 37
-127 , X
-128 , X
+127 , XNCX3
+128 , XNCX4
 129 , 36
 130 , 35
 131 , 34
 132 , 33
-133 , X
-134 , X
+133 , XNCX5
+134 , XNCX6
 135 , 32
 136 , 31
 137 , 30
 138 , 29
-139 , X
-140 , X
+139 , XNCX7
+140 , XNCX8
 141 , 28
 142 , 27
 143 , 26
 144 , 25
-145 , X
-146 , X
+145 , XNCX9
+146 , XNCX10
 147 , 24
 148 , 23
 149 , 22
 150 , 21
-151 , X
-152 , X
+151 , XNCX11
+152 , XNCX12
 153 , 20
 154 , 19
 155 , 18
 156 , 17
-157 , X
-158 , X
+157 , XNCX13
+158 , XNCX14
 159 , 16
 160 , 15
 161 , 14
 162 , 13
-163 , X
-164 , X
+163 , XNCX15
+164 , XNCX16
 165 , 12
 166 , 11
 167 , 10
 168 , 9
-169 , X
-170 , X
+169 , XNCX17
+170 , XNCX18
 171 , 8
 172 , 7
 173 , 6
 174 , 5
-175 , X
-176 , X
+175 , XNCX19
+176 , XNCX20
 177 , 4
 178 , 3
 179 , 2
 180 , 1
 
 
-mapping: FPGA-HSMC(A) FPGA-Pin
+mapping: FPGA-HSMC-A FPGA-Pin
+1 , XNCX1
+2 , XNCX2
+3 , XNCX3
+4 , XNCX4
+5 , XNCX5
+6 , XNCX6
+7 , XNCX7
+8 , XNCX8
+9 , XNCX9
+10 , XNCX10
+11 , XNCX11
+12 , XNCX12
+13 , XNCX13
+14 , XNCX14
+15 , XNCX15
+16 , XNCX16
+17 , XNCX17
+18 , XNCX18
+19 , XNCX19
+20 , XNCX20
+21 , XNCX21
+22 , XNCX22
+23 , XNCX23
+24 , XNCX24
+25 , XNCX25
+26 , XNCX26
+27 , XNCX27
+28 , XNCX28
+29 , XNCX29
+30 , XNCX30
+31 , XNCX31
+32 , XNCX32
 33  , AC1
 34  , AC3
 35  , P5
@@ -397,11 +386,43 @@ mapping: FPGA-HSMC(A) FPGA-Pin
 156 , J2
 157 , D1
 158 , J1
-N/A , AE1
-N/A , AA3
+XNCX1 , AE1
+XNCX2 , AA3
 
 
-mapping: FPGA-HSMC(B) FPGA-Pin
+mapping: FPGA-HSMC-B FPGA-Pin
+1 , XNCX1
+2 , XNCX2
+3 , XNCX3
+4 , XNCX4
+5 , XNCX5
+6 , XNCX6
+7 , XNCX7
+8 , XNCX8
+9 , XNCX9
+10 , XNCX10
+11 , XNCX11
+12 , XNCX12
+13 , XNCX13
+14 , XNCX14
+15 , XNCX15
+16 , XNCX16
+17 , XNCX17
+18 , XNCX18
+19 , XNCX19
+20 , XNCX20
+21 , XNCX21
+22 , XNCX22
+23 , XNCX23
+24 , XNCX24
+25 , XNCX25
+26 , XNCX26
+27 , XNCX27
+28 , XNCX28
+29 , XNCX29
+30 , XNCX30
+31 , XNCX31
+32 , XNCX32
 33  , H26
 34  , H25
 35  , P5
@@ -488,9 +509,137 @@ mapping: FPGA-HSMC(B) FPGA-Pin
 156 , Y27
 157 , AD28
 158 , Y28
-N/A , F26
-N/A , D28
+XNCX1 , F26
+XNCX2 , D28
+
+mapping: THDB-GPIO-J2 THDB-HSMC
+1   , 4
+2   , 10
+3   , 6
+4   , 12
+5   , 9
+6   , 16
+7   , 11
+8   , 18
+9   , 15
+10  , 22
+11 , XNCX5V
+12 , XNCXGND1
+13  , 17
+14  , 24
+15  , 21
+16  , 28
+17  , 23
+18  , 30
+19  , 3
+20  , 34
+21  , 5
+22  , 36
+23  , 27
+24  , 40
+25  , 29
+26  , 42
+27  , 33
+28  , 46
+29 , XNCX3.3V
+30 , XNCXGND2
+31  , 35
+32  , 48
+33  , 39
+34  , 52
+35  , 41
+36  , 54
+37  , 45
+38  , 51
+39  , 47
+40  , 53
 
 
+mapping: THDB-GPIO-J3 THDB-HSMC
+1  , 64
+2  , 70
+3  , 66
+4  , 72
+5  , 69
+6  , 76
+7  , 71
+8  , 78
+9  , 75
+10 , 82
+11 , XNCX5V
+12 , XNCXGND1
+13 , 77
+14 , 84
+15 , 81
+16 , 88
+17 , 83
+18 , 90
+19 , 63
+20 , 94
+21 , 65
+22 , 96
+23 , 87
+24 , 100
+25 , 89
+26 , 102
+27 , 93
+28 , 106
+29 , XNCX3.3V
+30 , XNCXGND2
+31 , 95
+32 , 108
+33 , 99
+34 , 112
+35 , 101
+36 , 114
+37 , 105
+38 , 111
+39 , 107
+40 , 113
 
-alias: DEBUG-HSMC FPGA-HSMC(A)
+
+mapping: THDB-GPIO-J4 THDB-HSMC
+1  , 133
+2  , 134
+3  , 135
+4  , 136
+5  , 137
+6  , 138
+7  , 139
+8  , 140
+9  , 141
+10 , 142
+11 , XNCX5V
+12 , XNCXGND1
+13 , 143
+14 , 144
+15 , 145
+16 , 146
+17 , 147
+18 , 148
+19 , 149
+20 , 150
+21 , 151
+22 , 152
+23 , 153
+24 , 154
+25 , 155
+26 , 156
+27 , 157
+28 , 158
+29 , XNCX3.3V
+30 , XNCXGND2
+31 , 159
+32 , 160
+33 , 161
+34 , 166
+35 , 163
+36 , 168
+37 , 165
+38 , 162
+39 , 167
+40 , 164
+
+passthrough: DEBUG-HSMC FPGA-HSMC
+passthrough: FPGA-HSMC FPGA-HSMC-A
+passthrough: FPGA-HSMC FPGA-HSMC-B
