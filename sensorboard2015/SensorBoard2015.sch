@@ -852,4 +852,68 @@ F 3 "" H 6800 5950 60  0000 C CNN
 	1    6800 5950
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C5
+U 1 1 55959F1E
+P 900 4200
+F 0 "C5" H 925 4300 50  0000 L CNN
+F 1 ".1uF" H 925 4100 50  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 938 4050 30  0001 C CNN
+F 3 "" H 900 4200 60  0000 C CNN
+	1    900  4200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C6
+U 1 1 55959F24
+P 900 4550
+F 0 "C6" H 925 4650 50  0000 L CNN
+F 1 "10uF" H 925 4450 50  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 938 4400 30  0001 C CNN
+F 3 "" H 900 4550 60  0000 C CNN
+	1    900  4550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C9
+U 1 1 55959F2A
+P 1550 4200
+F 0 "C9" H 1575 4300 50  0000 L CNN
+F 1 ".1uF" H 1575 4100 50  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 1588 4050 30  0001 C CNN
+F 3 "" H 1550 4200 60  0000 C CNN
+	1    1550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L C C10
+U 1 1 55959F30
+P 1550 4550
+F 0 "C10" H 1575 4650 50  0000 L CNN
+F 1 "10uF" H 1575 4450 50  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 1588 4400 30  0001 C CNN
+F 3 "" H 1550 4550 60  0000 C CNN
+	1    1550 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1050 4200 1400 4200
+Wire Wire Line
+	1050 4550 1400 4550
+Wire Wire Line
+	1200 4200 1200 4850
+Connection ~ 1200 4550
+Connection ~ 1200 4200
+Text Label 1200 4850 0    60   ~ 0
+GND
+Wire Wire Line
+	750  4200 750  4850
+Connection ~ 750  4550
+Wire Wire Line
+	1700 4200 1700 4850
+Connection ~ 1700 4550
+Text Label 750  4850 0    60   ~ 0
++5V
+Text Label 1700 4850 0    60   ~ 0
+-5V
 $EndSCHEMATC
