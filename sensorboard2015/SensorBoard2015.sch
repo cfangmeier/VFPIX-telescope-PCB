@@ -232,9 +232,9 @@ Text Label 5400 6200 0    60   ~ 0
 SEB
 Text Label 5400 6300 0    60   ~ 0
 SBI
-Text Label 4600 6200 2    60   ~ 0
-SPHI1
 Text Label 4600 6300 2    60   ~ 0
+SPHI1
+Text Label 4600 6200 2    60   ~ 0
 SPHI2
 Text Label 4600 6000 2    60   ~ 0
 LE
@@ -793,9 +793,9 @@ Text Label 7200 6200 0    60   ~ 0
 SEB
 Text Label 7200 6300 0    60   ~ 0
 SBI
-Text Label 6400 6200 2    60   ~ 0
-SPHI1
 Text Label 6400 6300 2    60   ~ 0
+SPHI1
+Text Label 6400 6200 2    60   ~ 0
 SPHI2
 Text Label 6400 6000 2    60   ~ 0
 LE
