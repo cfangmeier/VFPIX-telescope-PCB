@@ -16,3 +16,6 @@ Session.vim
 
 # Dirs of Gerber(and other) outputs 
 */out/*
+
+# Local datasheets directory(likely proprietary)
+*/datasheets/*

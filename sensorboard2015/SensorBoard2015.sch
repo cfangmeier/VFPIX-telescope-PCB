@@ -191,7 +191,7 @@ F 3 "" H 8450 5200 60  0001 C CNN
 	1    8450 5200
 	1    0    0    -1  
 $EndComp
-Text Label 9950 5950 0    60   ~ 0
+Text Label 9950 5950 2    60   ~ 0
 Vbias
 $Comp
 L CONN_1 P3
@@ -719,13 +719,13 @@ Text Label 4600 5300 2    60   ~ 0
 +5V
 Text Label 4600 5400 2    60   ~ 0
 -5V
-Text Label 5400 5100 0    60   ~ 0
-APC1+
 Text Label 5400 5000 0    60   ~ 0
+APC1+
+Text Label 5400 5100 0    60   ~ 0
 APC1-
-Text Label 5400 4800 0    60   ~ 0
-APC2+
 Text Label 5400 4700 0    60   ~ 0
+APC2+
+Text Label 5400 4800 0    60   ~ 0
 APC2-
 Text Label 4600 5100 2    60   ~ 0
 APC3+
@@ -889,13 +889,13 @@ Text Label 6350 5500 2    60   ~ 0
 +5V
 Text Label 6350 5600 2    60   ~ 0
 -5V
-Text Label 7150 5100 0    60   ~ 0
-APC1+
 Text Label 7150 5000 0    60   ~ 0
+APC1+
+Text Label 7150 5100 0    60   ~ 0
 APC1-
-Text Label 7150 4800 0    60   ~ 0
-APC2+
 Text Label 7150 4700 0    60   ~ 0
+APC2+
+Text Label 7150 4800 0    60   ~ 0
 APC2-
 Text Label 6350 5300 2    60   ~ 0
 APC3+
