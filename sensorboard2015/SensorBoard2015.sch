@@ -204,51 +204,49 @@ F 3 "" H 10100 5950 60  0001 C CNN
 	1    10100 5950
 	1    0    0    -1  
 $EndComp
-Text Label 5400 6000 0    60   ~ 0
+Text Label 5400 5600 0    60   ~ 0
 RBO
-Text Label 5400 6100 0    60   ~ 0
-CAL
-Text Label 4600 6100 2    60   ~ 0
-NULL
-Text Label 4600 5900 2    60   ~ 0
-Reset
-Text Label 4600 5700 2    60   ~ 0
-IS2
-Text Label 4600 5400 2    60   ~ 0
-R12
-Text Label 4600 5200 2    60   ~ 0
-Vthresh
-Text Label 4600 5100 2    60   ~ 0
-RBI
-Text Label 5400 5900 0    60   ~ 0
-RPHI2
-Text Label 4600 4800 2    60   ~ 0
-Vdig
-Text Label 5400 4500 0    60   ~ 0
-GND
 Text Label 5400 5700 0    60   ~ 0
-Aref
+CAL
 Text Label 5400 6200 0    60   ~ 0
-SEB
-Text Label 5400 6300 0    60   ~ 0
-SBI
+NULL
 Text Label 4600 6300 2    60   ~ 0
-SPHI1
-Text Label 4600 6200 2    60   ~ 0
-SPHI2
-Text Label 4600 6000 2    60   ~ 0
-LE
+Reset
+Text Label 4600 6100 2    60   ~ 0
+IS2
 Text Label 4600 5800 2    60   ~ 0
-IS1
+R12
 Text Label 4600 5600 2    60   ~ 0
-SR
+Vthresh
 Text Label 4600 5500 2    60   ~ 0
-RG
-Text Label 4600 5300 2    60   ~ 0
-CS
-Text Label 5400 5800 0    60   ~ 0
-RPHI1
+RBI
+Text Label 5400 5500 0    60   ~ 0
+RPHI2
 Text Label 4600 4700 2    60   ~ 0
+Vdig
+Text Label 5400 5300 0    60   ~ 0
+Aref
+Text Label 5400 5800 0    60   ~ 0
+SEB
+Text Label 5400 5900 0    60   ~ 0
+SBI
+Text Label 5400 6000 0    60   ~ 0
+SPHI1
+Text Label 5400 6100 0    60   ~ 0
+SPHI2
+Text Label 5400 6300 0    60   ~ 0
+LE
+Text Label 4600 6200 2    60   ~ 0
+IS1
+Text Label 4600 6000 2    60   ~ 0
+SR
+Text Label 4600 5900 2    60   ~ 0
+RG
+Text Label 4600 5700 2    60   ~ 0
+CS
+Text Label 5400 5400 0    60   ~ 0
+RPHI1
+Text Label 4600 4600 2    60   ~ 0
 Vana
 Text Label 4600 4400 2    60   ~ 0
 Vbias
@@ -716,33 +714,26 @@ NoConn ~ 9750 3000
 NoConn ~ 6550 2100
 NoConn ~ 8150 2050
 NoConn ~ 9750 2000
-NoConn ~ 4600 4600
 NoConn ~ 4600 4500
-Text Label 4600 4900 2    60   ~ 0
+Text Label 4600 5300 2    60   ~ 0
 +5V
-Text Label 4600 5000 2    60   ~ 0
+Text Label 4600 5400 2    60   ~ 0
 -5V
 Text Label 5400 5100 0    60   ~ 0
-GND
-Text Label 5400 5400 0    60   ~ 0
-GND
-Text Label 5400 4800 0    60   ~ 0
-GND
-Text Label 5400 5600 0    60   ~ 0
 APC1+
-Text Label 5400 5500 0    60   ~ 0
-APC1-
-Text Label 5400 5300 0    60   ~ 0
-APC2+
-Text Label 5400 5200 0    60   ~ 0
-APC2-
 Text Label 5400 5000 0    60   ~ 0
-APC3+
-Text Label 5400 4900 0    60   ~ 0
-APC3-
+APC1-
+Text Label 5400 4800 0    60   ~ 0
+APC2+
 Text Label 5400 4700 0    60   ~ 0
+APC2-
+Text Label 4600 5100 2    60   ~ 0
+APC3+
+Text Label 4600 5200 2    60   ~ 0
+APC3-
+Text Label 4600 4800 2    60   ~ 0
 APC4+
-Text Label 5400 4600 0    60   ~ 0
+Text Label 4600 4900 2    60   ~ 0
 APC4-
 NoConn ~ 3400 5550
 NoConn ~ 2700 5550
@@ -765,92 +756,16 @@ F 3 "" H 5000 5950 60  0000 C CNN
 	1    5000 5950
 	1    0    0    -1  
 $EndComp
-Text Label 7200 6000 0    60   ~ 0
-RBO
-Text Label 7200 6100 0    60   ~ 0
-CAL
-Text Label 6400 6100 2    60   ~ 0
-NULL
-Text Label 6400 5900 2    60   ~ 0
-Reset
-Text Label 6400 5700 2    60   ~ 0
-IS2
-Text Label 6400 5400 2    60   ~ 0
-R12
-Text Label 6400 5200 2    60   ~ 0
-Vthresh
-Text Label 6400 5100 2    60   ~ 0
-RBI
-Text Label 7200 5900 0    60   ~ 0
-RPHI2
-Text Label 6400 4800 2    60   ~ 0
-Vdig
-Text Label 7200 4500 0    60   ~ 0
-GND
-Text Label 7200 5700 0    60   ~ 0
-Aref
-Text Label 7200 6200 0    60   ~ 0
-SEB
-Text Label 7200 6300 0    60   ~ 0
-SBI
-Text Label 6400 6300 2    60   ~ 0
-SPHI1
-Text Label 6400 6200 2    60   ~ 0
-SPHI2
-Text Label 6400 6000 2    60   ~ 0
-LE
-Text Label 6400 5800 2    60   ~ 0
-IS1
-Text Label 6400 5600 2    60   ~ 0
-SR
-Text Label 6400 5500 2    60   ~ 0
-RG
-Text Label 6400 5300 2    60   ~ 0
-CS
-Text Label 7200 5800 0    60   ~ 0
-RPHI1
-Text Label 6400 4700 2    60   ~ 0
-Vana
-Text Label 6400 4400 2    60   ~ 0
-Vbias
-NoConn ~ 6400 4600
-NoConn ~ 6400 4500
-Text Label 6400 4900 2    60   ~ 0
-+5V
-Text Label 6400 5000 2    60   ~ 0
--5V
-Text Label 7200 5100 0    60   ~ 0
-GND
-Text Label 7200 5400 0    60   ~ 0
-GND
-Text Label 7200 4800 0    60   ~ 0
-GND
-Text Label 7200 5600 0    60   ~ 0
-APC1+
-Text Label 7200 5500 0    60   ~ 0
-APC1-
-Text Label 7200 5300 0    60   ~ 0
-APC2+
-Text Label 7200 5200 0    60   ~ 0
-APC2-
-Text Label 7200 5000 0    60   ~ 0
-APC3+
-Text Label 7200 4900 0    60   ~ 0
-APC3-
-Text Label 7200 4700 0    60   ~ 0
-APC4+
-Text Label 7200 4600 0    60   ~ 0
-APC4-
 $Comp
 L CONN_20X2 P2
 U 1 1 55937282
-P 6800 5950
-F 0 "P2" H 6800 7000 60  0000 C CNN
-F 1 "CONN_20X2" V 6800 5950 50  0000 C CNN
-F 2 "extras:SAMTEC_MEC1_Rev" H 6800 5950 60  0001 C CNN
-F 3 "" H 6800 5950 60  0000 C CNN
-	1    6800 5950
-	1    0    0    -1  
+P 6750 6050
+F 0 "P2" H 6750 7100 60  0000 C CNN
+F 1 "CONN_20X2" V 6750 6050 50  0000 C CNN
+F 2 "extras:SAMTEC_MEC1_Rev" H 6750 6050 60  0001 C CNN
+F 3 "" H 6750 6050 60  0000 C CNN
+	1    6750 6050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C5
@@ -916,4 +831,85 @@ Text Label 750  4850 0    60   ~ 0
 +5V
 Text Label 1700 4850 0    60   ~ 0
 -5V
+NoConn ~ 5400 5200
+NoConn ~ 5400 4900
+Text Label 5400 4600 0    60   ~ 0
+GND
+NoConn ~ 4600 5000
+Text Label 5400 4500 0    60   ~ 0
+GND
+Text Label 7150 5600 0    60   ~ 0
+RBO
+Text Label 7150 5700 0    60   ~ 0
+CAL
+Text Label 7150 6200 0    60   ~ 0
+NULL
+Text Label 7150 6400 0    60   ~ 0
+Reset
+Text Label 6350 6300 2    60   ~ 0
+IS2
+Text Label 6350 6000 2    60   ~ 0
+R12
+Text Label 6350 5800 2    60   ~ 0
+Vthresh
+Text Label 6350 5700 2    60   ~ 0
+RBI
+Text Label 7150 5500 0    60   ~ 0
+RPHI2
+Text Label 6350 4900 2    60   ~ 0
+Vdig
+Text Label 7150 5300 0    60   ~ 0
+Aref
+Text Label 7150 5800 0    60   ~ 0
+SEB
+Text Label 7150 5900 0    60   ~ 0
+SBI
+Text Label 7150 6000 0    60   ~ 0
+SPHI1
+Text Label 7150 6100 0    60   ~ 0
+SPHI2
+Text Label 7150 6300 0    60   ~ 0
+LE
+Text Label 6350 6400 2    60   ~ 0
+IS1
+Text Label 6350 6200 2    60   ~ 0
+SR
+Text Label 6350 6100 2    60   ~ 0
+RG
+Text Label 6350 5900 2    60   ~ 0
+CS
+Text Label 7150 5400 0    60   ~ 0
+RPHI1
+Text Label 6350 4800 2    60   ~ 0
+Vana
+Text Label 6350 4600 2    60   ~ 0
+Vbias
+NoConn ~ 6350 4700
+Text Label 6350 5500 2    60   ~ 0
++5V
+Text Label 6350 5600 2    60   ~ 0
+-5V
+Text Label 7150 5100 0    60   ~ 0
+APC1+
+Text Label 7150 5000 0    60   ~ 0
+APC1-
+Text Label 7150 4800 0    60   ~ 0
+APC2+
+Text Label 7150 4700 0    60   ~ 0
+APC2-
+Text Label 6350 5300 2    60   ~ 0
+APC3+
+Text Label 6350 5400 2    60   ~ 0
+APC3-
+Text Label 6350 5000 2    60   ~ 0
+APC4+
+Text Label 6350 5100 2    60   ~ 0
+APC4-
+NoConn ~ 7150 5200
+NoConn ~ 7150 4900
+Text Label 7150 4600 0    60   ~ 0
+GND
+NoConn ~ 6350 5200
+Text Label 7150 4500 0    60   ~ 0
+GND
 $EndSCHEMATC
