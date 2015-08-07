@@ -1,0 +1,84 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:extras
+LIBS:DAQCard2015-cache
+EELAYER 25 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 11400 4400 1050 3400
+U 55C487E1
+F0 "ADCChannel1" 60
+F1 "ADCChannel1.sch" 60
+F2 "ADC_CSB" I L 11400 6450 60 
+F3 "ADC_SDIO" I L 11400 6550 60 
+F4 "ADC_SCLK" I L 11400 6650 60 
+F5 "ADC_CLK+" I L 11400 6100 60 
+F6 "ADC_CLK-" I L 11400 6200 60 
+F7 "D-D" I R 12450 4750 60 
+F8 "D+D" I R 12450 4850 60 
+F9 "D-C" I R 12450 5000 60 
+F10 "D+C" I R 12450 5100 60 
+F11 "D-B" I R 12450 5250 60 
+F12 "D+B" I R 12450 5350 60 
+F13 "D-A" I R 12450 5500 60 
+F14 "D+A" I R 12450 5600 60 
+F15 "FCO-" I R 12450 5750 60 
+F16 "FCO+" I R 12450 5850 60 
+F17 "DCO-" I R 12450 6000 60 
+F18 "DCO+" I R 12450 6100 60 
+F19 "ADC_Vref" I L 11400 7000 60 
+F20 "GNDdig" I L 11400 7250 60 
+F21 "GNDana" I L 11400 7350 60 
+F22 "1V8ana" I L 11400 7450 60 
+F23 "1V8dig" I L 11400 7550 60 
+F24 "3V3" I L 11400 7650 60 
+F25 "EXT_CHA+" I L 11400 4750 60 
+F26 "EXT_CHA-" I L 11400 4850 60 
+F27 "EXT_CHB+" I L 11400 5000 60 
+F28 "EXT_CHB-" I L 11400 5100 60 
+F29 "EXT_CHD+" I L 11400 5500 60 
+F30 "EXT_CHD-" I L 11400 5600 60 
+F31 "EXT_CHC+" I L 11400 5250 60 
+F32 "EXT_CHC-" I L 11400 5350 60 
+$EndSheet
+$EndSCHEMATC
