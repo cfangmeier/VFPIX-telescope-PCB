@@ -256,8 +256,6 @@ Text Label 9750 2600 2    60   ~ 0
 DUM4
 Text Label 9750 2500 2    60   ~ 0
 Aref4
-Text Label 9750 2400 2    60   ~ 0
-RBO
 Text Label 9750 2300 2    60   ~ 0
 RPHI2
 Text Label 9750 2200 2    60   ~ 0
@@ -303,8 +301,6 @@ Text Label 6550 2700 2    60   ~ 0
 DUM2
 Text Label 6550 2600 2    60   ~ 0
 Aref2
-Text Label 6550 2500 2    60   ~ 0
-RBO
 Text Label 6550 2400 2    60   ~ 0
 RPHI2
 Text Label 6550 2300 2    60   ~ 0
@@ -383,8 +379,6 @@ Text Label 8150 2250 2    60   ~ 0
 RPHI1
 Text Label 8150 2350 2    60   ~ 0
 RPHI2
-Text Label 8150 2450 2    60   ~ 0
-RBO
 Text Label 8150 2550 2    60   ~ 0
 Aref3
 Text Label 8150 2650 2    60   ~ 0
@@ -912,4 +906,37 @@ GND
 NoConn ~ 6350 5200
 Text Label 7150 4500 0    60   ~ 0
 GND
+$Comp
+L SPYPAD P4
+U 1 1 55C8968B
+P 6400 2500
+F 0 "P4" H 6480 2500 40  0000 L CNN
+F 1 "SPYPAD" H 6400 2550 30  0001 C CNN
+F 2 "extras:testpad" H 6400 2500 60  0001 C CNN
+F 3 "" H 6400 2500 60  0000 C CNN
+	1    6400 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SPYPAD P5
+U 1 1 55C8983A
+P 8000 2450
+F 0 "P5" H 8080 2450 40  0000 L CNN
+F 1 "SPYPAD" H 8000 2500 30  0001 C CNN
+F 2 "extras:testpad" H 8000 2450 60  0001 C CNN
+F 3 "" H 8000 2450 60  0000 C CNN
+	1    8000 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SPYPAD P6
+U 1 1 55C898E0
+P 9600 2400
+F 0 "P6" H 9680 2400 40  0000 L CNN
+F 1 "SPYPAD" H 9600 2450 30  0001 C CNN
+F 2 "extras:testpad" H 9600 2400 60  0001 C CNN
+F 3 "" H 9600 2400 60  0000 C CNN
+	1    9600 2400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
