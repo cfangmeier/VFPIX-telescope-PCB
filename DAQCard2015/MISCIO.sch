@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 9050 900  0    60   ~ 0
-IO:\nExternal CLK/Trigger\nIndicator LEDs
+IO:\nExternal CLK/Trigger\nIndicator LEDs\nFan Control(Optional)
 $Comp
 L LEMO_EPY.00.250.NTN P?
 U 1 1 55D34F59
@@ -69,21 +69,11 @@ F 3 "" H 9150 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 2400 7400 2800
-Wire Wire Line
-	7400 2800 7400 2900
-Wire Wire Line
-	7400 2900 7400 3100
-Wire Wire Line
-	7400 3100 7400 3350
+	7400 2400 7400 3350
 Wire Wire Line
 	8150 2700 8200 2700
 Wire Wire Line
-	8200 2700 8200 2800
-Wire Wire Line
-	8200 2800 8200 2900
-Wire Wire Line
-	8200 2900 8200 3100
+	8200 2700 8200 3100
 Wire Wire Line
 	8200 3100 7400 3100
 Connection ~ 7400 3100
@@ -142,11 +132,9 @@ Text GLabel 7800 3300 3    60   Input ~ 0
 Wire Wire Line
 	8150 2600 8250 2600
 Wire Wire Line
-	8250 2600 8250 3200
+	8250 3200 8250 2600
 Wire Wire Line
-	8250 3200 7800 3200
-Wire Wire Line
-	7800 3200 7250 3200
+	7250 3200 8250 3200
 Wire Wire Line
 	7250 3200 7250 2600
 Wire Wire Line
@@ -160,9 +148,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2400 8600 2950
 Wire Wire Line
-	8600 2950 9150 2950
-Wire Wire Line
-	9150 2950 9400 2950
+	8600 2950 9400 2950
 Wire Wire Line
 	9400 2950 9400 2350
 Connection ~ 9150 2950

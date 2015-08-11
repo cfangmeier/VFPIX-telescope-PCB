@@ -1336,7 +1336,7 @@ Text GLabel 1300 3050 0    60   Input ~ 0
 Text GLabel 1300 3200 0    60   Input ~ 0
 GNDana
 Text GLabel 1300 3350 0    60   Input ~ 0
-18ana
+1V8ana
 Text GLabel 1300 3500 0    60   Input ~ 0
 3V3
 Text Notes 1400 5600 0    60   ~ 0

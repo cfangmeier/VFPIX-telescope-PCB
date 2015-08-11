@@ -84,8 +84,8 @@ F33 "4D-A" O R 3800 7150 60
 F34 "4D+A" O R 3800 7250 60 
 F35 "4FCO-" O R 3800 7400 60 
 F36 "4FCO+" O R 3800 7500 60 
-F37 "4DCO-" O R 3800 7650 60 
-F38 "4DCO+" O R 3800 7750 60 
+F37 "4DCO-" O R 3800 7600 60 
+F38 "4DCO+" O R 3800 7700 60 
 F39 "3D-D" O R 3800 5200 60 
 F40 "3D+D" O R 3800 5300 60 
 F41 "3D-C" O R 3800 5400 60 
@@ -135,8 +135,8 @@ F84 "5D-A" O R 3800 8550 60
 F85 "5D+A" O R 3800 8650 60 
 F86 "5FCO-" O R 3800 8800 60 
 F87 "5FCO+" O R 3800 8900 60 
-F88 "5DCO-" O R 3800 9050 60 
-F89 "5DCO+" O R 3800 9150 60 
+F88 "5DCO-" O R 3800 9000 60 
+F89 "5DCO+" O R 3800 9100 60 
 F90 "6D-D" O R 3800 9350 60 
 F91 "6D+D" O R 3800 9450 60 
 F92 "6D-C" O R 3800 9550 60 
@@ -181,4 +181,388 @@ U 55D3B55F
 F0 "Power" 60
 F1 "Power.sch" 60
 $EndSheet
+Wire Wire Line
+	3800 2500 4150 2500
+Wire Wire Line
+	3800 2600 4150 2600
+Wire Wire Line
+	3800 2700 4150 2700
+Wire Wire Line
+	3800 2800 4150 2800
+Wire Wire Line
+	3800 2900 4150 2900
+Wire Wire Line
+	3800 3000 4150 3000
+Wire Wire Line
+	3800 3100 4150 3100
+Wire Wire Line
+	3800 3200 4150 3200
+Wire Wire Line
+	3800 3350 4150 3350
+Wire Wire Line
+	3800 3450 4150 3450
+Wire Wire Line
+	3800 3550 4150 3550
+Wire Wire Line
+	3800 3650 4150 3650
+Text Label 4150 2500 2    60   ~ 0
+1D-D
+Text Label 4150 2600 2    60   ~ 0
+1D+D
+Text Label 4150 2700 2    60   ~ 0
+1D-C
+Text Label 4150 2800 2    60   ~ 0
+1D+C
+Text Label 4150 2900 2    60   ~ 0
+1D-B
+Text Label 4150 3000 2    60   ~ 0
+1D+B
+Text Label 4150 3100 2    60   ~ 0
+1D-A
+Text Label 4150 3200 2    60   ~ 0
+1D+A
+Text Label 4150 3350 2    60   ~ 0
+1FCO-
+Text Label 4150 3450 2    60   ~ 0
+1FCO+
+Text Label 4150 3550 2    60   ~ 0
+1DCO-
+Text Label 4150 3650 2    60   ~ 0
+1DCO+
+Wire Wire Line
+	3800 3850 4150 3850
+Wire Wire Line
+	3800 3950 4150 3950
+Wire Wire Line
+	3800 4050 4150 4050
+Wire Wire Line
+	3800 4150 4150 4150
+Wire Wire Line
+	3800 4250 4150 4250
+Wire Wire Line
+	3800 4350 4150 4350
+Wire Wire Line
+	3800 4450 4150 4450
+Wire Wire Line
+	3800 4550 4150 4550
+Wire Wire Line
+	3800 4700 4150 4700
+Wire Wire Line
+	3800 4800 4150 4800
+Wire Wire Line
+	3800 4900 4150 4900
+Wire Wire Line
+	3800 5000 4150 5000
+Text Label 4150 3850 2    60   ~ 0
+2D-D
+Text Label 4150 3950 2    60   ~ 0
+2D+D
+Text Label 4150 4050 2    60   ~ 0
+2D-C
+Text Label 4150 4150 2    60   ~ 0
+2D+C
+Text Label 4150 4250 2    60   ~ 0
+2D-B
+Text Label 4150 4350 2    60   ~ 0
+2D+B
+Text Label 4150 4450 2    60   ~ 0
+2D-A
+Text Label 4150 4550 2    60   ~ 0
+2D+A
+Text Label 4150 4700 2    60   ~ 0
+2FCO-
+Text Label 4150 4800 2    60   ~ 0
+2FCO+
+Text Label 4150 4900 2    60   ~ 0
+2DCO-
+Text Label 4150 5000 2    60   ~ 0
+2DCO+
+Wire Wire Line
+	3800 5200 4150 5200
+Wire Wire Line
+	3800 5300 4150 5300
+Wire Wire Line
+	3800 5400 4150 5400
+Wire Wire Line
+	3800 5500 4150 5500
+Wire Wire Line
+	3800 5600 4150 5600
+Wire Wire Line
+	3800 5700 4150 5700
+Wire Wire Line
+	3800 5800 4150 5800
+Wire Wire Line
+	3800 5900 4150 5900
+Wire Wire Line
+	3800 6050 4150 6050
+Wire Wire Line
+	3800 6150 4150 6150
+Wire Wire Line
+	3800 6250 4150 6250
+Wire Wire Line
+	3800 6350 4150 6350
+Text Label 4150 5200 2    60   ~ 0
+3D-D
+Text Label 4150 5300 2    60   ~ 0
+3D+D
+Text Label 4150 5400 2    60   ~ 0
+3D-C
+Text Label 4150 5500 2    60   ~ 0
+3D+C
+Text Label 4150 5600 2    60   ~ 0
+3D-B
+Text Label 4150 5700 2    60   ~ 0
+3D+B
+Text Label 4150 5800 2    60   ~ 0
+3D-A
+Text Label 4150 5900 2    60   ~ 0
+3D+A
+Text Label 4150 6050 2    60   ~ 0
+3FCO-
+Text Label 4150 6150 2    60   ~ 0
+3FCO+
+Text Label 4150 6250 2    60   ~ 0
+3DCO-
+Text Label 4150 6350 2    60   ~ 0
+3DCO+
+Wire Wire Line
+	3800 6550 4150 6550
+Wire Wire Line
+	3800 6650 4150 6650
+Wire Wire Line
+	3800 6750 4150 6750
+Wire Wire Line
+	3800 6850 4150 6850
+Wire Wire Line
+	3800 6950 4150 6950
+Wire Wire Line
+	3800 7050 4150 7050
+Wire Wire Line
+	3800 7150 4150 7150
+Wire Wire Line
+	3800 7250 4150 7250
+Wire Wire Line
+	3800 7400 4150 7400
+Wire Wire Line
+	3800 7500 4150 7500
+Wire Wire Line
+	3800 7600 4150 7600
+Wire Wire Line
+	3800 7700 4150 7700
+Text Label 4150 6550 2    60   ~ 0
+4D-D
+Text Label 4150 6650 2    60   ~ 0
+4D+D
+Text Label 4150 6750 2    60   ~ 0
+4D-C
+Text Label 4150 6850 2    60   ~ 0
+4D+C
+Text Label 4150 6950 2    60   ~ 0
+4D-B
+Text Label 4150 7050 2    60   ~ 0
+4D+B
+Text Label 4150 7150 2    60   ~ 0
+4D-A
+Text Label 4150 7250 2    60   ~ 0
+4D+A
+Text Label 4150 7400 2    60   ~ 0
+4FCO-
+Text Label 4150 7500 2    60   ~ 0
+4FCO+
+Text Label 4150 7600 2    60   ~ 0
+4DCO-
+Text Label 4150 7700 2    60   ~ 0
+4DCO+
+Wire Wire Line
+	3800 7950 4150 7950
+Wire Wire Line
+	3800 8050 4150 8050
+Wire Wire Line
+	3800 8150 4150 8150
+Wire Wire Line
+	3800 8250 4150 8250
+Wire Wire Line
+	3800 8350 4150 8350
+Wire Wire Line
+	3800 8450 4150 8450
+Wire Wire Line
+	3800 8550 4150 8550
+Wire Wire Line
+	3800 8650 4150 8650
+Wire Wire Line
+	3800 8800 4150 8800
+Wire Wire Line
+	3800 8900 4150 8900
+Wire Wire Line
+	3800 9000 4150 9000
+Wire Wire Line
+	3800 9100 4150 9100
+Text Label 4150 7950 2    60   ~ 0
+5D-D
+Text Label 4150 8050 2    60   ~ 0
+5D+D
+Text Label 4150 8150 2    60   ~ 0
+5D-C
+Text Label 4150 8250 2    60   ~ 0
+5D+C
+Text Label 4150 8350 2    60   ~ 0
+5D-B
+Text Label 4150 8450 2    60   ~ 0
+5D+B
+Text Label 4150 8550 2    60   ~ 0
+5D-A
+Text Label 4150 8650 2    60   ~ 0
+5D+A
+Text Label 4150 8800 2    60   ~ 0
+5FCO-
+Text Label 4150 8900 2    60   ~ 0
+5FCO+
+Text Label 4150 9000 2    60   ~ 0
+5DCO-
+Text Label 4150 9100 2    60   ~ 0
+5DCO+
+Wire Wire Line
+	3800 9350 4150 9350
+Wire Wire Line
+	3800 9450 4150 9450
+Wire Wire Line
+	3800 9550 4150 9550
+Wire Wire Line
+	3800 9650 4150 9650
+Wire Wire Line
+	3800 9750 4150 9750
+Wire Wire Line
+	3800 9850 4150 9850
+Wire Wire Line
+	3800 9950 4150 9950
+Wire Wire Line
+	3800 10050 4150 10050
+Wire Wire Line
+	3800 10200 4150 10200
+Wire Wire Line
+	3800 10300 4150 10300
+Wire Wire Line
+	3800 10400 4150 10400
+Wire Wire Line
+	3800 10500 4150 10500
+Text Label 4150 9350 2    60   ~ 0
+6D-D
+Text Label 4150 9450 2    60   ~ 0
+6D+D
+Text Label 4150 9550 2    60   ~ 0
+6D-C
+Text Label 4150 9650 2    60   ~ 0
+6D+C
+Text Label 4150 9750 2    60   ~ 0
+6D-B
+Text Label 4150 9850 2    60   ~ 0
+6D+B
+Text Label 4150 9950 2    60   ~ 0
+6D-A
+Text Label 4150 10050 2    60   ~ 0
+6D+A
+Text Label 4150 10200 2    60   ~ 0
+6FCO-
+Text Label 4150 10300 2    60   ~ 0
+6FCO+
+Text Label 4150 10400 2    60   ~ 0
+6DCO-
+Text Label 4150 10500 2    60   ~ 0
+6DCO+
+Wire Wire Line
+	3800 10700 4150 10700
+Wire Wire Line
+	3800 10800 4150 10800
+Wire Wire Line
+	3800 10900 4150 10900
+Wire Wire Line
+	3800 11000 4150 11000
+Wire Wire Line
+	3800 11100 4150 11100
+Wire Wire Line
+	3800 11200 4150 11200
+Wire Wire Line
+	3800 11300 4150 11300
+Wire Wire Line
+	3800 11400 4150 11400
+Wire Wire Line
+	3800 11550 4150 11550
+Wire Wire Line
+	3800 11650 4150 11650
+Wire Wire Line
+	3800 11750 4150 11750
+Wire Wire Line
+	3800 11850 4150 11850
+Text Label 4150 10700 2    60   ~ 0
+7D-D
+Text Label 4150 10800 2    60   ~ 0
+7D+D
+Text Label 4150 10900 2    60   ~ 0
+7D-C
+Text Label 4150 11000 2    60   ~ 0
+7D+C
+Text Label 4150 11100 2    60   ~ 0
+7D-B
+Text Label 4150 11200 2    60   ~ 0
+7D+B
+Text Label 4150 11300 2    60   ~ 0
+7D-A
+Text Label 4150 11400 2    60   ~ 0
+7D+A
+Text Label 4150 11550 2    60   ~ 0
+7FCO-
+Text Label 4150 11650 2    60   ~ 0
+7FCO+
+Text Label 4150 11750 2    60   ~ 0
+7DCO-
+Text Label 4150 11850 2    60   ~ 0
+7DCO+
+Wire Wire Line
+	3800 12050 4150 12050
+Wire Wire Line
+	3800 12150 4150 12150
+Wire Wire Line
+	3800 12250 4150 12250
+Wire Wire Line
+	3800 12350 4150 12350
+Wire Wire Line
+	3800 12450 4150 12450
+Wire Wire Line
+	3800 12550 4150 12550
+Wire Wire Line
+	3800 12650 4150 12650
+Wire Wire Line
+	3800 12750 4150 12750
+Wire Wire Line
+	3800 12900 4150 12900
+Wire Wire Line
+	3800 13000 4150 13000
+Wire Wire Line
+	3800 13100 4150 13100
+Wire Wire Line
+	3800 13200 4150 13200
+Text Label 4150 12050 2    60   ~ 0
+8D-D
+Text Label 4150 12150 2    60   ~ 0
+8D+D
+Text Label 4150 12250 2    60   ~ 0
+8D-C
+Text Label 4150 12350 2    60   ~ 0
+8D+C
+Text Label 4150 12450 2    60   ~ 0
+8D-B
+Text Label 4150 12550 2    60   ~ 0
+8D+B
+Text Label 4150 12650 2    60   ~ 0
+8D-A
+Text Label 4150 12750 2    60   ~ 0
+8D+A
+Text Label 4150 12900 2    60   ~ 0
+8FCO-
+Text Label 4150 13000 2    60   ~ 0
+8FCO+
+Text Label 4150 13100 2    60   ~ 0
+8DCO-
+Text Label 4150 13200 2    60   ~ 0
+8DCO+
 $EndSCHEMATC
