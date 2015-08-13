@@ -1,5 +1,6 @@
 # Kicad backup files
 *.bak
+*.brd-bak
 *.bck
 *.lst
 *.net
