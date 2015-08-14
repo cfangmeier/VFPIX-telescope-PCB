@@ -584,7 +584,7 @@ L R R17
 U 1 1 557FB5B1
 P 4450 5650
 F 0 "R17" V 4530 5650 50  0000 C CNN
-F 1 "250R" V 4450 5650 50  0000 C CNN
+F 1 "125R" V 4450 5650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4380 5650 30  0001 C CNN
 F 3 "" H 4450 5650 30  0000 C CNN
 	1    4450 5650
@@ -863,4 +863,14 @@ Wire Notes Line
 	4600 5650 4700 5650
 Wire Notes Line
 	4700 5650 4700 6100
+Wire Notes Line
+	7250 2150 6600 2150
+Wire Notes Line
+	6600 2150 6600 3700
+Wire Notes Line
+	6600 3550 7250 3550
+Wire Notes Line
+	6600 3700 6800 3700
+Text Notes 6100 3900 0    60   ~ 0
+Ignore these pins. Appear here only \nto indicate unused pins on dual package.
 $EndSCHEMATC
