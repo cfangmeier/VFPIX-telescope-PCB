@@ -566,5 +566,5 @@ Text Label 4150 13100 2    60   ~ 0
 Text Label 4150 13200 2    60   ~ 0
 8DCO+
 Text Notes 14100 9250 0    60   ~ 0
-TODO:\nAdd Suppy Decoupling Caps\nAdd Fan Control/Power\nDetermine HSMC Pin mapping\nVerify RJ45/Cat5e Pinout and pair matching\nWire LEDs for RJ45x8 port
+TODO:\nAdd Suppy Decoupling Caps\nAdd Fan Control/Power\nDetermine HSMC Pin mapping\nVerify RJ45/Cat5e Pinout and pair matching\nWire LEDs for RJ45x8 port\nAPC128 Control Lines w/ 2x20 Header
 $EndSCHEMATC
