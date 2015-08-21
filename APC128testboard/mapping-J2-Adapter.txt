@@ -1,0 +1,14 @@
+5    A-      C8
+7    A+      D8
+9    B-      D7
+12   GND
+13   B+      C7
+15   C-      D6
+17   C+      C6
+23   D-      D5
+25   D+      C5
+27   DClk-   C10
+30   GND
+31   DClk+   D10
+33   FClk-   C9
+35   FClk+   D9

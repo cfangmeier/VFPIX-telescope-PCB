@@ -1,6 +1,4 @@
 (fp_lib_table
   (lib (name APC128)(type Legacy)(uri ${KIPRJMOD}/../mod/APC128.mod)(options "")(descr ""))
   (lib (name extras)(type KiCad)(uri ${KIPRJMOD}/../mod/extras.pretty)(options "")(descr ""))
-  (lib (name SCSI)(type Legacy)(uri ${KIPRJMOD}/../mod/adapter.mod)(options "")(descr ""))
-  (lib (name mpad2.1)(type Legacy)(uri ${KIPRJMOD}/../mod/m-pad-2.1.mod)(options "")(descr ""))
 )

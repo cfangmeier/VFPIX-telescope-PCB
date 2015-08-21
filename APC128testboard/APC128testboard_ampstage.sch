@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:APC128testboard-rescue
 LIBS:extras
 LIBS:power
 LIBS:device

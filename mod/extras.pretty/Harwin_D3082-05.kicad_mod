@@ -1,0 +1,10 @@
+(module Harwin_D3082-05 (layer F.Cu) (tedit 55D7719F)
+  (fp_text reference REF** (at -4.07 -1.65) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Harwin_D3082-05 (at 0.2 -0.01) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -5.08 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 5.08 0) (size 1.524 1.524) (drill 1) (layers *.Cu *.Mask F.SilkS))
+)

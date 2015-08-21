@@ -1,0 +1,43 @@
+
+FPGA-Pin FPGA-HSMC-B FPGA-HSMC THDB-HSMC THDB-GPIO-J2
+Mapping for:
+AD28   1    CLK_OUT_N2
+W21    2    TX_D_N16
+AD27   3    CLK_OUT_P2
+V21    4    TX_D_P16
+AC28   5    RX_D_N16     A
+Y22    6    TX_D_N15
+AC27   7    RX_D_P16     A
+W22    8    TX_D_P15
+AB28   9    RX_D_N15     B
+AE28   10   TX_D_N14
+AB27   13   RX_D_P15     B
+AE27   14   TX_D_P14
+V24    15   RX_D_N14     C
+Y24    16   TX_D_N13
+V23    17   RX_D_P14     C
+Y23    18   TX_D_P13
+Y28    19   CLK_IN_N2
+AB26   20   TX_D_N12
+Y27    21   CLK_IN_P2
+AB25   22   TX_D_P12
+W27    23   RX_D_N13     D
+AA26   24   TX_D_N11
+W28    25   RX_D_P13     D
+AA25   26   TX_D_P11
+V22    27   RX_D_N12     Data Clk
+Y26    28   TX_D_N10
+U22    31   RX_D_P12     Data Clk
+Y25    32   TX_D_P10
+U28    33   RX_D_N11     Frame Clk
+W26    34   TX_D_N9
+U27    35   RX_D_P11     Frame Clk
+W25    36   TX_D_P9
+T26    37   RX_D_N10
+R23    38   RX_D_N9
+T25    39   RX_D_P10
+R22    40   RX_D_P9
+
+
+12: GND
+30: GND
