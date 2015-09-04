@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 13
+Sheet 3 13
 Title ""
 Date ""
 Rev ""
@@ -45,56 +45,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AD9219 U9
-U 1 1 55CFF5AD
+L AD9219 U8
+U 1 1 55EBCB04
 P 9050 3700
-F 0 "U9" H 8250 4650 60  0000 C CNN
+F 0 "U8" H 8250 4650 60  0000 C CNN
 F 1 "AD9219" H 9050 3800 60  0000 C CNN
-F 2 "SMD_Packages:QFN-48-1EP" H 8650 3700 60  0001 C CNN
+F 2 "extras:QFN-48-1EP" H 8650 3700 60  0001 C CNN
 F 3 "" H 8650 3700 60  0000 C CNN
 	1    9050 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R29
-U 1 1 55CB5787
-P 3350 6700
-F 0 "R29" V 3430 6700 50  0000 C CNN
-F 1 "2.7k" V 3350 6700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3280 6700 30  0001 C CNN
-F 3 "" H 3350 6700 30  0000 C CNN
-	1    3350 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R30
-U 1 1 55CB577A
-P 3350 7100
-F 0 "R30" V 3430 7100 50  0000 C CNN
-F 1 "1k" V 3350 7100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3280 7100 30  0001 C CNN
-F 3 "" H 3350 7100 30  0000 C CNN
-	1    3350 7100
-	1    0    0    -1  
-$EndComp
-Text Notes 3400 6900 0    60   ~ 0
-0.9V
 Text Notes 1300 4300 1    60   ~ 0
 Must terminate with 100R!
-$Comp
-L C C30
-U 1 1 55CB575B
-P 3050 6900
-F 0 "C30" H 3075 7000 50  0000 L CNN
-F 1 ".1uF" H 3050 6800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3088 6750 30  0001 C CNN
-F 3 "" H 3050 6900 60  0000 C CNN
-	1    3050 6900
-	1    0    0    -1  
-$EndComp
-Text Label 10150 3450 0    60   ~ 0
+Text Label 10250 3450 0    60   ~ 0
 CHA+
-Text Label 10150 3350 0    60   ~ 0
+Text Label 10250 3350 0    60   ~ 0
 CHA-
 Text Label 9500 2300 1    60   ~ 0
 CHB+
@@ -115,10 +80,10 @@ ADC_SDIO
 Text HLabel 10250 3950 2    60   Input ~ 0
 ADC_SCLK
 $Comp
-L C C32
-U 1 1 55CB5767
+L C C17
+U 1 1 55EBCB10
 P 7550 3650
-F 0 "C32" H 7575 3750 50  0000 L CNN
+F 0 "C17" H 7575 3750 50  0000 L CNN
 F 1 ".1uF" H 7575 3550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7588 3500 30  0001 C CNN
 F 3 "" H 7550 3650 60  0000 C CNN
@@ -126,10 +91,10 @@ F 3 "" H 7550 3650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C33
-U 1 1 55CB574B
+L C C18
+U 1 1 55EBCAF7
 P 7550 3950
-F 0 "C33" H 7575 4050 50  0000 L CNN
+F 0 "C18" H 7575 4050 50  0000 L CNN
 F 1 ".1uF" H 7575 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7588 3800 30  0001 C CNN
 F 3 "" H 7550 3950 60  0000 C CNN
@@ -165,10 +130,10 @@ DCO-
 Text HLabel 9600 5250 3    60   Input ~ 0
 DCO+
 $Comp
-L C C37
-U 1 1 55CB5791
+L C C22
+U 1 1 55CB578F
 P 9300 1750
-F 0 "C37" H 9325 1850 50  0000 L CNN
+F 0 "C22" H 9325 1850 50  0000 L CNN
 F 1 ".1uF" H 9325 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9338 1600 30  0001 C CNN
 F 3 "" H 9300 1750 60  0000 C CNN
@@ -176,10 +141,10 @@ F 3 "" H 9300 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C34
-U 1 1 55CB576A
+L C C19
+U 1 1 55EBCB15
 P 8600 1750
-F 0 "C34" H 8625 1850 50  0000 L CNN
+F 0 "C19" H 8625 1850 50  0000 L CNN
 F 1 ".1uF" H 8625 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8638 1600 30  0001 C CNN
 F 3 "" H 8600 1750 60  0000 C CNN
@@ -187,38 +152,23 @@ F 3 "" H 8600 1750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C36
-U 1 1 55CFF5D5
+L C C21
+U 1 1 55EBCB1B
 P 8950 1650
-F 0 "C36" H 8975 1750 50  0000 L CNN
+F 0 "C21" H 8975 1750 50  0000 L CNN
 F 1 ".1uF" H 8975 1550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8988 1500 30  0001 C CNN
 F 3 "" H 8950 1650 60  0000 C CNN
 	1    8950 1650
 	0    1    1    0   
 $EndComp
-Text Label 8450 1750 2    60   ~ 0
-GNDana
-Text Label 9450 1750 0    60   ~ 0
-GNDana
-$Comp
-L CP C35
-U 1 1 55CB5797
-P 8950 1450
-F 0 "C35" H 8975 1550 50  0000 L CNN
-F 1 "2.2uF" H 8975 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8988 1300 30  0001 C CNN
-F 3 "" H 8950 1450 60  0000 C CNN
-	1    8950 1450
-	0    -1   -1   0   
-$EndComp
 Text HLabel 10150 2050 2    60   Input ~ 0
 ADC_Vref
 $Comp
-L R R31
-U 1 1 55CB5783
+L R R20
+U 1 1 55EBCB22
 P 9900 1950
-F 0 "R31" V 9980 1950 50  0000 C CNN
+F 0 "R20" V 9980 1950 50  0000 C CNN
 F 1 "10k" V 9900 1950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9830 1950 30  0001 C CNN
 F 3 "" H 9900 1950 30  0000 C CNN
@@ -232,25 +182,14 @@ SPI Interface
 Text Notes 8550 5700 0    60   ~ 0
 LVDS Output Signals
 $Comp
-L THS4524IDBTR U8
-U 1 1 55CB579A
+L THS4524IDBTR U7
+U 1 1 55EBCB33
 P 4400 3700
-F 0 "U8" H 4700 2750 60  0000 C CNN
+F 0 "U7" H 4700 2750 60  0000 C CNN
 F 1 "THS4524IDBTR" H 4400 4850 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-38_4.4x9.7mm_Pitch0.5mm" H 4600 3800 60  0001 C CNN
 F 3 "" H 4600 3800 60  0000 C CNN
 	1    4400 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C31
-U 1 1 55CB57A1
-P 3600 7100
-F 0 "C31" H 3625 7200 50  0000 L CNN
-F 1 "10000pF" H 3625 7000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3638 6950 30  0001 C CNN
-F 3 "" H 3600 7100 60  0000 C CNN
-	1    3600 7100
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3900 4200
@@ -265,35 +204,170 @@ Text HLabel 1850 3000 0    60   Input ~ 0
 EXT_CHA-
 Text HLabel 1850 2700 0    60   Input ~ 0
 EXT_CHA+
+Text HLabel 1850 3200 0    60   Input ~ 0
+EXT_CHB+
+Text HLabel 1850 3500 0    60   Input ~ 0
+EXT_CHB-
+Text Label 5800 2200 0    60   ~ 0
+CHB-
+Text Label 5800 2100 0    60   ~ 0
+CHB+
+Text HLabel 1850 3700 0    60   Input ~ 0
+EXT_CHC+
+Text HLabel 1850 4200 0    60   Input ~ 0
+EXT_CHD+
+Text HLabel 1850 4000 0    60   Input ~ 0
+EXT_CHC-
+Text HLabel 1850 4500 0    60   Input ~ 0
+EXT_CHD-
+$Comp
+L R R19
+U 1 1 55EBCB34
+P 1850 4350
+F 0 "R19" V 1930 4350 50  0000 C CNN
+F 1 "Rt" V 1850 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1780 4350 30  0001 C CNN
+F 3 "" H 1850 4350 30  0000 C CNN
+	1    1850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R18
+U 1 1 55EBCB41
+P 1850 3850
+F 0 "R18" V 1930 3850 50  0000 C CNN
+F 1 "Rt" V 1850 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1780 3850 30  0001 C CNN
+F 3 "" H 1850 3850 30  0000 C CNN
+	1    1850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 55EBCB44
+P 1850 3350
+F 0 "R17" V 1930 3350 50  0000 C CNN
+F 1 "Rt" V 1850 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1780 3350 30  0001 C CNN
+F 3 "" H 1850 3350 30  0000 C CNN
+	1    1850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R16
+U 1 1 55CB57BD
+P 1850 2850
+F 0 "R16" V 1930 2850 50  0000 C CNN
+F 1 "Rt" V 1850 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1780 2850 30  0001 C CNN
+F 3 "" H 1850 2850 30  0000 C CNN
+	1    1850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK4 RP8
+U 1 1 55EBCB51
+P 4250 5150
+F 0 "RP8" H 4250 5600 50  0000 C CNN
+F 1 "Rf" H 4250 5100 50  0000 C CNN
+F 2 "extras:R4-MNR04" H 4250 5150 60  0001 C CNN
+F 3 "" H 4250 5150 60  0000 C CNN
+	1    4250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_PACK4 RP9
+U 1 1 55EBCAFE
+P 4300 2450
+F 0 "RP9" H 4300 2900 50  0000 C CNN
+F 1 "Rf" H 4300 2400 50  0000 C CNN
+F 2 "extras:R4-MNR04" H 4300 2450 60  0001 C CNN
+F 3 "" H 4300 2450 60  0000 C CNN
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+Text Label 5800 4800 0    60   ~ 0
+CHD+
+Text Label 5800 4900 0    60   ~ 0
+CHD-
+Text Label 5800 5000 0    60   ~ 0
+CHC+
+Text Label 5800 5100 0    60   ~ 0
+CHC-
+$Comp
+L R_PACK8 RP7
+U 1 1 55EBCB5B
+P 2750 3600
+F 0 "RP7" H 2750 4050 50  0000 C CNN
+F 1 "Ri" H 2750 3150 50  0000 C CNN
+F 2 "extras:R8_MNR18" H 2750 3600 60  0001 C CNN
+F 3 "" H 2750 3600 60  0000 C CNN
+	1    2750 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 3000 2    40   Input ~ 0
+3V3ana
+Text GLabel 4950 3100 2    40   Input ~ 0
+GND
+Text GLabel 4950 3200 2    40   Input ~ 0
+GND
+Text GLabel 4950 3600 2    40   Input ~ 0
+GND
+Text GLabel 4950 3700 2    40   Input ~ 0
+GND
+Text GLabel 4950 4100 2    40   Input ~ 0
+GND
+Text GLabel 4950 4200 2    40   Input ~ 0
+GND
+Text GLabel 4950 3500 2    40   Input ~ 0
+3V3ana
+Text GLabel 4950 4000 2    40   Input ~ 0
+3V3ana
+Text GLabel 4950 4500 2    40   Input ~ 0
+3V3ana
+Text GLabel 4950 2700 2    40   Input ~ 0
+GND
+Text GLabel 3900 3100 0    40   Input ~ 0
+GND
+Text GLabel 3900 3600 0    40   Input ~ 0
+GND
+Text GLabel 3900 4100 0    40   Input ~ 0
+GND
+Text GLabel 7750 2400 0    40   Input ~ 0
+1V8ana
+Text GLabel 8100 3050 0    40   Input ~ 0
+GND
+Text GLabel 8100 4250 0    40   Input ~ 0
+1V8dig
+Text GLabel 9950 3650 2    40   Input ~ 0
+GND
+Text GLabel 10150 1950 2    40   Input ~ 0
+GND
+Text Notes 3550 1850 0    60   ~ 0
+PD floating -> Power On
 Wire Wire Line
-	10050 4050 9950 4050
+	10150 4050 9950 4050
 Wire Wire Line
-	10050 2400 10050 4050
+	10150 2400 10150 4050
 Wire Wire Line
-	9950 3550 10050 3550
-Connection ~ 10050 3550
+	9950 3550 10150 3550
+Connection ~ 10150 3550
 Wire Wire Line
-	9950 3250 10050 3250
-Connection ~ 10050 3250
+	9950 3250 10150 3250
+Connection ~ 10150 3250
 Wire Wire Line
-	9950 3150 10050 3150
-Connection ~ 10050 3150
+	9950 3150 10150 3150
+Connection ~ 10150 3150
 Wire Wire Line
-	10150 3350 9950 3350
+	10250 3350 9950 3350
 Wire Wire Line
-	10150 3450 9950 3450
-Wire Wire Line
-	9950 3650 10150 3650
+	10250 3450 9950 3450
 Wire Wire Line
 	9950 3750 10250 3750
 Wire Wire Line
 	9950 3850 10250 3850
 Wire Wire Line
 	9950 3950 10250 3950
-Wire Wire Line
-	9950 4150 10200 4150
-Wire Wire Line
-	9950 4250 10150 4250
 Wire Wire Line
 	7950 4050 8100 4050
 Wire Wire Line
@@ -316,7 +390,7 @@ Connection ~ 7950 3150
 Wire Wire Line
 	9400 2400 9400 2550
 Wire Wire Line
-	7750 2400 10050 2400
+	7750 2400 10150 2400
 Connection ~ 7950 2400
 Connection ~ 9400 2400
 Wire Wire Line
@@ -338,28 +412,9 @@ Wire Wire Line
 Wire Wire Line
 	8100 3450 7850 3450
 Wire Wire Line
-	10150 4250 10150 4900
-Wire Wire Line
-	10150 4900 7650 4900
-Wire Wire Line
-	8100 4900 8100 4250
-Connection ~ 8100 4900
-Wire Wire Line
-	10200 4150 10200 5000
-Wire Wire Line
-	10200 5000 7650 5000
-Wire Wire Line
-	8100 4150 8050 4150
-Wire Wire Line
-	8050 4150 8050 5000
-Connection ~ 8050 5000
-Wire Wire Line
 	7750 3850 8100 3850
 Wire Wire Line
 	7750 3750 8100 3750
-Wire Wire Line
-	10150 3650 10150 4150
-Connection ~ 10150 4150
 Wire Wire Line
 	7200 3950 7400 3950
 Wire Wire Line
@@ -372,13 +427,6 @@ Wire Wire Line
 	7750 3850 7750 3950
 Wire Wire Line
 	7750 3950 7700 3950
-Wire Wire Line
-	3350 6850 3350 6950
-Wire Wire Line
-	3350 6900 3750 6900
-Connection ~ 3350 6900
-Wire Wire Line
-	3350 7300 3350 7250
 Wire Wire Line
 	8500 4750 8500 5250
 Wire Wire Line
@@ -455,49 +503,13 @@ Wire Wire Line
 Connection ~ 5350 2400
 Connection ~ 5400 2300
 Wire Wire Line
-	3650 2400 4100 2400
-Wire Wire Line
-	3650 2400 3650 2900
+	3550 2400 4100 2400
 Wire Wire Line
 	3200 2900 3900 2900
 Wire Wire Line
-	3600 2300 4100 2300
-Wire Wire Line
-	3600 2300 3600 2800
+	3500 2300 4100 2300
 Wire Wire Line
 	3150 2800 3900 2800
-Connection ~ 3650 2900
-Connection ~ 3600 2800
-Text Label 3900 3000 2    60   ~ 0
-VOCM
-Text Label 3900 3500 2    60   ~ 0
-VOCM
-Text Label 3900 4000 2    60   ~ 0
-VOCM
-Text Label 3900 4500 2    60   ~ 0
-VOCM
-Text Label 3750 6900 0    60   ~ 0
-VOCM
-Wire Wire Line
-	3600 6950 3600 6900
-Connection ~ 3600 6900
-Wire Wire Line
-	3050 6500 3050 6750
-Connection ~ 3350 6500
-Wire Wire Line
-	2850 6500 2850 6750
-Connection ~ 3050 6500
-Wire Wire Line
-	3050 7300 3050 7050
-Wire Wire Line
-	2850 7300 2850 7050
-Connection ~ 3050 7300
-Wire Wire Line
-	3600 7300 3600 7250
-Connection ~ 3350 7300
-Connection ~ 3600 7300
-Wire Wire Line
-	3350 6550 3350 6500
 Wire Wire Line
 	4950 3300 5500 3300
 Wire Wire Line
@@ -511,23 +523,13 @@ Wire Wire Line
 Wire Wire Line
 	4500 2100 5800 2100
 Wire Wire Line
-	3450 2100 4100 2100
-Wire Wire Line
-	3450 2100 3450 3300
+	3350 2100 4100 2100
 Wire Wire Line
 	3250 3300 3900 3300
 Wire Wire Line
-	3500 2200 4100 2200
-Wire Wire Line
-	3500 2200 3500 3400
+	3400 2200 4100 2200
 Wire Wire Line
 	3300 3400 3900 3400
-Connection ~ 3450 3300
-Connection ~ 3500 3400
-Text HLabel 1850 3200 0    60   Input ~ 0
-EXT_CHB+
-Text HLabel 1850 3500 0    60   Input ~ 0
-EXT_CHB-
 Wire Wire Line
 	2050 3300 2400 3300
 Wire Wire Line
@@ -538,10 +540,6 @@ Wire Wire Line
 	2050 2800 2500 2800
 Connection ~ 5500 2200
 Connection ~ 5550 2100
-Text Label 5800 2200 0    60   ~ 0
-CHB-
-Text Label 5800 2100 0    60   ~ 0
-CHB+
 Wire Wire Line
 	4950 4400 5350 4400
 Wire Wire Line
@@ -567,41 +565,21 @@ Wire Wire Line
 Wire Wire Line
 	4450 5100 5800 5100
 Wire Wire Line
-	3600 4800 4050 4800
-Wire Wire Line
-	3600 4300 3600 4800
+	3550 4800 4050 4800
 Wire Wire Line
 	3200 4300 3900 4300
 Wire Wire Line
-	4050 4900 3650 4900
-Wire Wire Line
-	3650 4900 3650 4400
+	3500 4900 4050 4900
 Wire Wire Line
 	3150 4400 3900 4400
 Wire Wire Line
-	4050 5000 3450 5000
-Wire Wire Line
-	3450 5000 3450 3800
+	3400 5000 4050 5000
 Wire Wire Line
 	3300 3800 3900 3800
 Wire Wire Line
-	4050 5100 3500 5100
-Wire Wire Line
-	3500 5100 3500 3900
+	3350 5100 4050 5100
 Wire Wire Line
 	3250 3900 3900 3900
-Connection ~ 3450 3800
-Connection ~ 3500 3900
-Connection ~ 3600 4300
-Connection ~ 3650 4400
-Text HLabel 1850 3700 0    60   Input ~ 0
-EXT_CHC+
-Text HLabel 1850 4200 0    60   Input ~ 0
-EXT_CHD+
-Text HLabel 1850 4000 0    60   Input ~ 0
-EXT_CHC-
-Text HLabel 1850 4500 0    60   Input ~ 0
-EXT_CHD-
 Wire Wire Line
 	2050 4300 2450 4300
 Wire Wire Line
@@ -610,17 +588,6 @@ Wire Wire Line
 	2050 3900 2400 3900
 Wire Wire Line
 	2050 3800 2350 3800
-$Comp
-L R R28
-U 1 1 55CB57A7
-P 1850 4350
-F 0 "R28" V 1930 4350 50  0000 C CNN
-F 1 "Rt" V 1850 4350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1780 4350 30  0001 C CNN
-F 3 "" H 1850 4350 30  0000 C CNN
-	1    1850 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1850 4200 2050 4200
 Wire Wire Line
@@ -629,39 +596,6 @@ Wire Wire Line
 	1850 4500 2050 4500
 Wire Wire Line
 	2050 4500 2050 4400
-$Comp
-L R R27
-U 1 1 55CB57AF
-P 1850 3850
-F 0 "R27" V 1930 3850 50  0000 C CNN
-F 1 "Rt" V 1850 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1780 3850 30  0001 C CNN
-F 3 "" H 1850 3850 30  0000 C CNN
-	1    1850 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R26
-U 1 1 55CB57B7
-P 1850 3350
-F 0 "R26" V 1930 3350 50  0000 C CNN
-F 1 "Rt" V 1850 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1780 3350 30  0001 C CNN
-F 3 "" H 1850 3350 30  0000 C CNN
-	1    1850 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R25
-U 1 1 55CB57BF
-P 1850 2850
-F 0 "R25" V 1930 2850 50  0000 C CNN
-F 1 "Rt" V 1850 2850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1780 2850 30  0001 C CNN
-F 3 "" H 1850 2850 30  0000 C CNN
-	1    1850 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 2800 2050 2700
 Wire Wire Line
@@ -686,51 +620,10 @@ Wire Wire Line
 	2050 3900 2050 4000
 Wire Wire Line
 	2050 4000 1850 4000
-$Comp
-L R_PACK4 RP11
-U 1 1 55CB57C6
-P 4250 5150
-F 0 "RP11" H 4250 5600 50  0000 C CNN
-F 1 "Rf" H 4250 5100 50  0000 C CNN
-F 2 "extras:R4-MNR04" H 4250 5150 60  0001 C CNN
-F 3 "" H 4250 5150 60  0000 C CNN
-	1    4250 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_PACK4 RP12
-U 1 1 55CB5752
-P 4300 2450
-F 0 "RP12" H 4300 2900 50  0000 C CNN
-F 1 "Rf" H 4300 2400 50  0000 C CNN
-F 2 "extras:R4-MNR04" H 4300 2450 60  0001 C CNN
-F 3 "" H 4300 2450 60  0000 C CNN
-	1    4300 2450
-	1    0    0    -1  
-$EndComp
 Connection ~ 5350 4800
 Connection ~ 5400 4900
 Connection ~ 5500 5000
 Connection ~ 5550 5100
-Text Label 5800 4800 0    60   ~ 0
-CHD+
-Text Label 5800 4900 0    60   ~ 0
-CHD-
-Text Label 5800 5000 0    60   ~ 0
-CHC+
-Text Label 5800 5100 0    60   ~ 0
-CHC-
-$Comp
-L R_PACK8 RP10
-U 1 1 55CB57CD
-P 2750 3600
-F 0 "RP10" H 2750 4050 50  0000 C CNN
-F 1 "Ri" H 2750 3150 50  0000 C CNN
-F 2 "extras:R8_MNR18" H 2750 3600 60  0001 C CNN
-F 3 "" H 2750 3600 60  0000 C CNN
-	1    2750 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3300 3800 3300 3650
 Wire Wire Line
@@ -795,61 +688,57 @@ Wire Wire Line
 	2500 2800 2500 3250
 Wire Wire Line
 	2500 3250 2550 3250
-Text GLabel 4950 3000 2    40   Input ~ 0
-3V3ana
-Text GLabel 4950 3100 2    40   Input ~ 0
-GNDana
-Text GLabel 4950 3200 2    40   Input ~ 0
-GNDana
-Text GLabel 4950 3600 2    40   Input ~ 0
-GNDana
-Text GLabel 4950 3700 2    40   Input ~ 0
-GNDana
-Text GLabel 4950 4100 2    40   Input ~ 0
-GNDana
-Text GLabel 4950 4200 2    40   Input ~ 0
-GNDana
-Text GLabel 4950 3500 2    40   Input ~ 0
-3V3ana
-Text GLabel 4950 4000 2    40   Input ~ 0
-3V3ana
-Text GLabel 4950 4500 2    40   Input ~ 0
-3V3ana
-Text GLabel 4950 2700 2    40   Input ~ 0
-GNDana
-Text GLabel 3900 3100 0    40   Input ~ 0
-GNDana
-Text GLabel 3900 3600 0    40   Input ~ 0
-GNDana
-Text GLabel 3900 4100 0    40   Input ~ 0
-GNDana
-Text GLabel 3750 6500 2    40   Input ~ 0
-3V3ana
-Text GLabel 3750 7300 2    40   Input ~ 0
-GNDana
-Text GLabel 7750 2400 0    40   Input ~ 0
-1V8ana
-Text GLabel 8100 3050 0    40   Input ~ 0
-GNDana
-Text GLabel 7650 4900 0    40   Input ~ 0
-1V8dig
-Text GLabel 7650 5000 0    40   Input ~ 0
-GNDdig
-Text GLabel 10150 1950 2    40   Input ~ 0
-GNDana
 Wire Wire Line
-	3750 6500 2850 6500
+	3500 2300 3500 3300
+Connection ~ 3500 3300
 Wire Wire Line
-	2850 7300 3750 7300
+	3550 2400 3550 3400
+Connection ~ 3550 3400
+Wire Wire Line
+	3400 2200 3400 2900
+Connection ~ 3400 2900
+Wire Wire Line
+	3350 2100 3350 2800
+Connection ~ 3350 2800
+Wire Wire Line
+	3550 4800 3550 3800
+Connection ~ 3550 3800
+Wire Wire Line
+	3500 4900 3500 3900
+Connection ~ 3500 3900
+Wire Wire Line
+	3400 5000 3400 4300
+Connection ~ 3400 4300
+Wire Wire Line
+	3350 5100 3350 4400
+Connection ~ 3350 4400
 $Comp
-L CP C29
-U 1 1 55CB573F
-P 2850 6900
-F 0 "C29" H 2875 7000 50  0000 L CNN
-F 1 "10uF" H 2850 6800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2888 6750 30  0001 C CNN
-F 3 "" H 2850 6900 60  0000 C CNN
-	1    2850 6900
-	1    0    0    -1  
+L C C20
+U 1 1 55EBCB63
+P 8950 1450
+F 0 "C20" H 8975 1550 50  0000 L CNN
+F 1 "2.2uF" H 8975 1350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8988 1300 30  0001 C CNN
+F 3 "" H 8950 1450 60  0000 C CNN
+	1    8950 1450
+	0    -1   -1   0   
 $EndComp
+Text HLabel 3900 4500 0    60   Input ~ 0
+Vocm
+Text HLabel 3900 4000 0    60   Input ~ 0
+Vocm
+Text HLabel 3900 3500 0    60   Input ~ 0
+Vocm
+Text HLabel 3900 3000 0    60   Input ~ 0
+Vocm
+Text GLabel 9450 1750 2    40   Input ~ 0
+GND
+Text GLabel 8450 1750 0    40   Input ~ 0
+GND
+Text GLabel 9950 4250 2    40   Input ~ 0
+1V8dig
+Text GLabel 9950 4150 2    40   Input ~ 0
+GND
+Text GLabel 8100 4150 0    40   Input ~ 0
+GND
 $EndSCHEMATC
