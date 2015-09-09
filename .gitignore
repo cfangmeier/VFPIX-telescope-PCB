@@ -3,7 +3,6 @@
 *.brd-bak
 *.bck
 *.lst
-*.net
 *.dsn
 *.ses
 *.kicad_pcb-bak
@@ -18,5 +17,5 @@ Session.vim
 # Dirs of Gerber(and other) outputs 
 */out/*
 
-# Local datasheets directory(likely proprietary)
+# Local datasheets directory
 */datasheets/*
