@@ -275,7 +275,7 @@ Connection ~ 8600 4550
 Wire Wire Line
 	8250 5150 8250 4750
 Wire Wire Line
-	8250 4750 9000 4750
+	8100 4750 9000 4750
 Wire Wire Line
 	8100 4900 8100 4500
 Wire Wire Line
@@ -350,4 +350,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 4950 8800 4750
 Connection ~ 8800 4750
+Connection ~ 8100 4750
+Connection ~ 8250 4750
 $EndSCHEMATC

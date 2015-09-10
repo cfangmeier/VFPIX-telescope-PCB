@@ -547,7 +547,7 @@ F 1 "SPST" H 2400 1750 50  0000 C CNN
 F 2 "extras:Switch_ES02MSABE" H 2400 1850 60  0001 C CNN
 F 3 "" H 2400 1850 60  0000 C CNN
 	1    2400 1850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1900 1850 1750 1850
