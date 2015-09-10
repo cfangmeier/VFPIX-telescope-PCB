@@ -111,4 +111,9 @@
   (pad 93 thru_hole circle (at 13.21 -9.14) (size 1.05 1.05) (drill 0.89) (layers *.Cu *.Mask F.SilkS))
   (pad 0 thru_hole circle (at 53.59 -10.16) (size 1.75 1.75) (drill 1.57) (layers *.Cu *.Mask F.SilkS))
   (pad 0 thru_hole circle (at 69.34 -10.16) (size 1.75 1.75) (drill 1.57) (layers *.Cu *.Mask F.SilkS))
+  (model ../../../../../home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/3d/TE_406967-3.wrl
+    (at (xyz 2.41 -0.21 0.27))
+    (scale (xyz 0.3945 0.3945 0.3945))
+    (rotate (xyz 270 0 0))
+  )
 )
