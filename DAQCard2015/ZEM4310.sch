@@ -145,25 +145,25 @@ Text Label 9400 4750 2    60   ~ 0
 Text Label 10900 4850 0    60   ~ 0
 +12VDD
 Text Label 9400 4850 2    60   ~ 0
-H1_LVDS_TXp0
+H2_LVDS_TXp0
 Text Label 10900 4950 0    60   ~ 0
-H1_LVDS_RXp0
+H2_LVDS_RXp0
 Text Label 9400 4950 2    60   ~ 0
-H1_LVDS_TXn0
+H2_LVDS_TXn0
 Text Label 10900 5050 0    60   ~ 0
-H1_LVDS_RXn0
+H2_LVDS_RXn0
 Text Label 9400 5050 2    60   ~ 0
 +3.3VDD
 Text Label 10900 5150 0    60   ~ 0
 +12VDD
 Text Label 9400 5150 2    60   ~ 0
-H1_LVDS_TXp1
+H2_LVDS_TXp1
 Text Label 10900 5250 0    60   ~ 0
-H1_LVDS_RXp1
+H2_LVDS_RXp1
 Text Label 9400 5250 2    60   ~ 0
-H1_LVDS_TXn1
+H2_LVDS_TXn1
 Text Label 10900 5350 0    60   ~ 0
-H1_LVDS_RXn1
+H2_LVDS_RXn1
 Text Label 9400 5350 2    60   ~ 0
 +3.3VDD
 Text Label 9400 5650 2    60   ~ 0
@@ -237,137 +237,137 @@ Text Label 10900 10250 0    60   ~ 0
 Text Label 10900 10550 0    60   ~ 0
 PRSNTn
 Text Label 9400 5450 2    60   ~ 0
-H1_LVDS_TXp2
+H2_LVDS_TXp2
 Text Label 9400 5750 2    60   ~ 0
-H1_LVDS_TXp3
+H2_LVDS_TXp3
 Text Label 9400 6050 2    60   ~ 0
-H1_LVDS_TXp4
+H2_LVDS_TXp4
 Text Label 9400 6350 2    60   ~ 0
-H1_LVDS_TXp5
+H2_LVDS_TXp5
 Text Label 9400 6650 2    60   ~ 0
-H1_LVDS_TXp6
+H2_LVDS_TXp6
 Text Label 9400 6950 2    60   ~ 0
-H1_LVDS_TXp7
+H2_LVDS_TXp7
 Text Label 9400 7550 2    60   ~ 0
-H1_LVDS_TXp8
+H2_LVDS_TXp8
 Text Label 9400 7850 2    60   ~ 0
-H1_LVDS_TXp9
+H2_LVDS_TXp9
 Text Label 9400 8150 2    60   ~ 0
-H1_LVDS_TXp10
+H2_LVDS_TXp10
 Text Label 9400 8450 2    60   ~ 0
-H1_LVDS_TXp11
+H2_LVDS_TXp11
 Text Label 9400 8750 2    60   ~ 0
-H1_LVDS_TXp12
+H2_LVDS_TXp12
 Text Label 9400 9050 2    60   ~ 0
-H1_LVDS_TXp13
+H2_LVDS_TXp13
 Text Label 9400 9350 2    60   ~ 0
-H1_LVDS_TXp14
+H2_LVDS_TXp14
 Text Label 9400 9650 2    60   ~ 0
-H1_LVDS_TXp15
+H2_LVDS_TXp15
 Text Label 9400 9950 2    60   ~ 0
-H1_LVDS_TXp16
+H2_LVDS_TXp16
 Text Label 9400 7250 2    60   ~ 0
 CLKOUT1p
 Text Label 9400 10250 2    60   ~ 0
 CKLOUT2p
 Text Label 9400 5550 2    60   ~ 0
-H1_LVDS_TXn2
+H2_LVDS_TXn2
 Text Label 9400 5850 2    60   ~ 0
-H1_LVDS_TXn3
+H2_LVDS_TXn3
 Text Label 9400 6150 2    60   ~ 0
-H1_LVDS_TXn4
+H2_LVDS_TXn4
 Text Label 9400 6450 2    60   ~ 0
-H1_LVDS_TXn5
+H2_LVDS_TXn5
 Text Label 9400 6750 2    60   ~ 0
-H1_LVDS_TXn6
+H2_LVDS_TXn6
 Text Label 9400 7050 2    60   ~ 0
-H1_LVDS_TXn7
+H2_LVDS_TXn7
 Text Label 9400 7650 2    60   ~ 0
-H1_LVDS_TXn8
+H2_LVDS_TXn8
 Text Label 9400 7950 2    60   ~ 0
-H1_LVDS_TXn9
+H2_LVDS_TXn9
 Text Label 9400 8250 2    60   ~ 0
-H1_LVDS_TXn10
+H2_LVDS_TXn10
 Text Label 9400 8550 2    60   ~ 0
-H1_LVDS_TXn11
+H2_LVDS_TXn11
 Text Label 9400 8850 2    60   ~ 0
-H1_LVDS_TXn12
+H2_LVDS_TXn12
 Text Label 9400 9150 2    60   ~ 0
-H1_LVDS_TXn13
+H2_LVDS_TXn13
 Text Label 9400 9450 2    60   ~ 0
-H1_LVDS_TXn14
+H2_LVDS_TXn14
 Text Label 9400 9750 2    60   ~ 0
-H1_LVDS_TXn15
+H2_LVDS_TXn15
 Text Label 9400 10050 2    60   ~ 0
-H1_LVDS_TXn16
+H2_LVDS_TXn16
 Text Label 9400 10350 2    60   ~ 0
 CKLOUT2n
 Text Label 9400 7350 2    60   ~ 0
 CLKOUT1n
 Text Label 10900 5550 0    60   ~ 0
-H1_LVDS_RXp2
+H2_LVDS_RXp2
 Text Label 10900 5850 0    60   ~ 0
-H1_LVDS_RXp3
+H2_LVDS_RXp3
 Text Label 10900 6150 0    60   ~ 0
-H1_LVDS_RXp4
+H2_LVDS_RXp4
 Text Label 10900 6450 0    60   ~ 0
-H1_LVDS_RXp5
+H2_LVDS_RXp5
 Text Label 10900 6750 0    60   ~ 0
-H1_LVDS_RXp6
+H2_LVDS_RXp6
 Text Label 10900 7050 0    60   ~ 0
-H1_LVDS_RXp7
+H2_LVDS_RXp7
 Text Label 10900 7350 0    60   ~ 0
 CLKIN1p
 Text Label 10900 7650 0    60   ~ 0
-H1_LVDS_RXp8
+H2_LVDS_RXp8
 Text Label 10900 7950 0    60   ~ 0
-H1_LVDS_RXp9
+H2_LVDS_RXp9
 Text Label 10900 8250 0    60   ~ 0
-H1_LVDS_RXp10
+H2_LVDS_RXp10
 Text Label 10900 8550 0    60   ~ 0
-H1_LVDS_RXp11
+H2_LVDS_RXp11
 Text Label 10900 8850 0    60   ~ 0
-H1_LVDS_RXp12
+H2_LVDS_RXp12
 Text Label 10900 9150 0    60   ~ 0
-H1_LVDS_RXp13
+H2_LVDS_RXp13
 Text Label 10900 9450 0    60   ~ 0
-H1_LVDS_RXp14
+H2_LVDS_RXp14
 Text Label 10900 9750 0    60   ~ 0
-H1_LVDS_RXp15
+H2_LVDS_RXp15
 Text Label 10900 10050 0    60   ~ 0
-H1_LVDS_RXp16
+H2_LVDS_RXp16
 Text Label 10900 10350 0    60   ~ 0
 CLKIN2p
 Text Label 10900 5650 0    60   ~ 0
-H1_LVDS_RXn2
+H2_LVDS_RXn2
 Text Label 10900 5950 0    60   ~ 0
-H1_LVDS_RXn3
+H2_LVDS_RXn3
 Text Label 10900 6250 0    60   ~ 0
-H1_LVDS_RXn4
+H2_LVDS_RXn4
 Text Label 10900 6550 0    60   ~ 0
-H1_LVDS_RXn5
+H2_LVDS_RXn5
 Text Label 10900 6850 0    60   ~ 0
-H1_LVDS_RXn6
+H2_LVDS_RXn6
 Text Label 10900 7150 0    60   ~ 0
-H1_LVDS_RXn7
+H2_LVDS_RXn7
 Text Label 10900 7750 0    60   ~ 0
-H1_LVDS_RXn8
+H2_LVDS_RXn8
 Text Label 10900 8050 0    60   ~ 0
-H1_LVDS_RXn9
+H2_LVDS_RXn9
 Text Label 10900 8350 0    60   ~ 0
-H1_LVDS_RXn10
+H2_LVDS_RXn10
 Text Label 10900 8650 0    60   ~ 0
-H1_LVDS_RXn11
+H2_LVDS_RXn11
 Text Label 10900 8950 0    60   ~ 0
-H1_LVDS_RXn13
+H2_LVDS_RXn12
 Text Label 10900 9250 0    60   ~ 0
-H1_LVDS_RXn13
+H2_LVDS_RXn13
 Text Label 10900 9550 0    60   ~ 0
-H1_LVDS_RXn14
+H2_LVDS_RXn14
 Text Label 10900 9850 0    60   ~ 0
-H1_LVDS_RXn15
+H2_LVDS_RXn15
 Text Label 10900 10150 0    60   ~ 0
-H1_LVDS_RXn16
+H2_LVDS_RXn16
 Text Label 10900 7450 0    60   ~ 0
 CLKIN1n
 Text Label 10900 10450 0    60   ~ 0
@@ -469,25 +469,25 @@ Text Label 5900 4750 2    60   ~ 0
 Text Label 7400 4850 0    60   ~ 0
 +12VDD
 Text Label 5900 4850 2    60   ~ 0
-H2_LVDS_TXp0
+H1_LVDS_TXp0
 Text Label 7400 4950 0    60   ~ 0
-H2_LVDS_RXp0
+H1_LVDS_RXp0
 Text Label 5900 4950 2    60   ~ 0
-H2_LVDS_TXn0
+H1_LVDS_TXn0
 Text Label 7400 5050 0    60   ~ 0
-H2_LVDS_RXn0
+H1_LVDS_RXn0
 Text Label 5900 5050 2    60   ~ 0
 +3.3VDD
 Text Label 7400 5150 0    60   ~ 0
 +12VDD
 Text Label 5900 5150 2    60   ~ 0
-H2_LVDS_TXp1
+H1_LVDS_TXp1
 Text Label 7400 5250 0    60   ~ 0
-H2_LVDS_RXp1
+H1_LVDS_RXp1
 Text Label 5900 5250 2    60   ~ 0
-H2_LVDS_TXn1
+H1_LVDS_TXn1
 Text Label 7400 5350 0    60   ~ 0
-H2_LVDS_RXn1
+H1_LVDS_RXn1
 Text Label 5900 5350 2    60   ~ 0
 +3.3VDD
 Text Label 5900 5650 2    60   ~ 0
@@ -561,137 +561,137 @@ Text Label 7400 10250 0    60   ~ 0
 Text Label 7400 10550 0    60   ~ 0
 PRSNTn
 Text Label 5900 5450 2    60   ~ 0
-H2_LVDS_TXp2
+H1_LVDS_TXp2
 Text Label 5900 5750 2    60   ~ 0
-H2_LVDS_TXp3
+H1_LVDS_TXp3
 Text Label 5900 6050 2    60   ~ 0
-H2_LVDS_TXp4
+H1_LVDS_TXp4
 Text Label 5900 6350 2    60   ~ 0
-H2_LVDS_TXp5
+H1_LVDS_TXp5
 Text Label 5900 6650 2    60   ~ 0
-H2_LVDS_TXp6
+H1_LVDS_TXp6
 Text Label 5900 6950 2    60   ~ 0
-H2_LVDS_TXp7
+H1_LVDS_TXp7
 Text Label 5900 7550 2    60   ~ 0
-H2_LVDS_TXp8
+H1_LVDS_TXp8
 Text Label 5900 7850 2    60   ~ 0
-H2_LVDS_TXp9
+H1_LVDS_TXp9
 Text Label 5900 8150 2    60   ~ 0
-H2_LVDS_TXp10
+H1_LVDS_TXp10
 Text Label 5900 8450 2    60   ~ 0
-H2_LVDS_TXp11
+H1_LVDS_TXp11
 Text Label 5900 8750 2    60   ~ 0
-H2_LVDS_TXp12
+H1_LVDS_TXp12
 Text Label 5900 9050 2    60   ~ 0
-H2_LVDS_TXp13
+H1_LVDS_TXp13
 Text Label 5900 9350 2    60   ~ 0
-H2_LVDS_TXp14
+H1_LVDS_TXp14
 Text Label 5900 9650 2    60   ~ 0
-H2_LVDS_TXp15
+H1_LVDS_TXp15
 Text Label 5900 9950 2    60   ~ 0
-H2_LVDS_TXp16
+H1_LVDS_TXp16
 Text Label 5900 7250 2    60   ~ 0
 CLKOUT1p
 Text Label 5900 10250 2    60   ~ 0
 CKLOUT2p
 Text Label 5900 5550 2    60   ~ 0
-H2_LVDS_TXn2
+H1_LVDS_TXn2
 Text Label 5900 5850 2    60   ~ 0
-H2_LVDS_TXn3
+H1_LVDS_TXn3
 Text Label 5900 6150 2    60   ~ 0
-H2_LVDS_TXn4
+H1_LVDS_TXn4
 Text Label 5900 6450 2    60   ~ 0
-H2_LVDS_TXn5
+H1_LVDS_TXn5
 Text Label 5900 6750 2    60   ~ 0
-H2_LVDS_TXn6
+H1_LVDS_TXn6
 Text Label 5900 7050 2    60   ~ 0
-H2_LVDS_TXn7
+H1_LVDS_TXn7
 Text Label 5900 7650 2    60   ~ 0
-H2_LVDS_TXn8
+H1_LVDS_TXn8
 Text Label 5900 7950 2    60   ~ 0
-H2_LVDS_TXn9
+H1_LVDS_TXn9
 Text Label 5900 8250 2    60   ~ 0
-H2_LVDS_TXn10
+H1_LVDS_TXn10
 Text Label 5900 8550 2    60   ~ 0
-H2_LVDS_TXn11
+H1_LVDS_TXn11
 Text Label 5900 8850 2    60   ~ 0
-H2_LVDS_TXn12
+H1_LVDS_TXn12
 Text Label 5900 9150 2    60   ~ 0
-H2_LVDS_TXn13
+H1_LVDS_TXn13
 Text Label 5900 9450 2    60   ~ 0
-H2_LVDS_TXn14
+H1_LVDS_TXn14
 Text Label 5900 9750 2    60   ~ 0
-H2_LVDS_TXn15
+H1_LVDS_TXn15
 Text Label 5900 10050 2    60   ~ 0
-H2_LVDS_TXn16
+H1_LVDS_TXn16
 Text Label 5900 10350 2    60   ~ 0
 CKLOUT2n
 Text Label 5900 7350 2    60   ~ 0
 CLKOUT1n
 Text Label 7400 5550 0    60   ~ 0
-H2_LVDS_RXp2
+H1_LVDS_RXp2
 Text Label 7400 5850 0    60   ~ 0
-H2_LVDS_RXp3
+H1_LVDS_RXp3
 Text Label 7400 6150 0    60   ~ 0
-H2_LVDS_RXp4
+H1_LVDS_RXp4
 Text Label 7400 6450 0    60   ~ 0
-H2_LVDS_RXp5
+H1_LVDS_RXp5
 Text Label 7400 6750 0    60   ~ 0
-H2_LVDS_RXp6
+H1_LVDS_RXp6
 Text Label 7400 7050 0    60   ~ 0
-H2_LVDS_RXp7
+H1_LVDS_RXp7
 Text Label 7400 7350 0    60   ~ 0
 CLKIN1p
 Text Label 7400 7650 0    60   ~ 0
-H2_LVDS_RXp8
+H1_LVDS_RXp8
 Text Label 7400 7950 0    60   ~ 0
-H2_LVDS_RXp9
+H1_LVDS_RXp9
 Text Label 7400 8250 0    60   ~ 0
-H2_LVDS_RXp10
+H1_LVDS_RXp10
 Text Label 7400 8550 0    60   ~ 0
-H2_LVDS_RXp11
+H1_LVDS_RXp11
 Text Label 7400 8850 0    60   ~ 0
-H2_LVDS_RXp12
+H1_LVDS_RXp12
 Text Label 7400 9150 0    60   ~ 0
-H2_LVDS_RXp13
+H1_LVDS_RXp13
 Text Label 7400 9450 0    60   ~ 0
-H2_LVDS_RXp14
+H1_LVDS_RXp14
 Text Label 7400 9750 0    60   ~ 0
-H2_LVDS_RXp15
+H1_LVDS_RXp15
 Text Label 7400 10050 0    60   ~ 0
-H2_LVDS_RXp16
+H1_LVDS_RXp16
 Text Label 7400 10350 0    60   ~ 0
 CLKIN2p
 Text Label 7400 5650 0    60   ~ 0
-H2_LVDS_RXn2
+H1_LVDS_RXn2
 Text Label 7400 5950 0    60   ~ 0
-H2_LVDS_RXn3
+H1_LVDS_RXn3
 Text Label 7400 6250 0    60   ~ 0
-H2_LVDS_RXn4
+H1_LVDS_RXn4
 Text Label 7400 6550 0    60   ~ 0
-H2_LVDS_RXn5
+H1_LVDS_RXn5
 Text Label 7400 6850 0    60   ~ 0
-H2_LVDS_RXn6
+H1_LVDS_RXn6
 Text Label 7400 7150 0    60   ~ 0
-H2_LVDS_RXn7
+H1_LVDS_RXn7
 Text Label 7400 7750 0    60   ~ 0
-H2_LVDS_RXn8
+H1_LVDS_RXn8
 Text Label 7400 8050 0    60   ~ 0
-H2_LVDS_RXn9
+H1_LVDS_RXn9
 Text Label 7400 8350 0    60   ~ 0
-H2_LVDS_RXn10
+H1_LVDS_RXn10
 Text Label 7400 8650 0    60   ~ 0
-H2_LVDS_RXn11
+H1_LVDS_RXn11
 Text Label 7400 8950 0    60   ~ 0
-H2_LVDS_RXn13
+H1_LVDS_RXn13
 Text Label 7400 9250 0    60   ~ 0
-H2_LVDS_RXn13
+H1_LVDS_RXn13
 Text Label 7400 9550 0    60   ~ 0
-H2_LVDS_RXn14
+H1_LVDS_RXn14
 Text Label 7400 9850 0    60   ~ 0
-H2_LVDS_RXn15
+H1_LVDS_RXn15
 Text Label 7400 10150 0    60   ~ 0
-H2_LVDS_RXn16
+H1_LVDS_RXn16
 Text Label 7400 7450 0    60   ~ 0
 CLKIN1n
 Text Label 7400 10450 0    60   ~ 0
@@ -701,10 +701,6 @@ Text Label 7400 4250 0    60   ~ 0
 JP3_JTAG_TMS
 Text Label 7400 4550 0    60   ~ 0
 JP3_JTAG_TCK
-Text HLabel 10900 1550 2    60   Input ~ 0
-GNDdig
-Text HLabel 7400 1550 2    60   Input ~ 0
-GNDdig
 $Comp
 L QTH-090-01-F-D-A P1
 U 1 1 55CCAA2D
@@ -727,4 +723,584 @@ F 3 "DOCUMENTATION" H 10150 6050 50  0001 C CNN
 	1    10150 6050
 	-1   0    0    -1  
 $EndComp
+Text GLabel 7400 1550 2    60   Input ~ 0
+GND
+Text GLabel 10900 1550 2    60   Input ~ 0
+GND
+Text HLabel 1300 950  0    60   Input ~ 0
+1D-D
+Text HLabel 1300 1050 0    60   Input ~ 0
+1D+D
+Text HLabel 1300 1150 0    60   Input ~ 0
+1D-C
+Text HLabel 1300 1250 0    60   Input ~ 0
+1D+C
+Text HLabel 1300 1350 0    60   Input ~ 0
+1D-B
+Text HLabel 1300 1450 0    60   Input ~ 0
+1D+B
+Text HLabel 1300 1550 0    60   Input ~ 0
+1D-A
+Text HLabel 1300 1650 0    60   Input ~ 0
+1D+A
+Text HLabel 1300 1850 0    60   Input ~ 0
+1FCO+
+Text HLabel 1300 1750 0    60   Input ~ 0
+1FCO-
+Text HLabel 1300 1950 0    60   Input ~ 0
+1DCO-
+Text HLabel 1300 2050 0    60   Input ~ 0
+1DCO+
+Wire Wire Line
+	1300 950  1500 950 
+Wire Wire Line
+	1300 1050 1500 1050
+Wire Wire Line
+	1300 1150 1500 1150
+Wire Wire Line
+	1300 1250 1500 1250
+Wire Wire Line
+	1300 1350 1500 1350
+Wire Wire Line
+	1300 1450 1500 1450
+Wire Wire Line
+	1300 1550 1500 1550
+Wire Wire Line
+	1300 1650 1500 1650
+Wire Wire Line
+	1300 1750 1500 1750
+Wire Wire Line
+	1300 1850 1500 1850
+Wire Wire Line
+	1300 1950 1500 1950
+Wire Wire Line
+	1300 2050 1500 2050
+Text Label 1500 1050 0    60   ~ 0
+H1_LVDS_RXp11
+Text Label 1500 950  0    60   ~ 0
+H1_LVDS_RXn11
+Text Label 1500 1250 0    60   ~ 0
+H1_LVDS_RXp10
+Text Label 1500 1150 0    60   ~ 0
+H1_LVDS_RXn10
+Text Label 1500 1450 0    60   ~ 0
+H1_LVDS_RXp9
+Text Label 1500 1350 0    60   ~ 0
+H1_LVDS_RXn9
+Text Label 1500 1650 0    60   ~ 0
+H1_LVDS_RXp8
+Text Label 1500 1550 0    60   ~ 0
+H1_LVDS_RXn8
+Text Label 1500 1850 0    60   ~ 0
+H1_LVDS_RXp7
+Text Label 1500 1750 0    60   ~ 0
+H1_LVDS_RXn7
+Text Label 1500 2050 0    60   ~ 0
+H1_LVDS_RXp6
+Text Label 1500 1950 0    60   ~ 0
+H1_LVDS_RXn6
+Text HLabel 1300 2250 0    60   Input ~ 0
+2D-D
+Text HLabel 1300 2350 0    60   Input ~ 0
+2D+D
+Text HLabel 1300 2450 0    60   Input ~ 0
+2D-C
+Text HLabel 1300 2550 0    60   Input ~ 0
+2D+C
+Text HLabel 1300 2650 0    60   Input ~ 0
+2D-B
+Text HLabel 1300 2750 0    60   Input ~ 0
+2D+B
+Text HLabel 1300 2850 0    60   Input ~ 0
+2D-A
+Text HLabel 1300 2950 0    60   Input ~ 0
+2D+A
+Text HLabel 1300 3150 0    60   Input ~ 0
+2FCO+
+Text HLabel 1300 3050 0    60   Input ~ 0
+2FCO-
+Text HLabel 1300 3250 0    60   Input ~ 0
+2DCO-
+Text HLabel 1300 3350 0    60   Input ~ 0
+2DCO+
+Wire Wire Line
+	1300 2250 1500 2250
+Wire Wire Line
+	1300 2350 1500 2350
+Wire Wire Line
+	1300 2450 1500 2450
+Wire Wire Line
+	1300 2550 1500 2550
+Wire Wire Line
+	1300 2650 1500 2650
+Wire Wire Line
+	1300 2750 1500 2750
+Wire Wire Line
+	1300 2850 1500 2850
+Wire Wire Line
+	1300 2950 1500 2950
+Wire Wire Line
+	1300 3050 1500 3050
+Wire Wire Line
+	1300 3150 1500 3150
+Wire Wire Line
+	1300 3250 1500 3250
+Wire Wire Line
+	1300 3350 1500 3350
+Text Label 1500 2350 0    60   ~ 0
+H1_LVDS_RXp5
+Text Label 1500 2250 0    60   ~ 0
+H1_LVDS_RXn5
+Text Label 1500 2550 0    60   ~ 0
+H1_LVDS_RXp4
+Text Label 1500 2450 0    60   ~ 0
+H1_LVDS_RXn4
+Text Label 1500 2750 0    60   ~ 0
+H1_LVDS_RXp3
+Text Label 1500 2650 0    60   ~ 0
+H1_LVDS_RXn3
+Text Label 1500 2950 0    60   ~ 0
+H1_LVDS_RXp2
+Text Label 1500 2850 0    60   ~ 0
+H1_LVDS_RXn2
+Text Label 1500 3150 0    60   ~ 0
+H1_LVDS_RXp1
+Text Label 1500 3050 0    60   ~ 0
+H1_LVDS_RXn1
+Text Label 1500 3350 0    60   ~ 0
+H1_LVDS_RXp0
+Text Label 1500 3250 0    60   ~ 0
+H1_LVDS_RXn0
+Text HLabel 1300 3550 0    60   Input ~ 0
+3D-D
+Text HLabel 1300 3650 0    60   Input ~ 0
+3D+D
+Text HLabel 1300 3750 0    60   Input ~ 0
+3D-C
+Text HLabel 1300 3850 0    60   Input ~ 0
+3D+C
+Text HLabel 1300 3950 0    60   Input ~ 0
+3D-B
+Text HLabel 1300 4050 0    60   Input ~ 0
+3D+B
+Text HLabel 1300 4150 0    60   Input ~ 0
+3D-A
+Text HLabel 1300 4250 0    60   Input ~ 0
+3D+A
+Text HLabel 1300 4450 0    60   Input ~ 0
+3FCO+
+Text HLabel 1300 4350 0    60   Input ~ 0
+3FCO-
+Text HLabel 1300 4550 0    60   Input ~ 0
+3DCO-
+Text HLabel 1300 4650 0    60   Input ~ 0
+3DCO+
+Wire Wire Line
+	1300 3550 1500 3550
+Wire Wire Line
+	1300 3650 1500 3650
+Wire Wire Line
+	1300 3750 1500 3750
+Wire Wire Line
+	1300 3850 1500 3850
+Wire Wire Line
+	1300 3950 1500 3950
+Wire Wire Line
+	1300 4050 1500 4050
+Wire Wire Line
+	1300 4150 1500 4150
+Wire Wire Line
+	1300 4250 1500 4250
+Wire Wire Line
+	1300 4350 1500 4350
+Wire Wire Line
+	1300 4450 1500 4450
+Wire Wire Line
+	1300 4550 1500 4550
+Wire Wire Line
+	1300 4650 1500 4650
+Text Label 1500 3550 0    60   ~ 0
+H1_LVDS_TXp0
+Text HLabel 1300 4850 0    60   Input ~ 0
+4D-D
+Text HLabel 1300 4950 0    60   Input ~ 0
+4D+D
+Text HLabel 1300 5050 0    60   Input ~ 0
+4D-C
+Text HLabel 1300 5150 0    60   Input ~ 0
+4D+C
+Text HLabel 1300 5250 0    60   Input ~ 0
+4D-B
+Text HLabel 1300 5350 0    60   Input ~ 0
+4D+B
+Text HLabel 1300 5450 0    60   Input ~ 0
+4D-A
+Text HLabel 1300 5550 0    60   Input ~ 0
+4D+A
+Text HLabel 1300 5750 0    60   Input ~ 0
+4FCO+
+Text HLabel 1300 5650 0    60   Input ~ 0
+4FCO-
+Text HLabel 1300 5850 0    60   Input ~ 0
+4DCO-
+Text HLabel 1300 5950 0    60   Input ~ 0
+4DCO+
+Wire Wire Line
+	1300 4850 1500 4850
+Wire Wire Line
+	1300 4950 1500 4950
+Wire Wire Line
+	1300 5050 1500 5050
+Wire Wire Line
+	1300 5150 1500 5150
+Wire Wire Line
+	1300 5250 1500 5250
+Wire Wire Line
+	1300 5350 1500 5350
+Wire Wire Line
+	1300 5450 1500 5450
+Wire Wire Line
+	1300 5550 1500 5550
+Wire Wire Line
+	1300 5650 1500 5650
+Wire Wire Line
+	1300 5750 1500 5750
+Wire Wire Line
+	1300 5850 1500 5850
+Wire Wire Line
+	1300 5950 1500 5950
+Text Label 1500 3650 0    60   ~ 0
+H1_LVDS_TXn0
+Text Label 1500 3750 0    60   ~ 0
+H1_LVDS_TXp1
+Text Label 1500 3850 0    60   ~ 0
+H1_LVDS_TXn1
+Text Label 1500 3950 0    60   ~ 0
+H1_LVDS_TXp2
+Text Label 1500 4050 0    60   ~ 0
+H1_LVDS_TXn2
+Text Label 1500 4150 0    60   ~ 0
+H1_LVDS_TXp3
+Text Label 1500 4250 0    60   ~ 0
+H1_LVDS_TXn3
+Text Label 1500 4350 0    60   ~ 0
+H1_LVDS_TXp4
+Text Label 1500 4450 0    60   ~ 0
+H1_LVDS_TXn4
+Text Label 1500 4550 0    60   ~ 0
+H1_LVDS_TXp5
+Text Label 1500 4650 0    60   ~ 0
+H1_LVDS_TXn5
+Text Label 1500 4850 0    60   ~ 0
+H1_LVDS_TXp6
+Text Label 1500 4950 0    60   ~ 0
+H1_LVDS_TXn6
+Text Label 1500 5050 0    60   ~ 0
+H1_LVDS_TXp7
+Text Label 1500 5150 0    60   ~ 0
+H1_LVDS_TXn7
+Text Label 1500 5250 0    60   ~ 0
+H1_LVDS_TXp8
+Text Label 1500 5350 0    60   ~ 0
+H1_LVDS_TXn8
+Text Label 1500 5450 0    60   ~ 0
+H1_LVDS_TXp9
+Text Label 1500 5550 0    60   ~ 0
+H1_LVDS_TXn9
+Text Label 1500 5650 0    60   ~ 0
+H1_LVDS_TXp10
+Text Label 1500 5750 0    60   ~ 0
+H1_LVDS_TXn10
+Text Label 1500 5850 0    60   ~ 0
+H1_LVDS_TXp11
+Text Label 1500 5950 0    60   ~ 0
+H1_LVDS_TXn11
+Text HLabel 1300 6150 0    60   Input ~ 0
+5D-D
+Text HLabel 1300 6250 0    60   Input ~ 0
+5D+D
+Text HLabel 1300 6350 0    60   Input ~ 0
+5D-C
+Text HLabel 1300 6450 0    60   Input ~ 0
+5D+C
+Text HLabel 1300 6550 0    60   Input ~ 0
+5D-B
+Text HLabel 1300 6650 0    60   Input ~ 0
+5D+B
+Text HLabel 1300 6750 0    60   Input ~ 0
+5D-A
+Text HLabel 1300 6850 0    60   Input ~ 0
+5D+A
+Text HLabel 1300 7050 0    60   Input ~ 0
+5FCO+
+Text HLabel 1300 6950 0    60   Input ~ 0
+5FCO-
+Text HLabel 1300 7150 0    60   Input ~ 0
+5DCO-
+Text HLabel 1300 7250 0    60   Input ~ 0
+5DCO+
+Wire Wire Line
+	1300 6150 1500 6150
+Wire Wire Line
+	1300 6250 1500 6250
+Wire Wire Line
+	1300 6350 1500 6350
+Wire Wire Line
+	1300 6450 1500 6450
+Wire Wire Line
+	1300 6550 1500 6550
+Wire Wire Line
+	1300 6650 1500 6650
+Wire Wire Line
+	1300 6750 1500 6750
+Wire Wire Line
+	1300 6850 1500 6850
+Wire Wire Line
+	1300 6950 1500 6950
+Wire Wire Line
+	1300 7050 1500 7050
+Wire Wire Line
+	1300 7150 1500 7150
+Wire Wire Line
+	1300 7250 1500 7250
+Text HLabel 1300 7450 0    60   Input ~ 0
+6D-D
+Text HLabel 1300 7550 0    60   Input ~ 0
+6D+D
+Text HLabel 1300 7650 0    60   Input ~ 0
+6D-C
+Text HLabel 1300 7750 0    60   Input ~ 0
+6D+C
+Text HLabel 1300 7850 0    60   Input ~ 0
+6D-B
+Text HLabel 1300 7950 0    60   Input ~ 0
+6D+B
+Text HLabel 1300 8050 0    60   Input ~ 0
+6D-A
+Text HLabel 1300 8150 0    60   Input ~ 0
+6D+A
+Text HLabel 1300 8350 0    60   Input ~ 0
+6FCO+
+Text HLabel 1300 8250 0    60   Input ~ 0
+6FCO-
+Text HLabel 1300 8450 0    60   Input ~ 0
+6DCO-
+Text HLabel 1300 8550 0    60   Input ~ 0
+6DCO+
+Wire Wire Line
+	1300 7450 1500 7450
+Wire Wire Line
+	1300 7550 1500 7550
+Wire Wire Line
+	1300 7650 1500 7650
+Wire Wire Line
+	1300 7750 1500 7750
+Wire Wire Line
+	1300 7850 1500 7850
+Wire Wire Line
+	1300 7950 1500 7950
+Wire Wire Line
+	1300 8050 1500 8050
+Wire Wire Line
+	1300 8150 1500 8150
+Wire Wire Line
+	1300 8250 1500 8250
+Wire Wire Line
+	1300 8350 1500 8350
+Wire Wire Line
+	1300 8450 1500 8450
+Wire Wire Line
+	1300 8550 1500 8550
+Text Label 1500 8550 0    60   ~ 0
+H2_LVDS_TXn16
+Text Label 1500 8450 0    60   ~ 0
+H2_LVDS_TXp16
+Text Label 1500 8350 0    60   ~ 0
+H2_LVDS_TXn15
+Text Label 1500 8250 0    60   ~ 0
+H2_LVDS_TXp15
+Text Label 1500 8150 0    60   ~ 0
+H2_LVDS_TXn14
+Text Label 1500 8050 0    60   ~ 0
+H2_LVDS_TXp14
+Text Label 1500 7950 0    60   ~ 0
+H2_LVDS_TXn13
+Text Label 1500 7850 0    60   ~ 0
+H2_LVDS_TXp13
+Text Label 1500 7750 0    60   ~ 0
+H2_LVDS_TXn12
+Text Label 1500 7650 0    60   ~ 0
+H2_LVDS_TXp12
+Text Label 1500 7550 0    60   ~ 0
+H2_LVDS_TXn11
+Text Label 1500 7450 0    60   ~ 0
+H2_LVDS_TXp11
+Text Label 1500 7250 0    60   ~ 0
+H2_LVDS_TXn10
+Text Label 1500 7150 0    60   ~ 0
+H2_LVDS_TXp10
+Text Label 1500 7050 0    60   ~ 0
+H2_LVDS_TXn9
+Text Label 1500 6950 0    60   ~ 0
+H2_LVDS_TXp9
+Text Label 1500 6850 0    60   ~ 0
+H2_LVDS_TXn8
+Text Label 1500 6750 0    60   ~ 0
+H2_LVDS_TXp8
+Text Label 1500 6650 0    60   ~ 0
+H2_LVDS_TXn7
+Text Label 1500 6550 0    60   ~ 0
+H2_LVDS_TXp7
+Text Label 1500 6450 0    60   ~ 0
+H2_LVDS_TXn6
+Text Label 1500 6350 0    60   ~ 0
+H2_LVDS_TXp6
+Text Label 1500 6250 0    60   ~ 0
+H2_LVDS_TXn5
+Text Label 1500 6150 0    60   ~ 0
+H2_LVDS_TXp5
+Text HLabel 1300 8800 0    60   Input ~ 0
+7D-D
+Text HLabel 1300 8900 0    60   Input ~ 0
+7D+D
+Text HLabel 1300 9000 0    60   Input ~ 0
+7D-C
+Text HLabel 1300 9100 0    60   Input ~ 0
+7D+C
+Text HLabel 1300 9200 0    60   Input ~ 0
+7D-B
+Text HLabel 1300 9300 0    60   Input ~ 0
+7D+B
+Text HLabel 1300 9400 0    60   Input ~ 0
+7D-A
+Text HLabel 1300 9500 0    60   Input ~ 0
+7D+A
+Text HLabel 1300 9700 0    60   Input ~ 0
+7FCO+
+Text HLabel 1300 9600 0    60   Input ~ 0
+7FCO-
+Text HLabel 1300 9800 0    60   Input ~ 0
+7DCO-
+Text HLabel 1300 9900 0    60   Input ~ 0
+7DCO+
+Wire Wire Line
+	1300 8800 1500 8800
+Wire Wire Line
+	1300 8900 1500 8900
+Wire Wire Line
+	1300 9000 1500 9000
+Wire Wire Line
+	1300 9100 1500 9100
+Wire Wire Line
+	1300 9200 1500 9200
+Wire Wire Line
+	1300 9300 1500 9300
+Wire Wire Line
+	1300 9400 1500 9400
+Wire Wire Line
+	1300 9500 1500 9500
+Wire Wire Line
+	1300 9600 1500 9600
+Wire Wire Line
+	1300 9700 1500 9700
+Wire Wire Line
+	1300 9800 1500 9800
+Wire Wire Line
+	1300 9900 1500 9900
+Text HLabel 1300 10100 0    60   Input ~ 0
+8D-D
+Text HLabel 1300 10200 0    60   Input ~ 0
+8D+D
+Text HLabel 1300 10300 0    60   Input ~ 0
+8D-C
+Text HLabel 1300 10400 0    60   Input ~ 0
+8D+C
+Text HLabel 1300 10500 0    60   Input ~ 0
+8D-B
+Text HLabel 1300 10600 0    60   Input ~ 0
+8D+B
+Text HLabel 1300 10700 0    60   Input ~ 0
+8D-A
+Text HLabel 1300 10800 0    60   Input ~ 0
+8D+A
+Text HLabel 1300 11000 0    60   Input ~ 0
+8FCO+
+Text HLabel 1300 10900 0    60   Input ~ 0
+8FCO-
+Text HLabel 1300 11100 0    60   Input ~ 0
+8DCO-
+Text HLabel 1300 11200 0    60   Input ~ 0
+8DCO+
+Wire Wire Line
+	1300 10100 1500 10100
+Wire Wire Line
+	1300 10200 1500 10200
+Wire Wire Line
+	1300 10300 1500 10300
+Wire Wire Line
+	1300 10400 1500 10400
+Wire Wire Line
+	1300 10500 1500 10500
+Wire Wire Line
+	1300 10600 1500 10600
+Wire Wire Line
+	1300 10700 1500 10700
+Wire Wire Line
+	1300 10800 1500 10800
+Wire Wire Line
+	1300 10900 1500 10900
+Wire Wire Line
+	1300 11000 1500 11000
+Wire Wire Line
+	1300 11100 1500 11100
+Wire Wire Line
+	1300 11200 1500 11200
+Text Label 1500 8900 0    60   ~ 0
+H2_LVDS_RXp16
+Text Label 1500 8800 0    60   ~ 0
+H2_LVDS_RXn16
+Text Label 1500 9100 0    60   ~ 0
+H2_LVDS_RXp15
+Text Label 1500 9000 0    60   ~ 0
+H2_LVDS_RXn15
+Text Label 1500 9300 0    60   ~ 0
+H2_LVDS_RXp14
+Text Label 1500 9200 0    60   ~ 0
+H2_LVDS_RXn14
+Text Label 1500 9500 0    60   ~ 0
+H2_LVDS_RXp13
+Text Label 1500 9400 0    60   ~ 0
+H2_LVDS_RXn13
+Text Label 1500 9700 0    60   ~ 0
+H2_LVDS_RXp12
+Text Label 1500 9600 0    60   ~ 0
+H2_LVDS_RXn12
+Text Label 1500 9900 0    60   ~ 0
+H2_LVDS_RXp11
+Text Label 1500 9800 0    60   ~ 0
+H2_LVDS_RXn11
+Text Label 1500 10200 0    60   ~ 0
+H2_LVDS_RXp10
+Text Label 1500 10100 0    60   ~ 0
+H2_LVDS_RXn10
+Text Label 1500 10400 0    60   ~ 0
+H2_LVDS_RXp9
+Text Label 1500 10300 0    60   ~ 0
+H2_LVDS_RXn9
+Text Label 1500 10600 0    60   ~ 0
+H2_LVDS_RXp8
+Text Label 1500 10500 0    60   ~ 0
+H2_LVDS_RXn8
+Text Label 1500 10800 0    60   ~ 0
+H2_LVDS_RXp7
+Text Label 1500 10700 0    60   ~ 0
+H2_LVDS_RXn7
+Text Label 1500 11000 0    60   ~ 0
+H2_LVDS_RXp6
+Text Label 1500 10900 0    60   ~ 0
+H2_LVDS_RXn6
+Text Label 1500 11200 0    60   ~ 0
+H2_LVDS_RXp5
+Text Label 1500 11100 0    60   ~ 0
+H2_LVDS_RXn5
 $EndSCHEMATC
