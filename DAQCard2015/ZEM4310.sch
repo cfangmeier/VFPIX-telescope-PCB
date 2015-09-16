@@ -50,18 +50,10 @@ NoConn ~ 9400 1550
 NoConn ~ 10900 1650
 NoConn ~ 9400 1650
 NoConn ~ 10900 1750
-Text Label 9400 1750 2    60   ~ 0
-+VDC
-Text Label 10900 1850 0    60   ~ 0
-+VDC
 NoConn ~ 9400 1850
 NoConn ~ 9400 1950
 NoConn ~ 10900 1950
 NoConn ~ 10900 2050
-Text Label 10900 2150 0    60   ~ 0
-+VDC
-Text Label 9400 2050 2    60   ~ 0
-+VDC
 NoConn ~ 9400 2150
 NoConn ~ 9400 2250
 NoConn ~ 10900 2250
@@ -75,7 +67,7 @@ NoConn ~ 10900 2550
 NoConn ~ 9400 2550
 NoConn ~ 9400 2450
 Text Label 9400 2650 2    60   ~ 0
-VCCIO5
++VCCIO5
 Text Label 10900 2750 0    60   ~ 0
 Y_HSMC_VS0
 NoConn ~ 9400 2750
@@ -140,8 +132,6 @@ Text Label 9400 4650 2    60   ~ 0
 D2
 Text Label 10900 4750 0    60   ~ 0
 D3
-Text Label 9400 4750 2    60   ~ 0
-+3.3VDD
 Text Label 10900 4850 0    60   ~ 0
 +12VDD
 Text Label 9400 4850 2    60   ~ 0
@@ -152,8 +142,6 @@ Text Label 9400 4950 2    60   ~ 0
 H2_LVDS_TXn0
 Text Label 10900 5050 0    60   ~ 0
 H2_LVDS_RXn0
-Text Label 9400 5050 2    60   ~ 0
-+3.3VDD
 Text Label 10900 5150 0    60   ~ 0
 +12VDD
 Text Label 9400 5150 2    60   ~ 0
@@ -164,42 +152,6 @@ Text Label 9400 5250 2    60   ~ 0
 H2_LVDS_TXn1
 Text Label 10900 5350 0    60   ~ 0
 H2_LVDS_RXn1
-Text Label 9400 5350 2    60   ~ 0
-+3.3VDD
-Text Label 9400 5650 2    60   ~ 0
-+3.3VDD
-Text Label 9400 5950 2    60   ~ 0
-+3.3VDD
-Text Label 9400 6250 2    60   ~ 0
-+3.3VDD
-Text Label 9400 6550 2    60   ~ 0
-+3.3VDD
-Text Label 9400 6850 2    60   ~ 0
-+3.3VDD
-Text Label 9400 7150 2    60   ~ 0
-+3.3VDD
-Text Label 9400 7450 2    60   ~ 0
-+3.3VDD
-Text Label 9400 7750 2    60   ~ 0
-+3.3VDD
-Text Label 9400 8050 2    60   ~ 0
-+3.3VDD
-Text Label 9400 8350 2    60   ~ 0
-+3.3VDD
-Text Label 9400 8650 2    60   ~ 0
-+3.3VDD
-Text Label 9400 8950 2    60   ~ 0
-+3.3VDD
-Text Label 9400 9250 2    60   ~ 0
-+3.3VDD
-Text Label 9400 9550 2    60   ~ 0
-+3.3VDD
-Text Label 9400 9850 2    60   ~ 0
-+3.3VDD
-Text Label 9400 10150 2    60   ~ 0
-+3.3VDD
-Text Label 9400 10450 2    60   ~ 0
-+3.3VDD
 Text Label 10900 5450 0    60   ~ 0
 +12VDD
 Text Label 10900 5750 0    60   ~ 0
@@ -386,8 +338,6 @@ NoConn ~ 5900 1850
 NoConn ~ 5900 1950
 NoConn ~ 7400 1950
 NoConn ~ 7400 2050
-Text Label 7400 2150 0    60   ~ 0
-+1.8VDD
 Text Label 5900 2050 2    60   ~ 0
 +VCCIO3
 NoConn ~ 5900 2150
@@ -464,8 +414,6 @@ Text Label 5900 4650 2    60   ~ 0
 D2
 Text Label 7400 4750 0    60   ~ 0
 D3
-Text Label 5900 4750 2    60   ~ 0
-+3.3VDD
 Text Label 7400 4850 0    60   ~ 0
 +12VDD
 Text Label 5900 4850 2    60   ~ 0
@@ -476,8 +424,6 @@ Text Label 5900 4950 2    60   ~ 0
 H1_LVDS_TXn0
 Text Label 7400 5050 0    60   ~ 0
 H1_LVDS_RXn0
-Text Label 5900 5050 2    60   ~ 0
-+3.3VDD
 Text Label 7400 5150 0    60   ~ 0
 +12VDD
 Text Label 5900 5150 2    60   ~ 0
@@ -488,42 +434,6 @@ Text Label 5900 5250 2    60   ~ 0
 H1_LVDS_TXn1
 Text Label 7400 5350 0    60   ~ 0
 H1_LVDS_RXn1
-Text Label 5900 5350 2    60   ~ 0
-+3.3VDD
-Text Label 5900 5650 2    60   ~ 0
-+3.3VDD
-Text Label 5900 5950 2    60   ~ 0
-+3.3VDD
-Text Label 5900 6250 2    60   ~ 0
-+3.3VDD
-Text Label 5900 6550 2    60   ~ 0
-+3.3VDD
-Text Label 5900 6850 2    60   ~ 0
-+3.3VDD
-Text Label 5900 7150 2    60   ~ 0
-+3.3VDD
-Text Label 5900 7450 2    60   ~ 0
-+3.3VDD
-Text Label 5900 7750 2    60   ~ 0
-+3.3VDD
-Text Label 5900 8050 2    60   ~ 0
-+3.3VDD
-Text Label 5900 8350 2    60   ~ 0
-+3.3VDD
-Text Label 5900 8650 2    60   ~ 0
-+3.3VDD
-Text Label 5900 8950 2    60   ~ 0
-+3.3VDD
-Text Label 5900 9250 2    60   ~ 0
-+3.3VDD
-Text Label 5900 9550 2    60   ~ 0
-+3.3VDD
-Text Label 5900 9850 2    60   ~ 0
-+3.3VDD
-Text Label 5900 10150 2    60   ~ 0
-+3.3VDD
-Text Label 5900 10450 2    60   ~ 0
-+3.3VDD
 Text Label 7400 5450 0    60   ~ 0
 +12VDD
 Text Label 7400 5750 0    60   ~ 0
@@ -1303,4 +1213,194 @@ Text Label 1500 11200 0    60   ~ 0
 H2_LVDS_RXp5
 Text Label 1500 11100 0    60   ~ 0
 H2_LVDS_RXn5
+Text GLabel 9150 1750 0    60   Input ~ 0
+5Vdig
+Wire Wire Line
+	9150 1750 9400 1750
+Wire Wire Line
+	9400 2050 9250 2050
+Wire Wire Line
+	9250 2050 9250 1750
+Connection ~ 9250 1750
+Text GLabel 11300 1850 2    60   Input ~ 0
+5Vdig
+Wire Wire Line
+	10900 1850 11300 1850
+Wire Wire Line
+	10900 2150 11100 2150
+Wire Wire Line
+	11100 2150 11100 1850
+Connection ~ 11100 1850
+NoConn ~ 9400 2350
+NoConn ~ 9400 2650
+NoConn ~ 9400 2950
+NoConn ~ 5900 1750
+NoConn ~ 5900 2050
+NoConn ~ 7400 1850
+Text GLabel 7700 2150 2    60   Input ~ 0
+1V8dig
+Wire Wire Line
+	7700 2150 7400 2150
+NoConn ~ 7400 10250
+NoConn ~ 7400 9950
+NoConn ~ 7400 9650
+NoConn ~ 7400 9350
+NoConn ~ 7400 9050
+NoConn ~ 7400 8150
+NoConn ~ 7400 8450
+NoConn ~ 7400 8750
+NoConn ~ 7400 7850
+NoConn ~ 7400 7550
+NoConn ~ 7400 7250
+NoConn ~ 7400 6950
+NoConn ~ 7400 6650
+NoConn ~ 7400 6350
+NoConn ~ 7400 6050
+NoConn ~ 7400 5750
+NoConn ~ 7400 5450
+NoConn ~ 7400 5150
+NoConn ~ 7400 4850
+NoConn ~ 10900 10250
+NoConn ~ 10900 9950
+NoConn ~ 10900 9650
+NoConn ~ 10900 9350
+NoConn ~ 10900 9050
+NoConn ~ 10900 8750
+NoConn ~ 10900 8450
+NoConn ~ 10900 8150
+NoConn ~ 10900 7850
+NoConn ~ 10900 7550
+NoConn ~ 10900 7250
+NoConn ~ 10900 6950
+NoConn ~ 10900 6650
+NoConn ~ 10900 6350
+NoConn ~ 10900 6050
+NoConn ~ 10900 5750
+NoConn ~ 10900 5450
+NoConn ~ 10900 5150
+NoConn ~ 10900 4850
+NoConn ~ 10900 3950
+NoConn ~ 10900 3650
+NoConn ~ 10900 3350
+NoConn ~ 10900 3050
+NoConn ~ 10900 2750
+NoConn ~ 10900 2450
+NoConn ~ 9400 3750
+NoConn ~ 9400 3650
+NoConn ~ 9400 3550
+NoConn ~ 9400 3250
+NoConn ~ 10900 10450
+NoConn ~ 10900 10350
+NoConn ~ 9400 10350
+NoConn ~ 9400 10250
+Text GLabel 10950 10750 3    60   Input ~ 0
+GND
+Wire Wire Line
+	10950 10750 10950 10550
+Wire Wire Line
+	10950 10550 10900 10550
+Text GLabel 7450 10750 3    60   Input ~ 0
+GND
+Wire Wire Line
+	7450 10750 7450 10550
+Wire Wire Line
+	7450 10550 7400 10550
+NoConn ~ 7400 10450
+NoConn ~ 7400 10350
+NoConn ~ 5900 10350
+NoConn ~ 5900 10250
+NoConn ~ 7400 7350
+NoConn ~ 7400 7450
+NoConn ~ 5900 7250
+NoConn ~ 5900 7350
+NoConn ~ 10900 7450
+NoConn ~ 10900 7350
+NoConn ~ 9400 7350
+NoConn ~ 9400 7250
+NoConn ~ 7400 2750
+NoConn ~ 7400 3050
+NoConn ~ 7400 3350
+NoConn ~ 5900 3250
+NoConn ~ 5900 2950
+NoConn ~ 5900 2350
+Text GLabel 5900 10450 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 10150 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 9850 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 9550 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 9250 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 8950 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 8650 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 8350 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 8050 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 7750 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 7450 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 7150 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 6850 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 6550 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 6250 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 5950 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 5650 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 5350 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 5050 0    40   Input ~ 0
+3V3dig
+Text GLabel 5900 4750 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 10450 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 10150 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 9850 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 9550 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 9250 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 8950 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 8650 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 8350 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 8050 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 7750 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 7450 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 7150 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 6850 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 6550 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 6250 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 5950 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 5650 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 5350 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 5050 0    40   Input ~ 0
+3V3dig
+Text GLabel 9400 4750 0    40   Input ~ 0
+3V3dig
 $EndSCHEMATC

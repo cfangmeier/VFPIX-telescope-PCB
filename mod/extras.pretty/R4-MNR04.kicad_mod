@@ -1,4 +1,5 @@
 (module R4-MNR04 (layer F.Cu) (tedit 55CB418E)
+  (solder_mask_margin 0.0762)
   (fp_text reference RP2 (at 1.55 0 90) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )

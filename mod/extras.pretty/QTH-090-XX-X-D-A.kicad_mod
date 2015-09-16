@@ -1,8 +1,9 @@
 (module QTH-090-XX-X-D-A (layer F.Cu) (tedit 55CC74D7)
-  (fp_text reference REF** (at -0.5 5) (layer F.SilkS)
+  (solder_mask_margin 0.0762)
+  (fp_text reference P1 (at -3.568043 -2.192245 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value QTH-090-01-F-D-A-K (at 6 -5) (layer F.Fab) hide
+  (fp_text value QTH-090-01-F-D-A (at 6 -5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.5 -4) (end -1 -4) (layer F.SilkS) (width 0.15))
