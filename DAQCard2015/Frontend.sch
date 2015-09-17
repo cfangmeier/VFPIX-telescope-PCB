@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 13
+Sheet 5 13
 Title ""
 Date ""
 Rev ""
@@ -77,10 +77,6 @@ F26 "EXT_CHC+" I T 6300 3250 60
 F27 "EXT_CHC-" I T 6200 3250 60 
 F28 "Vocm" I T 4000 3250 60 
 $EndSheet
-Text HLabel 5450 3250 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 5350 3250 1    60   Input ~ 0
-ADC_CLK-
 $Sheet
 S 14550 3250 3400 1050
 U 55C99532
@@ -337,12 +333,6 @@ Text HLabel 12750 4600 3    60   Output ~ 0
 3DCO-
 Text HLabel 12650 4600 3    60   Output ~ 0
 3DCO+
-Text HLabel 4900 3250 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 5000 3250 1    60   Input ~ 0
-ADC_SDIO
-Text HLabel 5100 3250 1    60   Input ~ 0
-1ADC_CSB
 $Sheet
 S 7350 7050 3400 1050
 U 55CA496C
@@ -655,20 +645,6 @@ Wire Wire Line
 	3300 7700 3300 7850
 Text HLabel 17600 4600 3    60   Output ~ 0
 4D-D
-Text HLabel 8700 3250 1    60   Input ~ 0
-2ADC_CSB
-Text HLabel 12300 3250 1    60   Input ~ 0
-3ADC_CSB
-Text HLabel 15900 3250 1    60   Input ~ 0
-4ADC_CSB
-Text HLabel 15900 7050 1    60   Input ~ 0
-5ADC_CSB
-Text HLabel 12300 7050 1    60   Input ~ 0
-6ADC_CSB
-Text HLabel 8700 7050 1    60   Input ~ 0
-7ADC_CSB
-Text HLabel 5100 7050 1    60   Input ~ 0
-8ADC_CSB
 $Comp
 L AD5628 U2
 U 1 1 55C9703E
@@ -681,7 +657,7 @@ F 3 "" H 20650 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 19750 4150 1    60   Input ~ 0
-GNDdig
+GND
 Wire Wire Line
 	19900 4550 19550 4550
 Wire Wire Line
@@ -695,8 +671,6 @@ Wire Wire Line
 Wire Wire Line
 	21500 4200 19750 4200
 Connection ~ 19750 4200
-Text HLabel 19550 4550 1    60   Input ~ 0
-RNGDAC_CSB
 Wire Wire Line
 	19400 4650 19900 4650
 Text GLabel 19400 4650 0    60   Input ~ 0
@@ -704,51 +678,51 @@ Text GLabel 19400 4650 0    60   Input ~ 0
 Wire Wire Line
 	4550 3250 4550 3100
 Text Label 4550 3100 2    60   ~ 0
-1ADC_Vref
+ADC1_Vref
 Wire Wire Line
 	8200 3250 8200 3100
 Text Label 8200 3100 2    60   ~ 0
-2ADC_Vref
+ADC2_Vref
 Wire Wire Line
 	11800 3250 11800 3100
 Text Label 11800 3100 2    60   ~ 0
-3ADC_Vref
+ADC3_Vref
 Wire Wire Line
 	15400 3250 15400 3100
 Text Label 15400 3100 2    60   ~ 0
-4ADC_Vref
+ADC4_Vref
 Wire Wire Line
 	15400 7050 15400 6900
 Text Label 15400 6900 2    60   ~ 0
-5ADC_Vref
+ADC5_Vref
 Wire Wire Line
 	11800 7050 11800 6900
 Text Label 11800 6900 2    60   ~ 0
-6ADC_Vref
+ADC6_Vref
 Wire Wire Line
 	8200 7050 8200 6900
 Text Label 8200 6900 2    60   ~ 0
-7ADC_Vref
+ADC7_Vref
 Wire Wire Line
 	4550 7050 4550 6900
 Text Label 4550 6900 2    60   ~ 0
-8ADC_Vref
+ADC8_Vref
 Text Label 19900 4850 2    60   ~ 0
-3ADC_Vref
+ADC3_Vref
 Text Label 19900 4750 2    60   ~ 0
-1ADC_Vref
+ADC1_Vref
 Text Label 21000 4750 0    60   ~ 0
-2ADC_Vref
+ADC2_Vref
 Text Label 21000 4850 0    60   ~ 0
-4ADC_Vref
+ADC4_Vref
 Text Label 21000 4950 0    60   ~ 0
-6ADC_Vref
+ADC6_Vref
 Text Label 21000 5050 0    60   ~ 0
-8ADC_Vref
+ADC8_Vref
 Text Label 19900 4950 2    60   ~ 0
-5ADC_Vref
+ADC5_Vref
 Text Label 19900 5050 2    60   ~ 0
-7ADC_Vref
+ADC7_Vref
 Wire Wire Line
 	21500 5150 21000 5150
 Connection ~ 21500 4650
@@ -1074,70 +1048,10 @@ F26 "DCO+" I B 9050 4300 60
 F27 "ADC_Vref" I T 8200 3250 60 
 F28 "Vocm" I T 7600 3250 60 
 $EndSheet
-Text HLabel 8500 3250 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 12100 3250 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 15700 3250 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 15700 7050 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 12100 7050 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 8500 7050 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 4900 7050 1    60   Input ~ 0
-ADC_SCLK
-Text HLabel 8600 3250 1    60   Input ~ 0
-ADC_SDIO
-Text HLabel 12200 3250 1    60   Input ~ 0
-ADC_SDIO
-Text HLabel 15800 3250 1    60   Input ~ 0
-ADC_SDIO
 Text HLabel 21000 4550 2    60   Input ~ 0
 ADC_SDIO
 Text HLabel 21000 4450 2    60   Input ~ 0
 ADC_SCLK
-Text HLabel 15800 7050 1    60   Input ~ 0
-ADC_SDIO
-Text HLabel 12200 7050 1    60   Input ~ 0
-ADC_SDIO
-Text HLabel 8600 7050 1    60   Input ~ 0
-ADC_SDIO
-Text HLabel 5000 7050 1    60   Input ~ 0
-ADC_SDIO
-Text HLabel 9050 3250 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 8950 3250 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 12650 3250 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 12550 3250 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 16250 3250 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 16150 3250 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 16250 7050 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 16150 7050 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 12650 7050 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 12550 7050 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 9050 7050 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 8950 7050 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 5450 7050 1    60   Input ~ 0
-ADC_CLK+
-Text HLabel 5350 7050 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 3100 7700 1    60   Input ~ 0
-ADC_CLK-
-Text HLabel 3200 7700 1    60   Input ~ 0
-ADC_CLK+
 $Sheet
 S 3750 7050 3400 1050
 U 55CA4942
@@ -1637,4 +1551,114 @@ Wire Wire Line
 	6900 11950 6900 12300
 Connection ~ 7950 12300
 Connection ~ 6900 12150
+Text GLabel 5450 3250 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 5350 3250 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 5100 3250 1    40   Input ~ 0
+ADC1_CSB
+Text GLabel 5000 3250 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 4900 3250 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 9050 3250 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 8950 3250 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 8700 3250 1    40   Input ~ 0
+ADC2_CSB
+Text GLabel 8600 3250 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 8500 3250 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 12650 3250 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 12550 3250 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 12300 3250 1    40   Input ~ 0
+ADC3_CSB
+Text GLabel 12200 3250 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 12100 3250 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 16250 3250 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 16150 3250 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 15900 3250 1    40   Input ~ 0
+ADC4_CSB
+Text GLabel 15800 3250 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 15700 3250 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 16250 7050 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 16150 7050 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 15900 7050 1    40   Input ~ 0
+ADC5_CSB
+Text GLabel 15800 7050 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 15700 7050 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 12650 7050 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 12550 7050 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 12300 7050 1    40   Input ~ 0
+ADC6_CSB
+Text GLabel 12200 7050 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 12100 7050 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 9050 7050 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 8950 7050 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 8700 7050 1    40   Input ~ 0
+ADC7_CSB
+Text GLabel 8600 7050 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 8500 7050 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 5450 7050 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 5350 7050 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 5100 7050 1    40   Input ~ 0
+ADC8_CSB
+Text GLabel 5000 7050 1    40   Input ~ 0
+SPI_SDIO
+Text GLabel 4900 7050 1    40   Input ~ 0
+SPI_SCLK
+Text GLabel 3100 7700 1    40   Input ~ 0
+ADC_CLK+
+Text GLabel 3200 7700 1    40   Input ~ 0
+ADC_CLK-
+Text GLabel 19550 4550 1    60   Input ~ 0
+RNGDAC_CSB
+Text GLabel 10250 10300 2    40   Input ~ 0
+Vana
+Text GLabel 10250 10400 2    40   Input ~ 0
+Vana
+Text GLabel 10250 10500 2    40   Input ~ 0
+Vana
+Text GLabel 10250 10600 2    40   Input ~ 0
+Vana
+Text GLabel 10250 10700 2    40   Input ~ 0
+Vana
+Text GLabel 10250 10800 2    40   Input ~ 0
+Vana
+Text GLabel 10250 10900 2    40   Input ~ 0
+Vana
+Text GLabel 10250 11000 2    40   Input ~ 0
+Vana
+Text GLabel 10250 11100 2    40   Input ~ 0
+Vana
+Text GLabel 10250 11200 2    40   Input ~ 0
+Vana
+Text GLabel 10250 11300 2    40   Input ~ 0
+Vana
+Text GLabel 10250 11400 2    40   Input ~ 0
+Vana
 $EndSCHEMATC

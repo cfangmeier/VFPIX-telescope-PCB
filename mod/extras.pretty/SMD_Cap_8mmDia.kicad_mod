@@ -1,8 +1,8 @@
 (module SMD_Cap_8mmDia (layer F.Cu) (tedit 55CB1C56)
-  (fp_text reference REF** (at 0.6 0.1) (layer F.SilkS)
+  (fp_text reference C53 (at 0.6 0.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SMD_Cap_8mmDia (at -4.8 -0.1 90) (layer F.Fab) hide
+  (fp_text value 22uF (at -4.8 -0.1 90) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -4 4) (end -3.1 4) (layer F.SilkS) (width 0.15))
@@ -23,4 +23,9 @@
   (fp_line (start 4 0) (end 4 -3) (layer F.SilkS) (width 0.15))
   (pad 2 smd rect (at 0 3.05) (size 2.5 4) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0 -3.05) (size 2.5 4) (layers F.Cu F.Paste F.Mask))
+  (model Capacitors_SMD.3dshapes/c_elec_8x6.7.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.9 0.9 0.9))
+    (rotate (xyz 0 0 270))
+  )
 )
