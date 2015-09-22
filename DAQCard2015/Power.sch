@@ -127,28 +127,6 @@ F 3 "" H 2450 1850 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C58
-U 1 1 55F899AD
-P 8700 2500
-F 0 "C58" H 8725 2600 50  0000 L CNN
-F 1 "10uF" H 8725 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8738 2350 30  0001 C CNN
-F 3 "" H 8700 2500 60  0000 C CNN
-	1    8700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C59
-U 1 1 55F89BBD
-P 8950 2500
-F 0 "C59" H 8975 2600 50  0000 L CNN
-F 1 ".1uF" H 8975 2400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8988 2350 30  0001 C CNN
-F 3 "" H 8950 2500 60  0000 C CNN
-	1    8950 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L LT1913 U21
 U 1 1 55F8A69B
 P 5350 2150
@@ -179,17 +157,6 @@ F 1 "0.47uF" H 5750 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6038 1750 30  0001 C CNN
 F 3 "" H 6000 1900 60  0000 C CNN
 	1    6000 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C57
-U 1 1 55F8A954
-P 6600 2750
-F 0 "C57" H 6625 2850 50  0000 L CNN
-F 1 "47uF" H 6625 2650 50  0000 L CNN
-F 2 "extras:SMD_Cap_8mmDia" H 6638 2600 30  0001 C CNN
-F 3 "" H 6600 2750 60  0000 C CNN
-	1    6600 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -280,8 +247,6 @@ Text Notes 4150 2550 0    60   ~ 0
 Cer
 Text Notes 5850 1850 0    60   ~ 0
 Cer
-Text Notes 6450 2700 0    60   ~ 0
-Cer
 Connection ~ 2950 2000
 Wire Wire Line
 	1950 1850 1950 2100
@@ -294,8 +259,6 @@ Wire Wire Line
 Connection ~ 3550 2900
 Wire Wire Line
 	8700 2350 8700 2150
-Wire Wire Line
-	8950 2150 8950 2350
 Connection ~ 6600 2900
 Connection ~ 6600 1500
 Connection ~ 6600 2150
@@ -354,10 +317,6 @@ Wire Wire Line
 	5200 1500 5200 1600
 Wire Wire Line
 	5350 2900 5350 2700
-Connection ~ 8950 2150
-Connection ~ 8700 2900
-Wire Wire Line
-	8950 2900 8950 2650
 Connection ~ 8050 2900
 Wire Wire Line
 	8700 2900 8700 2650
@@ -379,8 +338,6 @@ Wire Wire Line
 	1900 2300 3150 2300
 Wire Wire Line
 	3550 2000 3550 1500
-Wire Wire Line
-	3100 2900 8950 2900
 Wire Wire Line
 	3550 2900 3550 2100
 Wire Wire Line
@@ -411,4 +368,53 @@ Wire Wire Line
 Wire Wire Line
 	1900 2050 1750 2050
 Connection ~ 1950 1850
+Wire Notes Line
+	8750 2700 8750 3000
+Wire Notes Line
+	7800 3000 9250 3000
+Text Notes 9050 3000 0    60   ~ 0
+Tantalum
+$Comp
+L CP C58
+U 1 1 5601F0EE
+P 8700 2500
+F 0 "C58" H 8725 2600 50  0000 L CNN
+F 1 "100uF" H 8725 2400 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8738 2350 30  0001 C CNN
+F 3 "" H 8700 2500 60  0000 C CNN
+	1    8700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C60
+U 1 1 5601FD97
+P 7700 2550
+F 0 "C60" H 7725 2650 50  0000 L CNN
+F 1 "10uF" H 7725 2450 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 7738 2400 30  0001 C CNN
+F 3 "" H 7700 2550 60  0000 C CNN
+	1    7700 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2700 7700 2900
+Connection ~ 7700 2900
+Wire Wire Line
+	7700 2400 7700 2150
+Connection ~ 7700 2150
+Wire Notes Line
+	7800 3000 7800 2750
+Wire Wire Line
+	3100 2900 8700 2900
+$Comp
+L CP C57
+U 1 1 56021674
+P 6600 2750
+F 0 "C57" H 6625 2850 50  0000 L CNN
+F 1 "47uF" H 6625 2650 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 6638 2600 30  0001 C CNN
+F 3 "" H 6600 2750 60  0000 C CNN
+	1    6600 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

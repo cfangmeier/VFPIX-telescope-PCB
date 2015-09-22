@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 3 13
 Title ""
 Date ""
 Rev ""
@@ -180,17 +180,6 @@ F 3 "" H 8600 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_BCE Q1
-U 1 1 55F036FA
-P 10200 4650
-F 0 "Q1" H 10500 4700 50  0000 R CNN
-F 1 "Q_NPN_BCE" H 10800 4600 50  0000 R CNN
-F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23" H 10400 4750 29  0001 C CNN
-F 3 "" H 10200 4650 60  0000 C CNN
-	1    10200 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R56
 U 1 1 55F03778
 P 9750 4650
@@ -321,8 +310,6 @@ Text GLabel 3950 3250 3    60   Input ~ 0
 GND
 Text GLabel 3950 2100 1    60   Input ~ 0
 5Vdig
-Text Label 1350 2800 0    60   ~ 0
-Vbias
 Wire Wire Line
 	8450 2450 8450 3400
 Wire Wire Line
@@ -344,27 +331,15 @@ Connection ~ 8450 2950
 Wire Wire Line
 	8450 2850 8500 2850
 Wire Wire Line
-	10050 1900 9750 1900
+	9200 2050 10050 2050
 Wire Wire Line
-	9750 1900 9750 2050
+	9800 2150 9200 2150
 Wire Wire Line
-	9750 2050 9200 2050
-Wire Wire Line
-	9200 2150 9800 2150
-Wire Wire Line
-	9800 2150 9800 2050
-Wire Wire Line
-	9800 2050 10050 2050
+	9800 1900 9800 2150
 Wire Wire Line
 	9200 2250 9750 2250
 Wire Wire Line
-	9750 2250 9750 2500
-Wire Wire Line
-	9750 2500 9800 2500
-Wire Wire Line
-	9800 2650 9700 2650
-Wire Wire Line
-	9700 2650 9700 2350
+	9750 2250 9750 2650
 Wire Wire Line
 	9700 2350 9200 2350
 Wire Wire Line
@@ -635,4 +610,25 @@ Text GLabel 2350 4400 1    60   Input ~ 0
 LED0
 Text GLabel 2650 4400 1    60   Input ~ 0
 LED1
+$Comp
+L Q_NPN_BCE_REV Q1
+U 1 1 56022DB8
+P 10200 4650
+F 0 "Q1" H 10500 4700 50  0000 R CNN
+F 1 "Q_NPN_BCE_REV" H 11000 4600 50  0000 R CNN
+F 2 "" H 10400 4750 29  0000 C CNN
+F 3 "" H 10200 4650 60  0000 C CNN
+	1    10200 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 2800 0    60   Input ~ 0
+Vbias
+Wire Wire Line
+	9800 1900 10050 1900
+Wire Wire Line
+	9750 2650 9800 2650
+Wire Wire Line
+	9700 2350 9700 2500
+Wire Wire Line
+	9700 2500 9800 2500
 $EndSCHEMATC

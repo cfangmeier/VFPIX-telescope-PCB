@@ -1365,168 +1365,24 @@ Wire Wire Line
 	17300 2650 17350 2650
 Wire Wire Line
 	17350 2650 17350 2550
-Text Label 7200 10250 2    60   ~ 0
-Vbias
 NoConn ~ 7700 10250
 NoConn ~ 7200 10350
-Text Label 7700 10350 0    60   ~ 0
-Vana
-Text Label 7200 10450 2    60   ~ 0
-Vana
-Text Label 7700 10450 0    60   ~ 0
-Vdig
-Text Label 7200 10550 2    60   ~ 0
-Vdig
-Text Label 7700 10550 0    60   ~ 0
-Vocm
-Text Label 7200 10650 2    60   ~ 0
-Vocm
-Text GLabel 7700 10650 2    30   Input ~ 0
-5Vdig
-Text GLabel 7200 10750 0    30   Input ~ 0
-5Vdig
-Text Label 7700 10750 0    60   ~ 0
-RBI
-Wire Wire Line
-	7200 10750 7200 10750
-Wire Wire Line
-	7700 10650 7700 10650
-Text Label 7200 10850 2    60   ~ 0
-Vthresh
-Text Label 7700 10850 0    60   ~ 0
-CS
-Text Label 7200 10950 2    60   ~ 0
-R12
-Text Label 7700 10950 0    60   ~ 0
-RG
-Text Label 7200 11050 2    60   ~ 0
-SR
-Text Label 7700 11050 0    60   ~ 0
-IS2
-Text Label 7200 11150 2    60   ~ 0
-IS1
-Text Label 7700 11150 0    60   ~ 0
-Reset
-Text Label 7200 11250 2    60   ~ 0
-LE
-Text Label 7700 11250 0    60   ~ 0
-NULL
-Text Label 7200 11350 2    60   ~ 0
-SPHI2
-Text Label 7700 11350 0    60   ~ 0
-SPHI1
-Text Label 7200 11450 2    60   ~ 0
-SBI
-Text Label 7700 11450 0    60   ~ 0
-SEB
-Text Label 7200 11550 2    60   ~ 0
-CAL
-Text Label 7700 11550 0    60   ~ 0
-RBO1
-Text Label 7200 11650 2    60   ~ 0
-RBO2
-Text Label 7700 11650 0    60   ~ 0
-RBO3
-Text Label 7200 11750 2    60   ~ 0
-RBO4
-Text Label 7700 11750 0    60   ~ 0
-RPHI2
-Text Label 7200 11850 2    60   ~ 0
-RPHI1
-Text Label 7700 11850 0    60   ~ 0
-Aref
 Wire Wire Line
 	6900 11950 7200 11950
 Wire Wire Line
 	6900 12150 7200 12150
-Text Label 7200 12050 2    60   ~ 0
-SDA
 Wire Wire Line
 	7700 11950 8250 11950
 Wire Wire Line
 	7700 12150 8250 12150
-Text Label 7700 12050 0    60   ~ 0
-SCL
-Text Label 8250 10250 2    60   ~ 0
-Vbias
 NoConn ~ 8750 10250
 NoConn ~ 8250 10350
-Text Label 8750 10350 0    60   ~ 0
-Vana
-Text Label 8250 10450 2    60   ~ 0
-Vana
-Text Label 8750 10450 0    60   ~ 0
-Vdig
-Text Label 8250 10550 2    60   ~ 0
-Vdig
-Text Label 8750 10550 0    60   ~ 0
-Vocm
-Text Label 8250 10650 2    60   ~ 0
-Vocm
-Text GLabel 8750 10650 2    30   Input ~ 0
-5Vdig
-Text GLabel 8250 10750 0    30   Input ~ 0
-5Vdig
-Text Label 8750 10750 0    60   ~ 0
-RBI
-Wire Wire Line
-	8250 10750 8250 10750
-Wire Wire Line
-	8750 10650 8750 10650
-Text Label 8250 10850 2    60   ~ 0
-Vthresh
-Text Label 8750 10850 0    60   ~ 0
-CS
-Text Label 8250 10950 2    60   ~ 0
-R12
-Text Label 8750 10950 0    60   ~ 0
-RG
-Text Label 8250 11050 2    60   ~ 0
-SR
-Text Label 8750 11050 0    60   ~ 0
-IS2
-Text Label 8250 11150 2    60   ~ 0
-IS1
-Text Label 8750 11150 0    60   ~ 0
-Reset
-Text Label 8250 11250 2    60   ~ 0
-LE
-Text Label 8750 11250 0    60   ~ 0
-NULL
-Text Label 8250 11350 2    60   ~ 0
-SPHI2
-Text Label 8750 11350 0    60   ~ 0
-SPHI1
-Text Label 8250 11450 2    60   ~ 0
-SBI
-Text Label 8750 11450 0    60   ~ 0
-SEB
-Text Label 8250 11550 2    60   ~ 0
-CAL
-Text Label 8750 11550 0    60   ~ 0
-RBO1
-Text Label 8250 11650 2    60   ~ 0
-RBO2
-Text Label 8750 11650 0    60   ~ 0
-RBO3
-Text Label 8250 11750 2    60   ~ 0
-RBO4
-Text Label 8750 11750 0    60   ~ 0
-RPHI2
-Text Label 8250 11850 2    60   ~ 0
-RPHI1
-Text Label 8750 11850 0    60   ~ 0
-Aref
 Text GLabel 7950 12300 3    40   Input ~ 0
 GND
-Text Label 8250 12050 2    60   ~ 0
-SDA
 Wire Wire Line
 	8750 11950 9000 11950
 Wire Wire Line
 	8750 12150 9000 12150
-Text Label 8750 12050 0    60   ~ 0
-SCL
 $Comp
 L CONN_02X20_Double P7
 U 1 1 55F4BDE8
@@ -1637,28 +1493,140 @@ Text GLabel 3200 7700 1    40   Input ~ 0
 ADC_CLK-
 Text GLabel 19550 4550 1    60   Input ~ 0
 RNGDAC_CSB
-Text GLabel 10250 10300 2    40   Input ~ 0
+Text GLabel 7700 10350 2    40   Input ~ 0
 Vana
-Text GLabel 10250 10400 2    40   Input ~ 0
+Text GLabel 7700 10450 2    40   Input ~ 0
+Vdig
+Text GLabel 7700 10550 2    40   Input ~ 0
+Vocm
+Text GLabel 7700 10750 2    40   Input ~ 0
+RBI
+Text GLabel 7700 10850 2    40   Input ~ 0
+CS
+Text GLabel 7700 10950 2    40   Input ~ 0
+RG
+Text GLabel 7700 11050 2    40   Input ~ 0
+IS2
+Text GLabel 7700 11150 2    40   Input ~ 0
+Reset
+Text GLabel 7700 11250 2    40   Input ~ 0
+NULL
+Text GLabel 7700 11350 2    40   Input ~ 0
+SPHI1
+Text GLabel 7700 11450 2    40   Input ~ 0
+SEB
+Text GLabel 7700 11550 2    40   Input ~ 0
+RBO1
+Text GLabel 7700 11650 2    40   Input ~ 0
+RBO3
+Text GLabel 7700 11750 2    40   Input ~ 0
+RPHI2
+Text GLabel 7700 11850 2    40   Input ~ 0
+Aref
+Text GLabel 7700 10650 2    40   Input ~ 0
+5Vdig
+Text GLabel 7200 11850 0    40   Input ~ 0
+RPHI1
+Text GLabel 7200 11750 0    40   Input ~ 0
+RBO4
+Text GLabel 7200 11650 0    40   Input ~ 0
+RBO2
+Text GLabel 7200 11450 0    40   Input ~ 0
+SBI
+Text GLabel 7200 11350 0    40   Input ~ 0
+SPHI2
+Text GLabel 7200 11250 0    40   Input ~ 0
+LE
+Text GLabel 7200 11150 0    40   Input ~ 0
+IS1
+Text GLabel 7200 11050 0    40   Input ~ 0
+SR
+Text GLabel 7200 10950 0    40   Input ~ 0
+R12
+Text GLabel 7200 10850 0    40   Input ~ 0
+Vthresh
+Text GLabel 7200 10750 0    40   Input ~ 0
+5Vdig
+Text GLabel 7200 10650 0    40   Input ~ 0
+Vocm
+Text GLabel 7200 10550 0    40   Input ~ 0
+Vdig
+Text GLabel 7200 10450 0    40   Input ~ 0
 Vana
-Text GLabel 10250 10500 2    40   Input ~ 0
+Text GLabel 7200 10250 0    40   Input ~ 0
+Vbias
+Text GLabel 7200 11550 0    40   Input ~ 0
+CAL
+Text GLabel 7200 12050 0    40   Input ~ 0
+SDA
+Text GLabel 7700 12050 2    40   Input ~ 0
+SCL
+Text GLabel 8250 11850 0    40   Input ~ 0
+RPHI1
+Text GLabel 8250 11750 0    40   Input ~ 0
+RBO8
+Text GLabel 8250 11650 0    40   Input ~ 0
+RBO6
+Text GLabel 8250 11450 0    40   Input ~ 0
+SBI
+Text GLabel 8250 11350 0    40   Input ~ 0
+SPHI2
+Text GLabel 8250 11250 0    40   Input ~ 0
+LE
+Text GLabel 8250 11150 0    40   Input ~ 0
+IS1
+Text GLabel 8250 11050 0    40   Input ~ 0
+SR
+Text GLabel 8250 10950 0    40   Input ~ 0
+R12
+Text GLabel 8250 10850 0    40   Input ~ 0
+Vthresh
+Text GLabel 8250 10750 0    40   Input ~ 0
+5Vdig
+Text GLabel 8250 10650 0    40   Input ~ 0
+Vocm
+Text GLabel 8250 10550 0    40   Input ~ 0
+Vdig
+Text GLabel 8250 10450 0    40   Input ~ 0
 Vana
-Text GLabel 10250 10600 2    40   Input ~ 0
+Text GLabel 8250 10250 0    40   Input ~ 0
+Vbias
+Text GLabel 8250 11550 0    40   Input ~ 0
+CAL
+Text GLabel 8250 12050 0    40   Input ~ 0
+SDA
+Text GLabel 8750 10350 2    40   Input ~ 0
 Vana
-Text GLabel 10250 10700 2    40   Input ~ 0
-Vana
-Text GLabel 10250 10800 2    40   Input ~ 0
-Vana
-Text GLabel 10250 10900 2    40   Input ~ 0
-Vana
-Text GLabel 10250 11000 2    40   Input ~ 0
-Vana
-Text GLabel 10250 11100 2    40   Input ~ 0
-Vana
-Text GLabel 10250 11200 2    40   Input ~ 0
-Vana
-Text GLabel 10250 11300 2    40   Input ~ 0
-Vana
-Text GLabel 10250 11400 2    40   Input ~ 0
-Vana
+Text GLabel 8750 10450 2    40   Input ~ 0
+Vdig
+Text GLabel 8750 10550 2    40   Input ~ 0
+Vocm
+Text GLabel 8750 10750 2    40   Input ~ 0
+RBI
+Text GLabel 8750 10850 2    40   Input ~ 0
+CS
+Text GLabel 8750 10950 2    40   Input ~ 0
+RG
+Text GLabel 8750 11050 2    40   Input ~ 0
+IS2
+Text GLabel 8750 11150 2    40   Input ~ 0
+Reset
+Text GLabel 8750 11250 2    40   Input ~ 0
+NULL
+Text GLabel 8750 11350 2    40   Input ~ 0
+SPHI1
+Text GLabel 8750 11450 2    40   Input ~ 0
+SEB
+Text GLabel 8750 11550 2    40   Input ~ 0
+RBO5
+Text GLabel 8750 11650 2    40   Input ~ 0
+RBO7
+Text GLabel 8750 11750 2    40   Input ~ 0
+RPHI2
+Text GLabel 8750 11850 2    40   Input ~ 0
+Aref
+Text GLabel 8750 10650 2    40   Input ~ 0
+5Vdig
+Text GLabel 8750 12050 2    40   Input ~ 0
+SCL
 $EndSCHEMATC

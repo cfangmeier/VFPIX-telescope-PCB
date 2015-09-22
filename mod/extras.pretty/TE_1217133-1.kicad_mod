@@ -1,10 +1,15 @@
 (module TE_1217133-1 (layer F.Cu) (tedit 55F9AEEC)
-  (fp_text reference REF** (at 0 -1.75 180) (layer F.SilkS)
+  (fp_text reference P9 (at 0 -1.75 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value TE_1217133-1 (at 0 0) (layer F.Fab) hide
+  (fp_text value SHV (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1.397) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -2.54 0) (size 1.778 1.778) (drill 1.397) (layers *.Cu *.Mask F.SilkS))
+  (model Connect.3dshapes/TESTPOINT.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1.8 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

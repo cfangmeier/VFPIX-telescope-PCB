@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 13
+Sheet 2 13
 Title ""
 Date ""
 Rev ""
@@ -1403,10 +1403,6 @@ Text GLabel 9400 5050 0    40   Input ~ 0
 3V3dig
 Text GLabel 9400 4750 0    40   Input ~ 0
 3V3dig
-Text HLabel 3050 1000 0    60   Input ~ 0
-ADC_CLK+
-Text HLabel 3050 1100 0    60   Input ~ 0
-ADC_CLK-
 Wire Wire Line
 	3050 1000 3350 1000
 Wire Wire Line
@@ -1415,4 +1411,8 @@ Text Label 3350 1000 0    60   ~ 0
 PLL1_CLKOUTp
 Text Label 3350 1100 0    60   ~ 0
 PLL1_CLKOUTn
+Text GLabel 3050 1000 0    40   Input ~ 0
+ADC_CLK+
+Text GLabel 3050 1100 0    40   Input ~ 0
+ADC_CLK-
 $EndSCHEMATC
