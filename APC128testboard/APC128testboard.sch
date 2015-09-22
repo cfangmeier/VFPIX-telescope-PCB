@@ -1692,4 +1692,6 @@ Text Label 5100 3700 2    60   ~ 0
 AMP_OCM
 Connection ~ 5750 3600
 Connection ~ 5750 3800
+Text Notes 800  3700 0    60   ~ 0
+TODO:\nLabeling of Signal Spy-pads\nLabeling of ON-OFF\nwiring of Supression caps in regulators
 $EndSCHEMATC
