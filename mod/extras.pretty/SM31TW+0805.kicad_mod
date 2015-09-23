@@ -1,8 +1,8 @@
 (module SM31TW+0805 (layer F.Cu) (tedit 55D7AB9C)
-  (fp_text reference RV5 (at -1.18 -4.32) (layer F.SilkS)
+  (fp_text reference RV1 (at -1.18 -4.32) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value POT (at 0.07 -1.19) (layer F.Fab) hide
+  (fp_text value 10k (at 0.07 -1.19) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.28 -3.62) (end -2.18 -3.62) (layer F.SilkS) (width 0.15))
@@ -13,4 +13,9 @@
   (pad 3 smd rect (at 1.4 0) (size 0.9 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.4 0) (size 1.25 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.6875 -2.47) (size 2.675 1.5) (layers F.Cu F.Paste F.Mask))
+  (model ../../../../../home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/mod/3d/SM-3W50.wrl
+    (at (xyz 0 0.05 0.15))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 270))
+  )
 )

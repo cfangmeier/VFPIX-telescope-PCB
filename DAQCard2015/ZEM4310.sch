@@ -593,7 +593,7 @@ H1_LVDS_RXn10
 Text Label 7400 8650 0    60   ~ 0
 H1_LVDS_RXn11
 Text Label 7400 8950 0    60   ~ 0
-H1_LVDS_RXn13
+H1_LVDS_RXn12
 Text Label 7400 9250 0    60   ~ 0
 H1_LVDS_RXn13
 Text Label 7400 9550 0    60   ~ 0
@@ -1415,4 +1415,154 @@ Text GLabel 3050 1000 0    40   Input ~ 0
 ADC_CLK+
 Text GLabel 3050 1100 0    40   Input ~ 0
 ADC_CLK-
+Text GLabel 3450 8550 0    40   Input ~ 0
+RBI
+Text GLabel 3450 8650 0    40   Input ~ 0
+CS
+Text GLabel 3450 8750 0    40   Input ~ 0
+R12
+Text GLabel 3450 8850 0    40   Input ~ 0
+SR
+Text GLabel 3450 8950 0    40   Input ~ 0
+IS2
+Text GLabel 3450 9050 0    40   Input ~ 0
+IS1
+Text GLabel 3450 9150 0    40   Input ~ 0
+Reset
+Text GLabel 3450 9250 0    40   Input ~ 0
+LE
+Text GLabel 3450 9350 0    40   Input ~ 0
+SPHI2
+Text GLabel 3450 9450 0    40   Input ~ 0
+SPHI1
+Text GLabel 3450 9550 0    40   Input ~ 0
+SBI
+Text GLabel 3450 9650 0    40   Input ~ 0
+SEB
+Text GLabel 3450 9750 0    40   Input ~ 0
+CAL
+Text GLabel 3450 9950 0    40   Input ~ 0
+RBO_B1
+Text GLabel 3450 9850 0    40   Input ~ 0
+RBO_A1
+Text GLabel 3450 10050 0    40   Input ~ 0
+RBO_A3
+Text GLabel 3450 10150 0    40   Input ~ 0
+RBO_A2
+Text GLabel 3450 10250 0    40   Input ~ 0
+RBO_B2
+Text GLabel 3450 10350 0    40   Input ~ 0
+RBO_B3
+Text GLabel 3450 10450 0    40   Input ~ 0
+RBO_B4
+Text GLabel 3450 10550 0    40   Input ~ 0
+RBO_A4
+Text GLabel 3450 10650 0    40   Input ~ 0
+RPHI2
+Text GLabel 3450 10750 0    40   Input ~ 0
+RPHI1
+Text GLabel 3450 10850 0    40   Input ~ 0
+SDA
+Text GLabel 3450 10950 0    40   Input ~ 0
+SCL
+Wire Wire Line
+	3450 10950 3700 10950
+Wire Wire Line
+	3450 10850 3700 10850
+Wire Wire Line
+	3450 10750 3700 10750
+Wire Wire Line
+	3450 10650 3700 10650
+Wire Wire Line
+	3450 10550 3700 10550
+Wire Wire Line
+	3450 10450 3700 10450
+Wire Wire Line
+	3450 10350 3700 10350
+Wire Wire Line
+	3450 10250 3700 10250
+Wire Wire Line
+	3450 10150 3700 10150
+Wire Wire Line
+	3450 10050 3700 10050
+Wire Wire Line
+	3450 9950 3700 9950
+Wire Wire Line
+	3450 9850 3700 9850
+Wire Wire Line
+	3450 9750 3700 9750
+Wire Wire Line
+	3450 9650 3700 9650
+Wire Wire Line
+	3450 9550 3700 9550
+Wire Wire Line
+	3450 9450 3700 9450
+Wire Wire Line
+	3450 9350 3700 9350
+Wire Wire Line
+	3450 9250 3700 9250
+Wire Wire Line
+	3450 9150 3700 9150
+Wire Wire Line
+	3450 9050 3700 9050
+Wire Wire Line
+	3450 8950 3700 8950
+Wire Wire Line
+	3450 8850 3700 8850
+Wire Wire Line
+	3450 8750 3700 8750
+Wire Wire Line
+	3450 8650 3700 8650
+Wire Wire Line
+	3450 8550 3700 8550
+Text Label 3700 10950 0    60   ~ 0
+H1_LVDS_RXp12
+Text Label 3700 10850 0    60   ~ 0
+H1_LVDS_RXn12
+Text Label 3700 10750 0    60   ~ 0
+H1_LVDS_RXp13
+Text Label 3700 10650 0    60   ~ 0
+H1_LVDS_RXn13
+Text Label 3700 10550 0    60   ~ 0
+H1_LVDS_RXp14
+Text Label 3700 10450 0    60   ~ 0
+H1_LVDS_RXn14
+Text Label 3700 10350 0    60   ~ 0
+H1_LVDS_RXp15
+Text Label 3700 10250 0    60   ~ 0
+H1_LVDS_RXn15
+Text Label 3700 10150 0    60   ~ 0
+H1_LVDS_RXp16
+Text Label 3700 10050 0    60   ~ 0
+H1_LVDS_RXn16
+Text Label 3700 9050 0    60   ~ 0
+H1_LVDS_TXp12
+Text Label 3700 9150 0    60   ~ 0
+H1_LVDS_TXn12
+Text Label 3700 9250 0    60   ~ 0
+H1_LVDS_TXp13
+Text Label 3700 9350 0    60   ~ 0
+H1_LVDS_TXn13
+Text Label 3700 9450 0    60   ~ 0
+H1_LVDS_TXp14
+Text Label 3700 9550 0    60   ~ 0
+H1_LVDS_TXn14
+Text Label 3700 9650 0    60   ~ 0
+H1_LVDS_TXp15
+Text Label 3700 9750 0    60   ~ 0
+H1_LVDS_TXn15
+Text Label 3700 9850 0    60   ~ 0
+H1_LVDS_TXp16
+Text Label 3700 9950 0    60   ~ 0
+H1_LVDS_TXn16
+Text Label 3700 8550 0    60   ~ 0
+H2_LVDS_TXp0
+Text Label 3700 8650 0    60   ~ 0
+H2_LVDS_TXn0
+Text Label 3700 8750 0    60   ~ 0
+H2_LVDS_TXp1
+Text Label 3700 8850 0    60   ~ 0
+H2_LVDS_TXn1
+Text Label 3700 8950 0    60   ~ 0
+H2_LVDS_TXp2
 $EndSCHEMATC

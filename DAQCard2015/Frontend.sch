@@ -656,7 +656,7 @@ F 3 "" H 20650 4950 60  0000 C CNN
 	1    20450 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 19750 4150 1    60   Input ~ 0
+Text GLabel 19750 4150 1    40   Input ~ 0
 GND
 Wire Wire Line
 	19900 4550 19550 4550
@@ -673,7 +673,7 @@ Wire Wire Line
 Connection ~ 19750 4200
 Wire Wire Line
 	19400 4650 19900 4650
-Text GLabel 19400 4650 0    60   Input ~ 0
+Text GLabel 19400 4650 0    40   Input ~ 0
 3V3dig
 Wire Wire Line
 	4550 3250 4550 3100
@@ -1048,10 +1048,6 @@ F26 "DCO+" I B 9050 4300 60
 F27 "ADC_Vref" I T 8200 3250 60 
 F28 "Vocm" I T 7600 3250 60 
 $EndSheet
-Text HLabel 21000 4550 2    60   Input ~ 0
-ADC_SDIO
-Text HLabel 21000 4450 2    60   Input ~ 0
-ADC_SCLK
 $Sheet
 S 3750 7050 3400 1050
 U 55CA4942
@@ -1491,10 +1487,10 @@ Text GLabel 3100 7700 1    40   Input ~ 0
 ADC_CLK+
 Text GLabel 3200 7700 1    40   Input ~ 0
 ADC_CLK-
-Text GLabel 19550 4550 1    60   Input ~ 0
+Text GLabel 19550 4550 1    40   Input ~ 0
 RNGDAC_CSB
 Text GLabel 7700 10350 2    40   Input ~ 0
-Vana
+Vana_A
 Text GLabel 7700 10450 2    40   Input ~ 0
 Vdig
 Text GLabel 7700 10550 2    40   Input ~ 0
@@ -1504,7 +1500,7 @@ RBI
 Text GLabel 7700 10850 2    40   Input ~ 0
 CS
 Text GLabel 7700 10950 2    40   Input ~ 0
-RG
+RG_A
 Text GLabel 7700 11050 2    40   Input ~ 0
 IS2
 Text GLabel 7700 11150 2    40   Input ~ 0
@@ -1516,21 +1512,21 @@ SPHI1
 Text GLabel 7700 11450 2    40   Input ~ 0
 SEB
 Text GLabel 7700 11550 2    40   Input ~ 0
-RBO1
+RBO_A1
 Text GLabel 7700 11650 2    40   Input ~ 0
-RBO3
+RBO_A3
 Text GLabel 7700 11750 2    40   Input ~ 0
 RPHI2
 Text GLabel 7700 11850 2    40   Input ~ 0
-Aref
+Aref_A
 Text GLabel 7700 10650 2    40   Input ~ 0
 5Vdig
 Text GLabel 7200 11850 0    40   Input ~ 0
 RPHI1
 Text GLabel 7200 11750 0    40   Input ~ 0
-RBO4
+RBO_A4
 Text GLabel 7200 11650 0    40   Input ~ 0
-RBO2
+RBO_A2
 Text GLabel 7200 11450 0    40   Input ~ 0
 SBI
 Text GLabel 7200 11350 0    40   Input ~ 0
@@ -1552,7 +1548,7 @@ Vocm
 Text GLabel 7200 10550 0    40   Input ~ 0
 Vdig
 Text GLabel 7200 10450 0    40   Input ~ 0
-Vana
+Vana_A
 Text GLabel 7200 10250 0    40   Input ~ 0
 Vbias
 Text GLabel 7200 11550 0    40   Input ~ 0
@@ -1564,9 +1560,9 @@ SCL
 Text GLabel 8250 11850 0    40   Input ~ 0
 RPHI1
 Text GLabel 8250 11750 0    40   Input ~ 0
-RBO8
+RBO_B4
 Text GLabel 8250 11650 0    40   Input ~ 0
-RBO6
+RBO_B2
 Text GLabel 8250 11450 0    40   Input ~ 0
 SBI
 Text GLabel 8250 11350 0    40   Input ~ 0
@@ -1588,7 +1584,7 @@ Vocm
 Text GLabel 8250 10550 0    40   Input ~ 0
 Vdig
 Text GLabel 8250 10450 0    40   Input ~ 0
-Vana
+Vana_B
 Text GLabel 8250 10250 0    40   Input ~ 0
 Vbias
 Text GLabel 8250 11550 0    40   Input ~ 0
@@ -1596,7 +1592,7 @@ CAL
 Text GLabel 8250 12050 0    40   Input ~ 0
 SDA
 Text GLabel 8750 10350 2    40   Input ~ 0
-Vana
+Vana_B
 Text GLabel 8750 10450 2    40   Input ~ 0
 Vdig
 Text GLabel 8750 10550 2    40   Input ~ 0
@@ -1606,7 +1602,7 @@ RBI
 Text GLabel 8750 10850 2    40   Input ~ 0
 CS
 Text GLabel 8750 10950 2    40   Input ~ 0
-RG
+RG_B
 Text GLabel 8750 11050 2    40   Input ~ 0
 IS2
 Text GLabel 8750 11150 2    40   Input ~ 0
@@ -1618,15 +1614,19 @@ SPHI1
 Text GLabel 8750 11450 2    40   Input ~ 0
 SEB
 Text GLabel 8750 11550 2    40   Input ~ 0
-RBO5
+RBO_B1
 Text GLabel 8750 11650 2    40   Input ~ 0
-RBO7
+RBO_B3
 Text GLabel 8750 11750 2    40   Input ~ 0
 RPHI2
 Text GLabel 8750 11850 2    40   Input ~ 0
-Aref
+Aref_B
 Text GLabel 8750 10650 2    40   Input ~ 0
 5Vdig
 Text GLabel 8750 12050 2    40   Input ~ 0
 SCL
+Text GLabel 21000 4450 2    40   Input ~ 0
+SPI_SCLK
+Text GLabel 21000 4550 2    40   Input ~ 0
+SPI_SDIO
 $EndSCHEMATC
