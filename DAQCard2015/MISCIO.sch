@@ -694,9 +694,9 @@ Wire Wire Line
 	1650 3450 1650 2950
 Connection ~ 1650 2950
 Text GLabel 3050 2750 2    40   Input ~ 0
-SPI_SCL
+SPI_SCLK
 Text GLabel 3050 2850 2    40   Input ~ 0
-SPI_SDA
+SPI_SDIO
 Text Label 1950 3050 2    60   ~ 0
 DAC_A
 Text Label 1950 3150 2    60   ~ 0
