@@ -183,7 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3650 4550 3650
 Text Notes 14100 9250 0    60   ~ 0
-TODO:\nAdd Suppy Decoupling Caps\nAdd Fan Control/Power\nDetermine HSMC Pin mapping\nVerify RJ45/Cat5e Pinout and pair matching\nWire LEDs for RJ45x8 port\nAPC128 Control Lines w/ 2x20 Header
+TODO:\nDetermine HSMC Pin mapping\nWire LEDs for RJ45x8 port
 Wire Wire Line
 	3800 3850 4550 3850
 Wire Wire Line

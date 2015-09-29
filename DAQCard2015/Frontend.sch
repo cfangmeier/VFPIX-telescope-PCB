@@ -656,24 +656,22 @@ F 3 "" H 20650 4950 60  0000 C CNN
 	1    20450 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 19750 4150 1    40   Input ~ 0
+Text GLabel 19750 4050 1    40   Input ~ 0
 GND
 Wire Wire Line
-	19900 4550 19550 4550
+	19900 4550 19600 4550
 Wire Wire Line
 	19750 4450 19900 4450
 Wire Wire Line
-	19750 4150 19750 4450
+	19750 4050 19750 4450
 Wire Wire Line
 	21000 4650 21500 4650
 Wire Wire Line
-	21500 5500 21500 4200
+	21500 4100 21500 5500
+Connection ~ 19750 4100
 Wire Wire Line
-	21500 4200 19750 4200
-Connection ~ 19750 4200
-Wire Wire Line
-	19400 4650 19900 4650
-Text GLabel 19400 4650 0    40   Input ~ 0
+	19250 4650 19900 4650
+Text GLabel 19250 4650 0    40   Input ~ 0
 3V3dig
 Wire Wire Line
 	4550 3250 4550 3100
@@ -754,7 +752,7 @@ F 3 "" H 20150 5500 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	20300 5500 21500 5500
+	21500 5500 20300 5500
 Connection ~ 21500 5150
 $Comp
 L C C4
@@ -1487,14 +1485,14 @@ Text GLabel 3100 7700 1    40   Input ~ 0
 ADC_CLK+
 Text GLabel 3200 7700 1    40   Input ~ 0
 ADC_CLK-
-Text GLabel 19550 4550 1    40   Input ~ 0
+Text GLabel 19600 4550 1    40   Input ~ 0
 RNGDAC_CSB
 Text GLabel 7700 10350 2    40   Input ~ 0
 Vana_A
 Text GLabel 7700 10450 2    40   Input ~ 0
-Vdig
+2V5dig
 Text GLabel 7700 10550 2    40   Input ~ 0
-Vocm
+Vocm_tel
 Text GLabel 7700 10750 2    40   Input ~ 0
 RBI
 Text GLabel 7700 10850 2    40   Input ~ 0
@@ -1544,9 +1542,9 @@ Vthresh
 Text GLabel 7200 10750 0    40   Input ~ 0
 5Vdig
 Text GLabel 7200 10650 0    40   Input ~ 0
-Vocm
+Vocm_tel
 Text GLabel 7200 10550 0    40   Input ~ 0
-Vdig
+2V5dig
 Text GLabel 7200 10450 0    40   Input ~ 0
 Vana_A
 Text GLabel 7200 10250 0    40   Input ~ 0
@@ -1580,9 +1578,9 @@ Vthresh
 Text GLabel 8250 10750 0    40   Input ~ 0
 5Vdig
 Text GLabel 8250 10650 0    40   Input ~ 0
-Vocm
+Vocm_tel
 Text GLabel 8250 10550 0    40   Input ~ 0
-Vdig
+2V5dig
 Text GLabel 8250 10450 0    40   Input ~ 0
 Vana_B
 Text GLabel 8250 10250 0    40   Input ~ 0
@@ -1594,9 +1592,9 @@ SDA
 Text GLabel 8750 10350 2    40   Input ~ 0
 Vana_B
 Text GLabel 8750 10450 2    40   Input ~ 0
-Vdig
+2V5dig
 Text GLabel 8750 10550 2    40   Input ~ 0
-Vocm
+Vocm_tel
 Text GLabel 8750 10750 2    40   Input ~ 0
 RBI
 Text GLabel 8750 10850 2    40   Input ~ 0
@@ -1629,4 +1627,98 @@ Text GLabel 21000 4450 2    40   Input ~ 0
 SPI_SCLK
 Text GLabel 21000 4550 2    40   Input ~ 0
 SPI_SDIO
+$Comp
+L C C63
+U 1 1 5605A63E
+P 1900 5100
+F 0 "C63" H 1925 5200 50  0000 L CNN
+F 1 "10uF" H 1925 5000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1938 4950 30  0001 C CNN
+F 3 "" H 1900 5100 60  0000 C CNN
+	1    1900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C62
+U 1 1 5605ACDA
+P 1700 5100
+F 0 "C62" H 1725 5200 50  0000 L CNN
+F 1 "10uF" H 1725 5000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1738 4950 30  0001 C CNN
+F 3 "" H 1700 5100 60  0000 C CNN
+	1    1700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C61
+U 1 1 5605AD5D
+P 1500 5100
+F 0 "C61" H 1525 5200 50  0000 L CNN
+F 1 "10uF" H 1525 5000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1538 4950 30  0001 C CNN
+F 3 "" H 1500 5100 60  0000 C CNN
+	1    1500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C59
+U 1 1 5605ADEB
+P 1300 5100
+F 0 "C59" H 1325 5200 50  0000 L CNN
+F 1 "10uF" H 1325 5000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1338 4950 30  0001 C CNN
+F 3 "" H 1300 5100 60  0000 C CNN
+	1    1300 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4900 1900 4950
+Wire Wire Line
+	1300 4900 2100 4900
+Wire Wire Line
+	1700 4950 1700 4900
+Connection ~ 1900 4900
+Wire Wire Line
+	1500 4950 1500 4900
+Connection ~ 1700 4900
+Wire Wire Line
+	1300 4950 1300 4900
+Connection ~ 1500 4900
+Wire Wire Line
+	1900 5300 1900 5250
+Wire Wire Line
+	1300 5300 2100 5300
+Wire Wire Line
+	1700 5250 1700 5300
+Connection ~ 1900 5300
+Wire Wire Line
+	1500 5250 1500 5300
+Connection ~ 1700 5300
+Wire Wire Line
+	1300 5250 1300 5300
+Connection ~ 1500 5300
+Text GLabel 2100 4900 2    40   Input ~ 0
+3V3ana
+Text GLabel 2100 5300 2    40   Input ~ 0
+GND
+Text Notes 1200 5450 0    60   ~ 0
+Amplifier Decoupling Caps
+$Comp
+L C C78
+U 1 1 560B787A
+P 19350 4400
+F 0 "C78" H 19375 4500 50  0000 L CNN
+F 1 ".1uF" H 19375 4300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 19388 4250 30  0001 C CNN
+F 3 "" H 19350 4400 60  0000 C CNN
+	1    19350 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	19350 4250 19350 4100
+Wire Wire Line
+	19350 4550 19350 4650
+Connection ~ 19350 4650
+Wire Wire Line
+	19350 4100 21500 4100
 $EndSCHEMATC

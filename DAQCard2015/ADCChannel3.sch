@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 13
+Sheet 8 13
 Title ""
 Date ""
 Rev ""
@@ -740,5 +740,20 @@ Text GLabel 9950 4250 2    40   Input ~ 0
 Text GLabel 9950 4150 2    40   Input ~ 0
 GND
 Text GLabel 8100 4150 0    40   Input ~ 0
+GND
+$Comp
+L C C66
+U 1 1 56064446
+P 4400 5500
+F 0 "C66" H 4425 5600 50  0000 L CNN
+F 1 ".1uF" H 4425 5400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4438 5350 30  0001 C CNN
+F 3 "" H 4400 5500 60  0000 C CNN
+	1    4400 5500
+	0    1    1    0   
+$EndComp
+Text GLabel 4250 5500 0    40   Input ~ 0
+3V3ana
+Text GLabel 4550 5500 2    40   Input ~ 0
 GND
 $EndSCHEMATC

@@ -44,8 +44,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 700  1400 0    60   ~ 0
-Required Power Nets:\n5Vdig\n  -->500mA(1V8ana)\n  -->110mA(1V8dig)\n  -->180mA(fan)\n  -->600mA(ZEM)\n-5Vdig(Not Used)\n3.3Vdig\n1V8dig(32mA*8=256mA)\n1V8ana(142mA*8=1.136A)
+Text Notes -600 1050 0    60   ~ 0
+Required Power Nets:\n5Vdig\n  -->500mA(1V8ana)\n  -->110mA(1V8dig)\n  -->180mA(fan)\n  -->600mA(ZEM)\n-5Vdig(Not Used)\n3.3Vdig\n2.5Vdig(for APC Vdigs)\n1V8dig(32mA*8=256mA)\n1V8ana(142mA*8=1.136A)
 Text GLabel 9050 2150 2    60   Input ~ 0
 1V8ana
 Text GLabel 5300 7100 0    60   Input ~ 0
@@ -55,17 +55,17 @@ Text GLabel 6000 7100 2    60   Input ~ 0
 $Comp
 L BARREL_JACK CON1
 U 1 1 55CCF566
-P 1450 1950
-F 0 "CON1" H 1450 2200 60  0000 C CNN
-F 1 "BARREL_JACK" H 1450 1750 60  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 1450 1950 60  0001 C CNN
-F 3 "" H 1450 1950 60  0000 C CNN
-	1    1450 1950
-	1    0    0    -1  
+P 5800 3650
+F 0 "CON1" H 5800 3900 60  0000 C CNN
+F 1 "BARREL_JACK" H 5800 3450 60  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 5800 3650 60  0001 C CNN
+F 3 "" H 5800 3650 60  0000 C CNN
+	1    5800 3650
+	-1   0    0    -1  
 $EndComp
 Text GLabel 3100 2900 0    60   Input ~ 0
 GND
-Text Notes 1850 1650 0    60   ~ 0
+Text Notes 4450 3250 0    60   ~ 0
 Shoot for ~~10W DC supply  >=7V
 $Comp
 L CP C53
@@ -96,7 +96,7 @@ L LM1086 U20
 U 1 1 55EA84EC
 P 8050 2350
 F 0 "U20" H 7950 2700 60  0000 C CNN
-F 1 "LM1086" H 8250 2400 60  0000 C CNN
+F 1 "LM1086_1V8" H 8250 2400 60  0000 C CNN
 F 2 "extras:TO-263-4" H 8050 2350 60  0001 C CNN
 F 3 "" H 8050 2350 60  0000 C CNN
 	1    8050 2350
@@ -113,19 +113,8 @@ F 3 "" H 4100 2050 60  0000 C CNN
 	1    4100 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 9050 1500 2    60   Input ~ 0
+Text GLabel 9100 1500 2    60   Input ~ 0
 5Vdig
-$Comp
-L DPDT SW1
-U 1 1 55F79633
-P 2450 1850
-F 0 "SW1" H 2450 1975 50  0000 C CNN
-F 1 "DPDT" H 2450 1750 50  0000 C CNN
-F 2 "extras:DFXX-XX-X-XX-A-X-XX" H 2450 1850 60  0001 C CNN
-F 3 "" H 2450 1850 60  0000 C CNN
-	1    2450 1850
-	-1   0    0    -1  
-$EndComp
 $Comp
 L LT1913 U21
 U 1 1 55F8A69B
@@ -226,7 +215,7 @@ F 3 "" H 6300 2150 60  0000 C CNN
 	1    6300 2150
 	1    0    0    -1  
 $EndComp
-Text Notes 1600 3750 0    60   ~ 0
+Text Notes -1900 2050 0    60   ~ 0
 Wall Jack\n  |--->5V Switching Reg\n            |--->1.8Vana Linear Reg\n            |--->ZEM(3.3V) Switching Reg\n            |--->ZEM(1.8V(dig)) Linear Reg\n                         
 $Comp
 L NMLU1210 DB1
@@ -247,27 +236,24 @@ Text Notes 4150 2550 0    60   ~ 0
 Cer
 Text Notes 5850 1850 0    60   ~ 0
 Cer
-Connection ~ 2950 2000
-Wire Wire Line
-	1950 1850 1950 2100
 Connection ~ 4950 1500
 Wire Wire Line
-	4950 1900 4950 1500
+	4950 1500 4950 1900
 Connection ~ 3350 2900
 Wire Wire Line
 	3350 2250 3350 2900
 Connection ~ 3550 2900
 Wire Wire Line
-	8700 2350 8700 2150
+	8700 2150 8700 2350
 Connection ~ 6600 2900
 Connection ~ 6600 1500
 Connection ~ 6600 2150
 Connection ~ 6600 2550
 Wire Wire Line
-	5500 1500 9050 1500
+	5500 1500 9100 1500
 Connection ~ 6000 2900
 Wire Wire Line
-	6000 2450 6000 2900
+	6000 2900 6000 2450
 Wire Wire Line
 	6600 2550 6400 2550
 Wire Wire Line
@@ -294,19 +280,19 @@ Wire Wire Line
 	5500 1600 5500 1500
 Connection ~ 4800 2900
 Wire Wire Line
-	4800 2500 4800 2900
+	4800 2900 4800 2500
 Wire Wire Line
-	4950 2500 4800 2500
+	4800 2500 4950 2500
 Connection ~ 4550 2900
 Wire Wire Line
-	4550 2750 4550 2900
+	4550 2900 4550 2750
 Wire Wire Line
 	4550 2300 4550 2450
 Wire Wire Line
 	4950 2300 4550 2300
 Connection ~ 4300 2900
 Wire Wire Line
-	4300 2750 4300 2900
+	4300 2900 4300 2750
 Wire Wire Line
 	4300 2150 4300 2450
 Wire Wire Line
@@ -333,17 +319,15 @@ Wire Wire Line
 Wire Wire Line
 	6550 2150 7800 2150
 Wire Wire Line
-	3150 2300 3150 2100
+	2800 2100 3150 2100
 Wire Wire Line
-	1900 2300 3150 2300
+	2800 3900 5350 3900
 Wire Wire Line
 	3550 2000 3550 1500
 Wire Wire Line
 	3550 2900 3550 2100
 Wire Wire Line
-	2950 2000 3150 2000
-Wire Wire Line
-	2950 1850 2950 2100
+	2750 2000 3150 2000
 Connection ~ 4100 1500
 Connection ~ 3750 1500
 Wire Wire Line
@@ -358,16 +342,13 @@ Wire Wire Line
 	3750 1500 3750 1900
 Wire Wire Line
 	3550 1500 5200 1500
+Connection ~ 5350 3750
 Wire Wire Line
-	1750 1850 1950 1850
-Connection ~ 1900 2050
+	5350 3900 5350 3650
 Wire Wire Line
-	1900 1950 1900 2300
+	5350 3650 5500 3650
 Wire Wire Line
-	1750 1950 1900 1950
-Wire Wire Line
-	1900 2050 1750 2050
-Connection ~ 1950 1850
+	5350 3750 5500 3750
 Wire Notes Line
 	8750 2700 8750 3000
 Wire Notes Line
@@ -397,7 +378,7 @@ F 3 "" H 7700 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 2700 7700 2900
+	7700 2900 7700 2700
 Connection ~ 7700 2900
 Wire Wire Line
 	7700 2400 7700 2150
@@ -417,4 +398,110 @@ F 3 "" H 6600 2750 60  0000 C CNN
 	1    6600 2750
 	1    0    0    -1  
 $EndComp
+Text GLabel 9050 3300 2    60   Input ~ 0
+2V5dig
+$Comp
+L LM1086 U25
+U 1 1 56067747
+P 8050 3500
+F 0 "U25" H 7950 3850 60  0000 C CNN
+F 1 "LM1086_2V5" H 8250 3550 60  0000 C CNN
+F 2 "extras:TO-263-4" H 8050 3500 60  0001 C CNN
+F 3 "" H 8050 3500 60  0000 C CNN
+	1    8050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3300 8700 3500
+Connection ~ 8050 4050
+Wire Wire Line
+	8700 4050 8700 3800
+Connection ~ 8700 3300
+Wire Wire Line
+	8050 4050 8050 3500
+Connection ~ 8350 3300
+Wire Wire Line
+	8300 3300 9050 3300
+Wire Wire Line
+	8350 3250 8350 3300
+Wire Wire Line
+	8300 3250 8350 3250
+Wire Notes Line
+	8750 3850 8750 4150
+Wire Notes Line
+	7800 4150 9250 4150
+Text Notes 9050 4150 0    60   ~ 0
+Tantalum
+$Comp
+L CP C74
+U 1 1 5606775A
+P 8700 3650
+F 0 "C74" H 8725 3750 50  0000 L CNN
+F 1 "100uF" H 8725 3550 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8738 3500 30  0001 C CNN
+F 3 "" H 8700 3650 60  0000 C CNN
+	1    8700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C73
+U 1 1 56067760
+P 7700 3700
+F 0 "C73" H 7725 3800 50  0000 L CNN
+F 1 "10uF" H 7725 3600 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 7738 3550 30  0001 C CNN
+F 3 "" H 7700 3700 60  0000 C CNN
+	1    7700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 3850 7700 4050
+Connection ~ 7700 4050
+Wire Wire Line
+	7700 3550 7700 3300
+Connection ~ 7700 3300
+Wire Notes Line
+	7800 4150 7800 3900
+Wire Wire Line
+	6600 4050 8700 4050
+Wire Wire Line
+	7150 3300 7150 2150
+Connection ~ 7150 2150
+Wire Wire Line
+	7150 3300 7800 3300
+Wire Wire Line
+	6600 4050 6600 2900
+Wire Wire Line
+	4250 3450 4200 3450
+Wire Wire Line
+	4200 3450 4200 3700
+Wire Wire Line
+	4200 3700 4250 3700
+Wire Wire Line
+	2750 3600 4200 3600
+Connection ~ 4200 3600
+$Comp
+L DPDT SW1
+U 1 1 55F79633
+P 4750 3450
+F 0 "SW1" H 4750 3575 50  0000 C CNN
+F 1 "DPDT" H 4750 3350 50  0000 C CNN
+F 2 "extras:DFXX-XX-X-XX-A-X-XX" H 4750 3450 60  0001 C CNN
+F 3 "" H 4750 3450 60  0000 C CNN
+	1    4750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3700 5300 3700
+Wire Wire Line
+	5300 3700 5300 3450
+Wire Wire Line
+	5300 3450 5250 3450
+Wire Wire Line
+	5500 3550 5300 3550
+Connection ~ 5300 3550
+Wire Wire Line
+	2750 3600 2750 2000
+Wire Wire Line
+	2800 3900 2800 2100
 $EndSCHEMATC
