@@ -118,48 +118,26 @@ NoConn ~ 3450 1350
 NoConn ~ 1950 1450
 NoConn ~ 3450 1450
 NoConn ~ 1950 1550
-Text Label 3500 1550 0    60   ~ 0
-+VCCIO2
-Text Label 1900 1650 2    60   ~ 0
-+1.2VDD
 NoConn ~ 3450 1650
 NoConn ~ 3450 1750
 NoConn ~ 1950 1750
 NoConn ~ 1950 1850
-Text Label 3500 1850 0    60   ~ 0
-+VCCIO3
 NoConn ~ 3450 1950
 NoConn ~ 3450 2050
 NoConn ~ 1950 2050
 NoConn ~ 1950 2150
-Text Label 3500 2150 0    60   ~ 0
-VREF_H2
-Text Label 1900 2250 2    60   ~ 0
-+X_HSMC_VCCIO
 NoConn ~ 1950 2450
 NoConn ~ 1950 2350
 NoConn ~ 3450 2350
 NoConn ~ 3450 2250
-Text Label 3500 2450 0    60   ~ 0
-VREF_BANK3
-Text Label 1900 2550 2    60   ~ 0
-X_HSMC_VS0
 NoConn ~ 3450 2550
 NoConn ~ 3450 2650
 NoConn ~ 1950 2650
 NoConn ~ 1950 2750
-Text Label 3500 2750 0    60   ~ 0
-BANK1_CLK
-Text Label 1900 2850 2    60   ~ 0
-X_HSMC_VS1
 NoConn ~ 1950 2950
 NoConn ~ 1950 3050
 NoConn ~ 3450 2850
 NoConn ~ 3450 2950
-Text Label 1900 3150 2    60   ~ 0
-X_HSMC_VS2
-Text Label 3500 3050 0    60   ~ 0
-BANK8_CLK
 NoConn ~ 1950 3250
 NoConn ~ 1950 3350
 NoConn ~ 3450 3150
@@ -168,12 +146,6 @@ NoConn ~ 1950 3550
 NoConn ~ 1950 3650
 NoConn ~ 3450 3650
 NoConn ~ 3450 3950
-Text Label 3500 4150 0    60   ~ 0
-CLKOUT0
-Text Label 1900 4250 2    60   ~ 0
-CLKIN0
-Text Label 3500 4250 0    60   ~ 0
-OVP_FLAG
 Text Label 1950 10350 2    60   ~ 0
 PRSNTn
 Text Label 3500 10050 0    60   ~ 0
@@ -508,7 +480,6 @@ NoConn ~ 9500 7000
 NoConn ~ 1950 2550
 NoConn ~ 1950 2850
 NoConn ~ 1950 3150
-NoConn ~ 3450 3050
 NoConn ~ 3450 2750
 NoConn ~ 3450 2150
 Text GLabel 3450 10250 2    40   Input ~ 0
@@ -692,7 +663,7 @@ NoConn ~ 3450 4050
 NoConn ~ 1950 3950
 NoConn ~ 1950 4150
 NoConn ~ 3450 4250
-Text GLabel 8000 4200 0    40   Input ~ 0
+Text GLabel 3450 3050 2    40   Input ~ 0
 EXT_CLK
 NoConn ~ 8000 4100
 NoConn ~ 8000 3900
