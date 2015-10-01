@@ -183,7 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3650 4550 3650
 Text Notes 14100 9250 0    60   ~ 0
-TODO:\nDetermine HSMC Pin mapping\nWire LEDs for RJ45x8 port
+TODO:
 Wire Wire Line
 	3800 3850 4550 3850
 Wire Wire Line

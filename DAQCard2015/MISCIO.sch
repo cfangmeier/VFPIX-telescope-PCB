@@ -823,7 +823,7 @@ L SPYPAD P8
 U 1 1 560710A9
 P 8250 5750
 F 0 "P8" H 8330 5750 40  0000 L CNN
-F 1 "SPYPAD" H 8250 5800 30  0001 C CNN
+F 1 "GND" H 8250 5800 30  0001 C CNN
 F 2 "extras:Harwin_D3082-05" H 8250 5750 60  0001 C CNN
 F 3 "" H 8250 5750 60  0000 C CNN
 	1    8250 5750
@@ -834,7 +834,7 @@ L SPYPAD P10
 U 1 1 56071304
 P 8400 5750
 F 0 "P10" H 8480 5750 40  0000 L CNN
-F 1 "SPYPAD" H 8400 5800 30  0001 C CNN
+F 1 "GND" H 8400 5800 30  0001 C CNN
 F 2 "extras:Harwin_D3082-05" H 8400 5750 60  0001 C CNN
 F 3 "" H 8400 5750 60  0000 C CNN
 	1    8400 5750
@@ -895,4 +895,101 @@ Text Notes 5700 2800 0    50   ~ 0
 Byte Blaster Programming Header
 Wire Wire Line
 	1700 3350 2400 3350
+$Comp
+L TLC59282 U26
+U 1 1 560DFA19
+P 3100 6700
+F 0 "U26" H 2900 7350 40  0000 C CNN
+F 1 "TLC59282" H 3200 6050 40  0000 C CNN
+F 2 "Housings_SSOP:SSOP-24_3.9x8.7mm_Pitch0.635mm" H 3100 6700 40  0001 C CNN
+F 3 "" H 3100 6700 40  0000 C CNN
+	1    3100 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2650 6150 0    40   Input ~ 0
+GND
+Text GLabel 3800 6150 2    40   Input ~ 0
+3V3dig
+Wire Wire Line
+	3450 6150 3800 6150
+$Comp
+L C C75
+U 1 1 560DFC66
+P 3600 6000
+F 0 "C75" H 3625 6100 50  0000 L CNN
+F 1 "47uF" H 3625 5900 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 3638 5850 30  0001 C CNN
+F 3 "" H 3600 6000 60  0000 C CNN
+	1    3600 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 6150
+Wire Wire Line
+	2700 5850 4150 5850
+Wire Wire Line
+	2750 6150 2650 6150
+Wire Wire Line
+	2700 5850 2700 6150
+Connection ~ 2700 6150
+Text Notes 3700 6000 0    40   ~ 0
+Tantalum
+Text GLabel 2750 6250 0    40   Input ~ 0
+RJ45_LED_SDA
+Text GLabel 2750 6350 0    40   Input ~ 0
+RJ45_LED_CLK
+Text GLabel 2750 6450 0    40   Input ~ 0
+RJ45_LED_LATCH
+Text GLabel 3450 6450 2    40   Input ~ 0
+RJ45_LED_BLANK
+NoConn ~ 3450 6350
+$Comp
+L R R63
+U 1 1 560E0E6E
+P 3800 6250
+F 0 "R63" V 3880 6250 50  0000 C CNN
+F 1 "R" V 3800 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 6250 30  0001 C CNN
+F 3 "" H 3800 6250 30  0000 C CNN
+	1    3800 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 6250 3450 6250
+Wire Wire Line
+	3950 6250 4150 6250
+Wire Wire Line
+	4150 6250 4150 5850
+Connection ~ 3600 5850
+Text GLabel 2750 6550 0    40   Input ~ 0
+RJ45_LED_00
+Text GLabel 2750 6650 0    40   Input ~ 0
+RJ45_LED_01
+Text GLabel 2750 6750 0    40   Input ~ 0
+RJ45_LED_02
+Text GLabel 2750 6850 0    40   Input ~ 0
+RJ45_LED_03
+Text GLabel 2750 6950 0    40   Input ~ 0
+RJ45_LED_04
+Text GLabel 2750 7050 0    40   Input ~ 0
+RJ45_LED_05
+Text GLabel 2750 7150 0    40   Input ~ 0
+RJ45_LED_06
+Text GLabel 2750 7250 0    40   Input ~ 0
+RJ45_LED_07
+Text GLabel 3450 7250 2    40   Input ~ 0
+RJ45_LED_08
+Text GLabel 3450 7150 2    40   Input ~ 0
+RJ45_LED_09
+Text GLabel 3450 7050 2    40   Input ~ 0
+RJ45_LED_10
+Text GLabel 3450 6950 2    40   Input ~ 0
+RJ45_LED_11
+Text GLabel 3450 6850 2    40   Input ~ 0
+RJ45_LED_12
+Text GLabel 3450 6650 2    40   Input ~ 0
+RJ45_LED_14
+Text GLabel 3450 6750 2    40   Input ~ 0
+RJ45_LED_13
+Text GLabel 3450 6550 2    40   Input ~ 0
+RJ45_LED_15
 $EndSCHEMATC

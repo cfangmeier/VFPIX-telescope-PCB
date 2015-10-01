@@ -1721,4 +1721,68 @@ Wire Wire Line
 Connection ~ 19350 4650
 Wire Wire Line
 	19350 4100 21500 4100
+Text GLabel 6150 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 6700 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 6000 1600 1    40   Input ~ 0
+RJ45_LED_15
+Text GLabel 6550 1600 1    40   Input ~ 0
+RJ45_LED_14
+Text GLabel 9800 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 10350 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 9650 1600 1    40   Input ~ 0
+RJ45_LED_13
+Text GLabel 10200 1600 1    40   Input ~ 0
+RJ45_LED_12
+Text GLabel 13400 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 13950 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 13250 1600 1    40   Input ~ 0
+RJ45_LED_11
+Text GLabel 13800 1600 1    40   Input ~ 0
+RJ45_LED_10
+Text GLabel 17000 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 17550 1600 1    40   Input ~ 0
+3V3dig
+Text GLabel 16850 1600 1    40   Input ~ 0
+RJ45_LED_09
+Text GLabel 17400 1600 1    40   Input ~ 0
+RJ45_LED_08
+Text GLabel 6150 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 6700 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 6550 5400 1    40   Input ~ 0
+RJ45_LED_00
+Text GLabel 6000 5400 1    40   Input ~ 0
+RJ45_LED_01
+Text GLabel 9800 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 10350 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 9650 5400 1    40   Input ~ 0
+RJ45_LED_03
+Text GLabel 10200 5400 1    40   Input ~ 0
+RJ45_LED_02
+Text GLabel 13400 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 13950 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 13250 5400 1    40   Input ~ 0
+RJ45_LED_05
+Text GLabel 13800 5400 1    40   Input ~ 0
+RJ45_LED_04
+Text GLabel 17000 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 17550 5400 1    40   Input ~ 0
+3V3dig
+Text GLabel 16850 5400 1    40   Input ~ 0
+RJ45_LED_07
+Text GLabel 17400 5400 1    40   Input ~ 0
+RJ45_LED_06
 $EndSCHEMATC

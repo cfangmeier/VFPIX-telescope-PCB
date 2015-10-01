@@ -58,60 +58,28 @@ NoConn ~ 9500 1900
 NoConn ~ 9500 2000
 NoConn ~ 8000 2000
 NoConn ~ 8000 2100
-Text Label 9550 2100 0    60   ~ 0
-+VCCIO4
-Text Label 7950 2200 2    60   ~ 0
-+Y_HSMC_VCCIO
 NoConn ~ 8000 2400
 NoConn ~ 8000 2300
 NoConn ~ 9500 2300
 NoConn ~ 9500 2200
-Text Label 9550 2400 0    60   ~ 0
-+VCCIO5
 NoConn ~ 9500 2500
 NoConn ~ 9500 2600
 NoConn ~ 8000 2600
 NoConn ~ 8000 2700
-Text Label 9550 2700 0    60   ~ 0
-+VCCIO6
 NoConn ~ 8000 2900
 NoConn ~ 8000 3000
 NoConn ~ 9500 2800
 NoConn ~ 9500 2900
-Text Label 9550 3000 0    60   ~ 0
-VREF_BANK4
 NoConn ~ 8000 3200
 NoConn ~ 8000 3300
 NoConn ~ 9500 3100
 NoConn ~ 9500 3200
-Text Label 9550 3300 0    60   ~ 0
-VREF_BANK5
-Text Label 7950 3400 2    60   ~ 0
-VREF_BANK6
-Text Label 9550 3400 0    60   ~ 0
-PLL4_CLKOUTp
 NoConn ~ 8000 3500
-Text Label 9550 3500 0    60   ~ 0
-PLL4_CLKOUTn
 NoConn ~ 8000 3600
 NoConn ~ 9500 3600
-Text Label 9550 3700 0    60   ~ 0
-HSMC_SDA
-Text Label 7950 3800 2    60   ~ 0
-HSMC_SCL
 NoConn ~ 9500 3900
 NoConn ~ 8000 4000
-Text Label 9550 4100 0    60   ~ 0
-CLKOUT0
 NoConn ~ 8000 4300
-Text Label 9550 7000 0    60   ~ 0
-CLKOUT1p
-Text Label 9550 7100 0    60   ~ 0
-CLKOUT1n
-Text Label 7950 7100 2    60   ~ 0
-CLKIN1p
-Text Label 7950 7200 2    60   ~ 0
-CLKIN1n
 Text Notes 2340 10400 1    60   ~ 0
 HSMC  J1
 NoConn ~ 3450 1350
@@ -473,10 +441,6 @@ NoConn ~ 1950 7150
 NoConn ~ 1950 7250
 NoConn ~ 3450 7050
 NoConn ~ 3450 7150
-NoConn ~ 8000 7200
-NoConn ~ 8000 7100
-NoConn ~ 9500 7100
-NoConn ~ 9500 7000
 NoConn ~ 1950 2550
 NoConn ~ 1950 2850
 NoConn ~ 1950 3150
@@ -566,9 +530,9 @@ Text GLabel 3450 3450 2    40   Input ~ 0
 ADC_CLK+
 Text GLabel 3450 3550 2    40   Input ~ 0
 ADC_CLK-
-Text GLabel 3450 8550 2    40   Input ~ 0
+Text GLabel 9500 5300 2    40   Input ~ 0
 IS1
-Text GLabel 3450 8650 2    40   Input ~ 0
+Text GLabel 9500 5500 2    40   Input ~ 0
 Reset
 Text GLabel 3450 8850 2    40   Input ~ 0
 LE
@@ -644,12 +608,6 @@ Text GLabel 9500 4400 2    40   Input ~ 0
 LED0
 Text GLabel 9500 4300 2    40   Input ~ 0
 LED1
-Text Label 7950 3100 2    60   ~ 0
-Y_HSMC_VS2
-Text Label 7950 2800 2    60   ~ 0
-Y_HSMC_VS1
-Text Label 7950 2500 2    60   ~ 0
-Y_HSMC_VS0
 Text GLabel 1950 3750 0    40   Input ~ 0
 JTAG_TDO
 Text GLabel 1950 4050 0    40   Input ~ 0
@@ -674,6 +632,50 @@ Text GLabel 8000 4400 0    40   Input ~ 0
 UIO_1
 Text GLabel 8000 4500 0    40   Input ~ 0
 UIO_2
-Text GLabel 9500 5300 2    40   Input ~ 0
+Text GLabel 9500 5600 2    40   Input ~ 0
 EXT_TRG
+Text Label 9550 4100 0    60   ~ 0
+CLKOUT0
+Text Label 7950 3800 2    60   ~ 0
+HSMC_SCL
+Text Label 7950 3400 2    60   ~ 0
+VREF_BANK6
+Text Label 7950 3100 2    60   ~ 0
+Y_HSMC_VS2
+Text Label 7950 2800 2    60   ~ 0
+Y_HSMC_VS1
+Text Label 7950 2500 2    60   ~ 0
+Y_HSMC_VS0
+Text Label 7950 2200 2    60   ~ 0
++Y_HSMC_VCCIO
+Text Label 9550 2100 0    60   ~ 0
++VCCIO4
+Text Label 9550 2400 0    60   ~ 0
++VCCIO5
+Text Label 9550 2700 0    60   ~ 0
++VCCIO6
+Text Label 9550 3000 0    60   ~ 0
+VREF_BANK4
+Text Label 9550 3300 0    60   ~ 0
+VREF_BANK5
+Text Label 9550 3400 0    60   ~ 0
+PLL4_CLKOUTp
+Text Label 9550 3500 0    60   ~ 0
+PLL4_CLKOUTn
+Text Label 9550 3700 0    60   ~ 0
+HSMC_SDA
+NoConn ~ 9500 3700
+NoConn ~ 9500 4100
+NoConn ~ 8000 3800
+NoConn ~ 8000 4200
+Text GLabel 3450 8650 2    40   Input ~ 0
+NULL
+Text GLabel 8000 7100 0    40   Input ~ 0
+RJ45_LED_CLK
+Text GLabel 8000 7200 0    40   Input ~ 0
+RJ45_LED_SDA
+Text GLabel 9500 7100 2    40   Input ~ 0
+RJ45_LED_BLANK
+Text GLabel 9500 7000 2    40   Input ~ 0
+RJ45_LED_LATCH
 $EndSCHEMATC
