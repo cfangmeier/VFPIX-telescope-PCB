@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <components>
+    <comp ref="CASE">
+      <fields>
+        <field name="digipart">HM1414-ND</field>
+      </fields>
+    </comp>
+    <comp ref="CONN_EXT">
+      <fields>
+        <field name="digipart">A27813CT-ND</field>
+      </fields>
+    </comp>
+    <comp ref="CONN_EXT">
+      <fields>
+        <field name="digipart">A97548-ND</field>
+      </fields>
+    </comp>
+  </components>
+</export>

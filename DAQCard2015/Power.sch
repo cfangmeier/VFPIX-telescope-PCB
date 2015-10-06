@@ -44,7 +44,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes -600 1050 0    60   ~ 0
+Text Notes 1450 1800 0    60   ~ 0
 Required Power Nets:\n5Vdig\n  -->500mA(1V8ana)\n  -->110mA(1V8dig)\n  -->180mA(fan)\n  -->600mA(ZEM)\n-5Vdig(Not Used)\n3.3Vdig\n2.5Vdig(for APC Vdigs)\n1V8dig(32mA*8=256mA)\n1V8ana(142mA*8=1.136A)
 Text GLabel 9050 2150 2    60   Input ~ 0
 1V8ana
@@ -60,6 +60,7 @@ F 0 "CON1" H 5800 3900 60  0000 C CNN
 F 1 "BARREL_JACK" H 5800 3450 60  0000 C CNN
 F 2 "Connect:BARREL_JACK" H 5800 3650 60  0001 C CNN
 F 3 "" H 5800 3650 60  0000 C CNN
+F 4 "CP-002B-ND" H 5800 3650 60  0001 C CNN "digipart"
 	1    5800 3650
 	-1   0    0    -1  
 $EndComp
@@ -75,6 +76,7 @@ F 0 "C53" H 3775 2150 50  0000 L CNN
 F 1 "22uF" H 3775 1950 50  0000 L CNN
 F 2 "extras:SMD_Cap_8mmDia" H 3788 1900 30  0001 C CNN
 F 3 "" H 3750 2050 60  0000 C CNN
+F 4 "493-9771-1-ND" H 3750 2050 60  0001 C CNN "digipart"
 	1    3750 2050
 	1    0    0    -1  
 $EndComp
@@ -88,6 +90,7 @@ F 0 "FB1" H 5650 7250 50  0000 C CNN
 F 1 "FILTER" H 5650 7000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" H 5650 7100 60  0001 C CNN
 F 3 "" H 5650 7100 60  0000 C CNN
+F 4 "MH2029-070YCT-ND" H 5650 7100 60  0001 C CNN "digipart"
 	1    5650 7100
 	1    0    0    -1  
 $EndComp
@@ -99,6 +102,7 @@ F 0 "U20" H 7950 2700 60  0000 C CNN
 F 1 "LM1086_1V8" H 8250 2400 60  0000 C CNN
 F 2 "extras:TO-263-4" H 8050 2350 60  0001 C CNN
 F 3 "" H 8050 2350 60  0000 C CNN
+F 4 "LM1086ISX-1.8/NOPBCT-ND" H 8050 2350 60  0001 C CNN "digipart"
 	1    8050 2350
 	1    0    0    -1  
 $EndComp
@@ -110,6 +114,7 @@ F 0 "C54" H 4125 2150 50  0000 L CNN
 F 1 "10uF" H 4125 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4138 1900 30  0001 C CNN
 F 3 "" H 4100 2050 60  0000 C CNN
+F 4 "445-11464-1-ND" H 4100 2050 60  0001 C CNN "digipart"
 	1    4100 2050
 	1    0    0    -1  
 $EndComp
@@ -123,6 +128,7 @@ F 0 "U21" H 5650 1650 60  0000 C CNN
 F 1 "LT1913" H 5350 2150 60  0000 C CNN
 F 2 "extras:LT1913" H 3450 1700 60  0001 C CNN
 F 3 "" H 3450 1700 60  0000 C CNN
+F 4 "LT1913EDD#PBF-ND" H 5350 2150 60  0001 C CNN "digipart"
 	1    5350 2150
 	1    0    0    -1  
 $EndComp
@@ -134,6 +140,7 @@ F 0 "C55" H 4325 2700 50  0000 L CNN
 F 1 "680pF" H 4200 2500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4338 2450 30  0001 C CNN
 F 3 "" H 4300 2600 60  0000 C CNN
+F 4 "445-1291-1-ND" H 4300 2600 60  0001 C CNN "digipart"
 	1    4300 2600
 	1    0    0    -1  
 $EndComp
@@ -145,6 +152,7 @@ F 0 "C56" H 6025 2000 50  0000 L CNN
 F 1 "0.47uF" H 5750 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6038 1750 30  0001 C CNN
 F 3 "" H 6000 1900 60  0000 C CNN
+F 4 "445-7464-1-ND" H 6000 1900 60  0001 C CNN "digipart"
 	1    6000 1900
 	1    0    0    -1  
 $EndComp
@@ -156,6 +164,7 @@ F 0 "R47" V 4680 2150 50  0000 C CNN
 F 1 "15k" V 4600 2150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4530 2150 30  0001 C CNN
 F 3 "" H 4600 2150 30  0000 C CNN
+F 4 "P15.0KHCT-ND" V 4600 2150 60  0001 C CNN "digipart"
 	1    4600 2150
 	0    1    1    0   
 $EndComp
@@ -167,6 +176,7 @@ F 0 "R46" V 4630 2600 50  0000 C CNN
 F 1 "63.4k" V 4550 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 4480 2600 30  0001 C CNN
 F 3 "" H 4550 2600 30  0000 C CNN
+F 4 "P63.4KHCT-ND" V 4550 2600 60  0001 C CNN "digipart"
 	1    4550 2600
 	1    0    0    -1  
 $EndComp
@@ -179,6 +189,7 @@ F 0 "D4" H 5950 2430 50  0000 L CNN
 F 1 "MBRA340" H 5850 2250 50  0000 L CNN
 F 2 "Diodes_SMD:SMA_Standard" V 6000 2350 60  0001 C CNN
 F 3 "" V 6000 2350 60  0000 C CNN
+F 4 "MBRA340T3GOSCT-ND" H 6000 2350 60  0001 C CNN "digipart"
 	1    6000 2350
 	0    1    1    0   
 $EndComp
@@ -190,6 +201,7 @@ F 0 "R48" V 5930 2700 50  0000 C CNN
 F 1 "100k" V 5850 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5780 2700 30  0001 C CNN
 F 3 "" H 5850 2700 30  0000 C CNN
+F 4 "P100KHCT-ND" V 5850 2700 60  0001 C CNN "digipart"
 	1    5850 2700
 	1    0    0    -1  
 $EndComp
@@ -201,6 +213,7 @@ F 0 "R49" V 6330 2550 50  0000 C CNN
 F 1 "536k" V 6250 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 6180 2550 30  0001 C CNN
 F 3 "" H 6250 2550 30  0000 C CNN
+F 4 "P536KHCT-ND" V 6250 2550 60  0001 C CNN "digipart"
 	1    6250 2550
 	0    1    1    0   
 $EndComp
@@ -212,10 +225,11 @@ F 0 "L1" H 6300 2250 50  0000 C CNN
 F 1 "5.6uH" H 6300 2100 50  0000 C CNN
 F 2 "extras:SLF101" H 6300 2150 60  0001 C CNN
 F 3 "" H 6300 2150 60  0000 C CNN
+F 4 "445-6477-1-ND" H 6300 2150 60  0001 C CNN "digipart"
 	1    6300 2150
 	1    0    0    -1  
 $EndComp
-Text Notes -1900 2050 0    60   ~ 0
+Text Notes 150  2800 0    60   ~ 0
 Wall Jack\n  |--->5V Switching Reg\n            |--->1.8Vana Linear Reg\n            |--->ZEM(3.3V) Switching Reg\n            |--->ZEM(1.8V(dig)) Linear Reg\n                         
 $Comp
 L NMLU1210 DB1
@@ -225,6 +239,7 @@ F 0 "DB1" H 3250 2200 60  0000 C CNN
 F 1 "NMLU1210" H 3150 1900 45  0000 C CNN
 F 2 "extras:NMLU1210" H 3250 1975 60  0001 C CNN
 F 3 "" H 3250 1975 60  0000 C CNN
+F 4 "NMLU1210TWGOSCT-ND" H 3350 2050 60  0001 C CNN "digipart"
 	1    3350 2050
 	-1   0    0    -1  
 $EndComp
@@ -360,9 +375,10 @@ L CP C58
 U 1 1 5601F0EE
 P 8700 2500
 F 0 "C58" H 8725 2600 50  0000 L CNN
-F 1 "100uF" H 8725 2400 50  0000 L CNN
+F 1 "10uF" H 8725 2400 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8738 2350 30  0001 C CNN
 F 3 "" H 8700 2500 60  0000 C CNN
+F 4 "478-3337-1-ND" H 8700 2500 60  0001 C CNN "digipart"
 	1    8700 2500
 	1    0    0    -1  
 $EndComp
@@ -374,6 +390,7 @@ F 0 "C60" H 7725 2650 50  0000 L CNN
 F 1 "10uF" H 7725 2450 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 7738 2400 30  0001 C CNN
 F 3 "" H 7700 2550 60  0000 C CNN
+F 4 "478-3337-1-ND" H 7700 2550 60  0001 C CNN "digipart"
 	1    7700 2550
 	1    0    0    -1  
 $EndComp
@@ -395,6 +412,7 @@ F 0 "C57" H 6625 2850 50  0000 L CNN
 F 1 "47uF" H 6625 2650 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 6638 2600 30  0001 C CNN
 F 3 "" H 6600 2750 60  0000 C CNN
+F 4 "478-9200-1-ND" H 6600 2750 60  0001 C CNN "digipart"
 	1    6600 2750
 	1    0    0    -1  
 $EndComp
@@ -408,6 +426,7 @@ F 0 "U25" H 7950 3850 60  0000 C CNN
 F 1 "LM1086_2V5" H 8250 3550 60  0000 C CNN
 F 2 "extras:TO-263-4" H 8050 3500 60  0001 C CNN
 F 3 "" H 8050 3500 60  0000 C CNN
+F 4 "LM1086CSX-2.5/NOPBCT-ND" H 8050 3500 60  0001 C CNN "digipart"
 	1    8050 3500
 	1    0    0    -1  
 $EndComp
@@ -437,9 +456,10 @@ L CP C74
 U 1 1 5606775A
 P 8700 3650
 F 0 "C74" H 8725 3750 50  0000 L CNN
-F 1 "100uF" H 8725 3550 50  0000 L CNN
+F 1 "10uF" H 8725 3550 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 8738 3500 30  0001 C CNN
 F 3 "" H 8700 3650 60  0000 C CNN
+F 4 "478-3337-1-ND" H 8700 3650 60  0001 C CNN "digipart"
 	1    8700 3650
 	1    0    0    -1  
 $EndComp
@@ -451,6 +471,7 @@ F 0 "C73" H 7725 3800 50  0000 L CNN
 F 1 "10uF" H 7725 3600 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow" H 7738 3550 30  0001 C CNN
 F 3 "" H 7700 3700 60  0000 C CNN
+F 4 "478-3337-1-ND" H 7700 3700 60  0001 C CNN "digipart"
 	1    7700 3700
 	1    0    0    -1  
 $EndComp
@@ -488,6 +509,7 @@ F 0 "SW1" H 4750 3575 50  0000 C CNN
 F 1 "DPDT" H 4750 3350 50  0000 C CNN
 F 2 "extras:DFXX-XX-X-XX-A-X-XX" H 4750 3450 60  0001 C CNN
 F 3 "" H 4750 3450 60  0000 C CNN
+F 4 "CKN2062-ND" H 4750 3450 60  0001 C CNN "digipart"
 	1    4750 3450
 	1    0    0    -1  
 $EndComp
@@ -504,4 +526,82 @@ Wire Wire Line
 	2750 3600 2750 2000
 Wire Wire Line
 	2800 3900 2800 2100
+$Comp
+L SPYPAD P12
+U 1 1 560EDBF6
+P 6450 5450
+F 0 "P12" H 6530 5450 40  0000 L CNN
+F 1 "5Vdig" H 6450 5500 30  0001 C CNN
+F 2 "extras:testpad" H 6450 5450 60  0001 C CNN
+F 3 "" H 6450 5450 60  0000 C CNN
+	1    6450 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L SPYPAD P13
+U 1 1 560EDD25
+P 6600 5450
+F 0 "P13" H 6680 5450 40  0000 L CNN
+F 1 "1.8Vana" H 6600 5500 30  0001 C CNN
+F 2 "extras:testpad" H 6600 5450 60  0001 C CNN
+F 3 "" H 6600 5450 60  0000 C CNN
+	1    6600 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L SPYPAD P14
+U 1 1 560EDD7F
+P 6750 5450
+F 0 "P14" H 6830 5450 40  0000 L CNN
+F 1 "1.8Vdig" H 6750 5500 30  0001 C CNN
+F 2 "extras:testpad" H 6750 5450 60  0001 C CNN
+F 3 "" H 6750 5450 60  0000 C CNN
+	1    6750 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L SPYPAD P15
+U 1 1 560EDDDC
+P 6900 5450
+F 0 "P15" H 6980 5450 40  0000 L CNN
+F 1 "3.3Vdig" H 6900 5500 30  0001 C CNN
+F 2 "extras:testpad" H 6900 5450 60  0001 C CNN
+F 3 "" H 6900 5450 60  0000 C CNN
+	1    6900 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L SPYPAD P16
+U 1 1 560EDE3C
+P 7050 5450
+F 0 "P16" H 7130 5450 40  0000 L CNN
+F 1 "3.3Vana" H 7050 5500 30  0001 C CNN
+F 2 "extras:testpad" H 7050 5450 60  0001 C CNN
+F 3 "" H 7050 5450 60  0000 C CNN
+	1    7050 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 6450 5300 1    40   Input ~ 0
+5Vdig
+Text GLabel 6600 5300 1    40   Input ~ 0
+1V8ana
+Text GLabel 6750 5300 1    40   Input ~ 0
+1V8dig
+Text GLabel 6900 5300 1    40   Input ~ 0
+3V3dig
+Text GLabel 7050 5300 1    40   Input ~ 0
+3V3ana
+$Comp
+L SPYPAD P17
+U 1 1 560EE37C
+P 7200 5450
+F 0 "P17" H 7280 5450 40  0000 L CNN
+F 1 "2.5Vdig" H 7200 5500 30  0001 C CNN
+F 2 "extras:testpad" H 7200 5450 60  0001 C CNN
+F 3 "" H 7200 5450 60  0000 C CNN
+	1    7200 5450
+	0    1    1    0   
+$EndComp
+Text GLabel 7200 5300 1    40   Input ~ 0
+2V5dig
 $EndSCHEMATC
