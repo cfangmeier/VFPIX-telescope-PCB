@@ -3,7 +3,7 @@
   <components>
     <comp ref="CASE">
       <fields>
-        <field name="digipart">HM1414-ND</field>
+        <field name="digipart">HM1416-ND</field>
       </fields>
     </comp>
     <comp ref="CONN_EXT">

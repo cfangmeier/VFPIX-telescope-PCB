@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/DAQCard2015/DAQCard2015.sch</source>
-    <date>Mon 05 Oct 2015 08:31:57 PM CDT</date>
-    <tool>Eeschema (2015-09-23 BZR 6209)-product</tool>
+    <date>Fri 09 Oct 2015 03:19:32 PM CDT</date>
+    <tool>Eeschema (2015-10-06 BZR 6248)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -3418,11 +3418,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="extras">
       <uri>/home/caleb/Sources/Telescope_Project/VFPIX-telescope-PCB/lib/extras.lib</uri>
