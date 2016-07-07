@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <components>
-    <comp ref="CASE">
+    <comp ref="CASE1">
       <fields>
         <field name="digipart">HM1416-ND</field>
       </fields>
     </comp>
-    <comp ref="CONN_EXT">
+    <comp ref="CONN_EXT1">
       <fields>
         <field name="digipart">A27813CT-ND</field>
       </fields>
     </comp>
-    <comp ref="CONN_EXT">
+    <comp ref="CONN_EXT2">
       <fields>
         <field name="digipart">A97548-ND</field>
       </fields>

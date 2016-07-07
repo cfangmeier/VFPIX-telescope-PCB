@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Overview of Previous Work}{}% 2
+\BOOKMARK [1][-]{section.3}{System Components}{}% 3
+\BOOKMARK [1][-]{section.4}{Performance Targets}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Precision/Accuracy Targets}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Speed Targets}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Hardware Proposal}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Silicon Strip Sensor}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Analog Pipeline Chip}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.3}{Sensor Mount Card}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.4}{Back-Plane Board}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.5}{Telescope Readout Board}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Timeline}{}% 13

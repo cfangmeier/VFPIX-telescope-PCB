@@ -1,0 +1,38 @@
+;; This logfile was generated automatically by `xindy'
+;; at 11.10.2015  14:03:07
+;; Indexstyle: "/tmp/cuDq7y3q6f", Rawindex: "/tmp/WFBQVHHv0A", Output: "VFPIX-Telescope-Design.gls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "†»Ð" -> "C"
+Letter-group: "åœÈ¨ë" -> "V"
+Letter-group: "Ð»†" -> "S"
+Letter-group: "„È„" -> "B"
+Letter-group: "€È†128" -> "A"
+Letter-group: "Ð¼Ë" -> "S"
+Letter-group: "Ð—à" -> "S"
+Letter-group: "´¤†" -> "L"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "€È†128" -> "A"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "„È„" -> "B"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "†»Ð" -> "C"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "´¤†" -> "L"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "Ð—à" -> "S"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "åœÈ¨ë" -> "V"

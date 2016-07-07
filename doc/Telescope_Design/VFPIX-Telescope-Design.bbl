@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{ADA4950}
+{ADA4950}: Low power, selectable gain differential adc driver.
+
+\bibitem{Dominguez2013}
+Aaron Dominguez.
+\newblock Proposal for r\&d related to the module and sensor design for the
+  phase-2 upgrade of the cms forward pixel detector.
+\newblock CMS-doc-12163-v1, 2013.
+
+\bibitem{Ryser2013}
+Adrian Ryser.
+\newblock Semesterarbeit - pixel telescope.
+\newblock 2013.
+
+\bibitem{Turner2012}
+Paul Turner.
+\newblock Design and implementation of a high resolution telescope for cms
+  pixel detector characterization.
+\newblock June 2012.
+
+\end{thebibliography}

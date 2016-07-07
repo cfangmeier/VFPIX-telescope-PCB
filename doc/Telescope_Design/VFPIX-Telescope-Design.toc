@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Overview of Previous Work}{3}{section.2}
+\contentsline {section}{\numberline {3}System Components}{4}{section.3}
+\contentsline {section}{\numberline {4}Performance Targets}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Precision/Accuracy Targets}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Speed Targets}{5}{subsection.4.2}
+\contentsline {section}{\numberline {5}Hardware Proposal}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Silicon Strip Sensor}{5}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Analog Pipeline Chip}{5}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Sensor Mount Card}{5}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Back-Plane Board}{6}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Telescope Readout Board}{8}{subsection.5.5}
+\contentsline {section}{\numberline {6}Timeline}{8}{section.6}

@@ -1,7 +1,7 @@
 VFPIX telescope PCB repository
 ==============================
 
-This repository contains the history and the most current versions of PCB files for the pixel telescope. The initial development started back as PIRE project in 2010.
+This repository contains the history and the most current versions of PCB files for the pixel telescope. The initial development started back as PIRE project in 2010. Current development is being done primarily by UNL student Caleb Fangmeier.
 
 Some links to past reports/TWikis:
 ----------------------------------
@@ -15,13 +15,14 @@ Some links to past reports/TWikis:
 Directory structure
 -------------------
 
-* **APC128Testboard**: board for testing the noise and speed characteristics of 
-                       the APC128 chip used for reading out strip detectors.
-* **lib**: home for KiCad library files not included in a standard KiCad 
-           distribution
-* **mod**: for for KiCad(and other) footprint files.
-* **legacy**: The contents of this directory were made using a previous, and 
-              somewhat incompatible, version of KiCad.
+* **APC128Testboard**: Board for testing the noise and speed characteristics of the APC128 chip
+* **sensorboard2015**: The Telescope board that holds the sensor & APC128 Chips
+* **motherboard2015**: The Telescope board that holds 4 sensorboards
+* **DAQCard2015**: The Telescope board responsible for data aquisition
+* **lib**: Home for KiCad library files not included in a standard KiCad distribution
+* **mod**: Home for KiCad footprint files, as well as 3d part models
+* **doc**: Documentation on Telescope design & development.
+* **legacy**: The contents of this directory were made using a previous, and somewhat incompatible, version of KiCad.
   * **adapterboard**: board to connect the telescope to the (old) analog testboard
   * **lib**: Has all the part and footprint libraries
   * **motherboard**: backbone boards for the telescope, one board makes one leg of the telescope
@@ -31,7 +32,7 @@ Directory structure
 
 How this repository is organized
 --------------------------------
-As far as we know, no repository has been used. All the layouts we have were kept in ZIP files. This repository therefore tries to collect all the previous states and provides the most recent release.
+As far as we know, no repository had been used previously for Telescope PCB designs. All the layouts were kept in ZIP files. This repository tries to collect all the previous states and provide the most recent release.
 
 The branches are:
 * **master:** As usual, contains the latest state

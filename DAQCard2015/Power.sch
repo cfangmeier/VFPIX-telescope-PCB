@@ -332,8 +332,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 2100 8350 2100
 Wire Wire Line
-	6550 2150 7800 2150
-Wire Wire Line
 	2800 2100 3150 2100
 Wire Wire Line
 	2800 3900 5350 3900
@@ -402,8 +400,6 @@ Wire Wire Line
 Connection ~ 7700 2150
 Wire Notes Line
 	7800 3000 7800 2750
-Wire Wire Line
-	3100 2900 8700 2900
 $Comp
 L CP C57
 U 1 1 56021674
@@ -486,7 +482,7 @@ Wire Notes Line
 Wire Wire Line
 	6600 4050 8700 4050
 Wire Wire Line
-	7150 3300 7150 2150
+	7150 1500 7150 3300
 Connection ~ 7150 2150
 Wire Wire Line
 	7150 3300 7800 3300
@@ -604,4 +600,11 @@ F 3 "" H 7200 5450 60  0000 C CNN
 $EndComp
 Text GLabel 7200 5300 1    40   Input ~ 0
 2V5dig
+Wire Wire Line
+	6550 2150 6600 2150
+Connection ~ 7150 1500
+Wire Wire Line
+	7150 2150 7800 2150
+Wire Wire Line
+	3100 2900 8700 2900
 $EndSCHEMATC

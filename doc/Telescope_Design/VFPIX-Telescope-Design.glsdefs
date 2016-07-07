@@ -1,0 +1,60 @@
+\ifglsentryexists{SMC}{}%
+{%
+\gls@defglossaryentry{SMC}%
+{%
+name={SMC},%
+sort={SMC},%
+type={main},%
+first={SMC},%
+firstplural={SMCs},%
+text={SMC},%
+plural={SMCs},%
+description={Sensor Mount Card},%
+descriptionplural={Sensor Mount Card},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{BPB}{}%
+{%
+\gls@defglossaryentry{BPB}%
+{%
+name={BPB},%
+sort={BPB},%
+type={main},%
+first={BPB},%
+firstplural={BPBs},%
+text={BPB},%
+plural={BPBs},%
+description={Back-Plane Board},%
+descriptionplural={Back-Plane Board},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
