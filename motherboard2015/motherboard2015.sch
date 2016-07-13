@@ -322,21 +322,21 @@ F 3 "" H 9250 10300 60  0000 C CNN
 $EndComp
 Text Label 7400 11000 0    60   ~ 0
 GND
-Text Label 9600 9350 1    60   ~ 0
-APC14+
-Text Label 9500 9350 1    60   ~ 0
-APC14-
-Text Label 9400 9350 1    60   ~ 0
-APC13+
-Text Label 9300 9350 1    60   ~ 0
-APC13-
-Text Label 9200 9350 1    60   ~ 0
-APC24+
-Text Label 9100 9350 1    60   ~ 0
-APC24-
 Text Label 9000 9350 1    60   ~ 0
-APC23+
+APC14+
 Text Label 8900 9350 1    60   ~ 0
+APC14-
+Text Label 9200 9350 1    60   ~ 0
+APC13+
+Text Label 9100 9350 1    60   ~ 0
+APC13-
+Text Label 9400 9350 1    60   ~ 0
+APC24+
+Text Label 9300 9350 1    60   ~ 0
+APC24-
+Text Label 9600 9350 1    60   ~ 0
+APC23+
+Text Label 9500 9350 1    60   ~ 0
 APC23-
 Text Label 7950 9350 1    60   ~ 0
 APC34+
@@ -538,7 +538,7 @@ F 1 "R_PACK8" V 5350 8250 50  0000 C CNN
 F 2 "extras:R8_MNR18" H 5350 8250 60  0001 C CNN
 F 3 "" H 5350 8250 60  0000 C CNN
 	1    5350 8250
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L R_PACK8 RP1
@@ -549,7 +549,7 @@ F 1 "R_PACK8" V 4450 8250 50  0000 C CNN
 F 2 "extras:R8_MNR18" H 4450 8250 60  0001 C CNN
 F 3 "" H 4450 8250 60  0000 C CNN
 	1    4450 8250
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L GND #PWR01
@@ -1235,9 +1235,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 4650 4400 4650
 Wire Wire Line
-	4400 4350 4400 4650
+	4400 4650 4400 4350
 Wire Wire Line
-	2850 4350 4400 4350
+	4400 4350 2850 4350
 Wire Wire Line
 	4300 4450 2850 4450
 Wire Wire Line

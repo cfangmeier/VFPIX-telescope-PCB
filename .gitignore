@@ -6,6 +6,10 @@
 *.dsn
 *.ses
 *.kicad_pcb-bak
+_autosave-*
+
+#Project archive files
+*.zip
 
 # Kicad documentation files (unused)
 *.dcm
