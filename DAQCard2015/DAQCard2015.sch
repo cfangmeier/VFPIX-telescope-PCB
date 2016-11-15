@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DAQCard2015-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -183,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3650 4550 3650
 Text Notes 14100 9250 0    60   ~ 0
-TODO:
+TODO:\nHook up HV\nExtend pads on HSMC connectors\nExtend pads on 5V regulator
 Wire Wire Line
 	3800 3850 4550 3850
 Wire Wire Line

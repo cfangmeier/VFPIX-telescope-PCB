@@ -152,7 +152,7 @@
       (footprint extras:QTH-090-XX-X-D-A)
       (datasheet DOCUMENTATION)
       (fields
-        (field (name digipart) SAM8195-ND))
+        (field (name Digikey) SAM8195-ND))
       (libsource (lib extras) (part QTH-090-01-F-D-A))
       (sheetpath (names /ZEM4310/) (tstamps /55C86A60/))
       (tstamp 55CCAA2D))
@@ -161,7 +161,7 @@
       (footprint extras:QTH-090-XX-X-D-A)
       (datasheet DOCUMENTATION)
       (fields
-        (field (name digipart) SAM8195-ND))
+        (field (name Digikey) SAM8195-ND))
       (libsource (lib extras) (part QTH-090-01-F-D-A))
       (sheetpath (names /ZEM4310/) (tstamps /55C86A60/))
       (tstamp 55CCAA87))
@@ -169,7 +169,7 @@
       (value LEMO_EPY.00.250.NTN)
       (footprint extras:EPY.00.250.NTN)
       (fields
-        (field (name digipart) 1124-1358-ND))
+        (field (name Digikey) 1124-1358-ND))
       (libsource (lib extras) (part LEMO_EPY.00.250.NTN))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55D34F59))
@@ -177,7 +177,7 @@
       (value LEMO_EPY.00.250.NTN)
       (footprint extras:EPY.00.250.NTN)
       (fields
-        (field (name digipart) 1124-1358-ND))
+        (field (name Digikey) 1124-1358-ND))
       (libsource (lib extras) (part LEMO_EPY.00.250.NTN))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55D35009))
@@ -185,7 +185,7 @@
       (value miniDIL20)
       (footprint extras:M50-3101045)
       (fields
-        (field (name digipart) 952-1392-ND))
+        (field (name Digikey) 952-1392-ND))
       (libsource (lib extras) (part miniDIL20))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55D35BC1))
@@ -193,7 +193,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F01621))
@@ -201,7 +201,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F016DC))
@@ -209,7 +209,7 @@
       (value 10k)
       (footprint extras:SM31TW+0805)
       (fields
-        (field (name digipart) SM-31TW103CT-ND))
+        (field (name Digikey) SM-31TW103CT-ND))
       (libsource (lib device) (part POT))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F0172C))
@@ -217,7 +217,7 @@
       (value MCP65R41)
       (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23-6)
       (fields
-        (field (name digipart) MCP65R41T-2402E/CHYCT-ND))
+        (field (name Digikey) MCP65R41T-2402E/CHYCT-ND))
       (libsource (lib extras) (part MCP65R41))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F01A3A))
@@ -225,7 +225,7 @@
       (value "10k Thermistor")
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) 445-2554-1-ND))
+        (field (name Digikey) 445-2554-1-ND))
       (libsource (lib device) (part THERMISTOR))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F02184))
@@ -233,7 +233,7 @@
       (value 249R)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P249HCT-ND))
+        (field (name Digikey) P249HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F03778))
@@ -241,7 +241,7 @@
       (value FAN)
       (footprint Socket_Strips:Socket_Strip_Straight_1x02)
       (fields
-        (field (name digipart) A1921-ND))
+        (field (name Digikey) A1921-ND))
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F03A28))
@@ -249,7 +249,7 @@
       (value 50k)
       (footprint Resistors_SMD:R_1206)
       (fields
-        (field (name digipart) P49.9KFCT-ND))
+        (field (name Digikey) P49.9KFCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F04DE6))
@@ -257,7 +257,7 @@
       (value 1462042-8)
       (footprint extras:1462042-8)
       (fields
-        (field (name digipart) PB1249CT-ND))
+        (field (name Digikey) PB1249CT-ND))
       (libsource (lib extras) (part relaySPDT))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F3FDC0))
@@ -265,7 +265,7 @@
       (value 470k)
       (footprint Resistors_SMD:R_1206)
       (fields
-        (field (name digipart) P470KECT-ND))
+        (field (name Digikey) P470KECT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F409F3))
@@ -273,7 +273,7 @@
       (value 470k)
       (footprint Resistors_SMD:R_1206)
       (fields
-        (field (name digipart) P470KECT-ND))
+        (field (name Digikey) P470KECT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F40BB2))
@@ -281,7 +281,7 @@
       (value 22nF)
       (footprint Capacitors_SMD:C_1812)
       (fields
-        (field (name digipart) 478-2991-1-ND))
+        (field (name Digikey) 478-2991-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F41495))
@@ -289,7 +289,7 @@
       (value 51k)
       (footprint Resistors_SMD:R_1206)
       (fields
-        (field (name digipart) P51KECT-ND))
+        (field (name Digikey) P51KECT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F4158B))
@@ -297,7 +297,7 @@
       (value 51k)
       (footprint Resistors_SMD:R_1206)
       (fields
-        (field (name digipart) P51KECT-ND))
+        (field (name Digikey) P51KECT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F415E3))
@@ -305,7 +305,7 @@
       (value SMAJ75A)
       (footprint Diodes_SMD:SMA_Standard)
       (fields
-        (field (name digipart) SMAJ75ALFCT-ND))
+        (field (name Digikey) SMAJ75ALFCT-ND))
       (libsource (lib device) (part D_Small))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F42E8D))
@@ -313,7 +313,7 @@
       (value 5k1)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P5.10KHCT-ND))
+        (field (name Digikey) P5.10KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F45FA6))
@@ -321,7 +321,7 @@
       (value HV)
       (footprint extras:TE_1217133-1)
       (fields
-        (field (name digipart) A100449CT-ND))
+        (field (name Digikey) A100449CT-ND))
       (libsource (lib extras) (part SHV))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55F913FA))
@@ -329,7 +329,7 @@
       (value Dialight_5690101372F)
       (footprint extras:Dialight_5690101372F)
       (fields
-        (field (name digipart) 350-3555-ND))
+        (field (name Digikey) 350-3555-ND))
       (libsource (lib extras) (part Dialight_5690101372F))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55FA5BD1))
@@ -337,7 +337,7 @@
       (value 300R)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P300HCT-ND))
+        (field (name Digikey) P300HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55FA73A0))
@@ -345,7 +345,7 @@
       (value 30R)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P30.0HCT-ND))
+        (field (name Digikey) P30.0HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55FA7424))
@@ -353,7 +353,7 @@
       (value 30R)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P30.0HCT-ND))
+        (field (name Digikey) P30.0HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55FA749A))
@@ -361,7 +361,7 @@
       (value 30R)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P30.0HCT-ND))
+        (field (name Digikey) P30.0HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 55FA7511))
@@ -369,7 +369,7 @@
       (value MMBT2222A-TP)
       (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23)
       (fields
-        (field (name digipart) MMBT2222ATPMSCT-ND))
+        (field (name Digikey) MMBT2222ATPMSCT-ND))
       (libsource (lib extras) (part Q_NPN_BCE_REV))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 56022DB8))
@@ -377,7 +377,7 @@
       (value AD5628)
       (footprint extras:TSSOP-16_4.4x5mm_Pitch0.65mm)
       (fields
-        (field (name digipart) AD5628ARUZ-2-ND))
+        (field (name Digikey) AD5628ARUZ-2-ND))
       (libsource (lib extras) (part AD5628))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 56032B50))
@@ -385,7 +385,7 @@
       (value AD8534)
       (footprint Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm)
       (fields
-        (field (name digipart) AD8534ARUZ-REELCT-ND))
+        (field (name Digikey) AD8534ARUZ-REELCT-ND))
       (libsource (lib extras) (part AD8534))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 56032F41))
@@ -393,7 +393,7 @@
       (value AD8534)
       (footprint Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm)
       (fields
-        (field (name digipart) AD8534ARUZ-REELCT-ND))
+        (field (name Digikey) AD8534ARUZ-REELCT-ND))
       (libsource (lib extras) (part AD8534))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 5603305A))
@@ -401,7 +401,7 @@
       (value SBC817-40LT1G)
       (footprint Housings_SOT-23_SOT-143_TSOT-6:SOT-23)
       (fields
-        (field (name digipart) MMBT2222ATPMSCT-ND))
+        (field (name Digikey) MMBT2222ATPMSCT-ND))
       (libsource (lib extras) (part Q_NPN_BCE_REV))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 5604521D))
@@ -421,7 +421,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560B6461))
@@ -429,7 +429,7 @@
       (value 70246-1004)
       (footprint Pin_Headers:Pin_Header_Straight_2x05)
       (fields
-        (field (name digipart) WM3478-ND))
+        (field (name Digikey) WM3478-ND))
       (libsource (lib conn) (part CONN_02X05))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560B9203))
@@ -437,7 +437,7 @@
       (value TLC59282)
       (footprint Housings_SSOP:SSOP-24_3.9x8.7mm_Pitch0.635mm)
       (fields
-        (field (name digipart) 296-28098-1-ND))
+        (field (name Digikey) 296-28098-1-ND))
       (libsource (lib extras) (part TLC59282))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560DFA19))
@@ -445,7 +445,7 @@
       (value 47uF)
       (footprint Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow)
       (fields
-        (field (name digipart) 478-9200-1-ND))
+        (field (name Digikey) 478-9200-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560DFC66))
@@ -453,7 +453,7 @@
       (value 2k)
       (footprint Resistors_SMD:R_0603_HandSoldering)
       (fields
-        (field (name digipart) P2.00KHCT-ND))
+        (field (name Digikey) P2.00KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560E0E6E))
@@ -509,7 +509,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560F4550))
@@ -517,7 +517,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560F46EE))
@@ -525,7 +525,7 @@
       (value "CASE GND")
       (footprint extras:TE_1217133-1)
       (fields
-        (field (name digipart) A100449CT-ND))
+        (field (name Digikey) A100449CT-ND))
       (libsource (lib extras) (part SHV))
       (sheetpath (names /MISCIO/) (tstamps /55C9D43F/))
       (tstamp 560F678B))
@@ -533,7 +533,7 @@
       (value BARREL_JACK)
       (footprint Connect:BARREL_JACK)
       (fields
-        (field (name digipart) CP-002B-ND))
+        (field (name Digikey) CP-002B-ND))
       (libsource (lib conn) (part BARREL_JACK))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55CCF566))
@@ -541,7 +541,7 @@
       (value 22uF)
       (footprint extras:SMD_Cap_8mmDia)
       (fields
-        (field (name digipart) 493-9771-1-ND))
+        (field (name Digikey) 493-9771-1-ND))
       (libsource (lib device) (part CP))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55CD0228))
@@ -549,7 +549,7 @@
       (value FILTER)
       (footprint Resistors_SMD:R_0805)
       (fields
-        (field (name digipart) MH2029-070YCT-ND))
+        (field (name Digikey) MH2029-070YCT-ND))
       (libsource (lib device) (part FILTER))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55CC0AC4))
@@ -557,7 +557,7 @@
       (value LM1086_1V8)
       (footprint extras:TO-263-4)
       (fields
-        (field (name digipart) LM1086ISX-1.8/NOPBCT-ND))
+        (field (name Digikey) LM1086ISX-1.8/NOPBCT-ND))
       (libsource (lib extras) (part LM1086))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55EA84EC))
@@ -565,7 +565,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55EB2165))
@@ -573,7 +573,7 @@
       (value LT1913)
       (footprint extras:LT1913)
       (fields
-        (field (name digipart) LT1913EDD#PBF-ND))
+        (field (name Digikey) LT1913EDD#PBF-ND))
       (libsource (lib extras) (part LT1913))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8A69B))
@@ -581,7 +581,7 @@
       (value 680pF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1291-1-ND))
+        (field (name Digikey) 445-1291-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8A88B))
@@ -589,7 +589,7 @@
       (value 0.47uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-7464-1-ND))
+        (field (name Digikey) 445-7464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8A8D7))
@@ -597,7 +597,7 @@
       (value 15k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P15.0KHCT-ND))
+        (field (name Digikey) P15.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8AA8A))
@@ -605,7 +605,7 @@
       (value 63.4k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P63.4KHCT-ND))
+        (field (name Digikey) P63.4KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8B0B3))
@@ -613,7 +613,7 @@
       (value MBRA340)
       (footprint Diodes_SMD:SMA_Standard)
       (fields
-        (field (name digipart) MBRA340T3GOSCT-ND))
+        (field (name Digikey) MBRA340T3GOSCT-ND))
       (libsource (lib device) (part D_Schottky_Small))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8B363))
@@ -621,7 +621,7 @@
       (value 100k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P100KHCT-ND))
+        (field (name Digikey) P100KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8B533))
@@ -629,7 +629,7 @@
       (value 536k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P536KHCT-ND))
+        (field (name Digikey) P536KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8B6A2))
@@ -637,7 +637,7 @@
       (value 5.6uH)
       (footprint extras:SLF101)
       (fields
-        (field (name digipart) 445-6477-1-ND))
+        (field (name Digikey) 445-6477-1-ND))
       (libsource (lib device) (part INDUCTOR_SMALL))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8B8C3))
@@ -645,7 +645,7 @@
       (value NMLU1210)
       (footprint extras:NMLU1210)
       (fields
-        (field (name digipart) NMLU1210TWGOSCT-ND))
+        (field (name Digikey) NMLU1210TWGOSCT-ND))
       (libsource (lib extras) (part NMLU1210))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F8F892))
@@ -653,7 +653,7 @@
       (value 10uF)
       (footprint Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow)
       (fields
-        (field (name digipart) 478-3337-1-ND))
+        (field (name Digikey) 478-3337-1-ND))
       (libsource (lib device) (part CP))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 5601F0EE))
@@ -661,7 +661,7 @@
       (value 10uF)
       (footprint Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow)
       (fields
-        (field (name digipart) 478-3337-1-ND))
+        (field (name Digikey) 478-3337-1-ND))
       (libsource (lib device) (part CP))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 5601FD97))
@@ -669,7 +669,7 @@
       (value 47uF)
       (footprint Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow)
       (fields
-        (field (name digipart) 478-9200-1-ND))
+        (field (name Digikey) 478-9200-1-ND))
       (libsource (lib device) (part CP))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 56021674))
@@ -677,7 +677,7 @@
       (value LM1086_2V5)
       (footprint extras:TO-263-4)
       (fields
-        (field (name digipart) LM1086CSX-2.5/NOPBCT-ND))
+        (field (name Digikey) LM1086CSX-2.5/NOPBCT-ND))
       (libsource (lib extras) (part LM1086))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 56067747))
@@ -685,7 +685,7 @@
       (value 10uF)
       (footprint Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow)
       (fields
-        (field (name digipart) 478-3337-1-ND))
+        (field (name Digikey) 478-3337-1-ND))
       (libsource (lib device) (part CP))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 5606775A))
@@ -693,7 +693,7 @@
       (value 10uF)
       (footprint Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow)
       (fields
-        (field (name digipart) 478-3337-1-ND))
+        (field (name Digikey) 478-3337-1-ND))
       (libsource (lib device) (part CP))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 56067760))
@@ -701,7 +701,7 @@
       (value DPDT)
       (footprint extras:DFXX-XX-X-XX-A-X-XX)
       (fields
-        (field (name digipart) CKN2062-ND))
+        (field (name Digikey) CKN2062-ND))
       (libsource (lib extras) (part DPDT))
       (sheetpath (names /Power/) (tstamps /55D3B55F/))
       (tstamp 55F79633))
@@ -745,7 +745,7 @@
       (value 100R)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P100HCT-ND))
+        (field (name Digikey) P100HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55CA6D67))
@@ -753,7 +753,7 @@
       (value AD5628)
       (footprint extras:TSSOP-16_4.4x5mm_Pitch0.65mm)
       (fields
-        (field (name digipart) AD5628ARUZ-2-ND))
+        (field (name Digikey) AD5628ARUZ-2-ND))
       (libsource (lib extras) (part AD5628))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55C9703E))
@@ -761,7 +761,7 @@
       (value 2.4k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P2.40KHCT-ND))
+        (field (name Digikey) P2.40KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55C9BF1B))
@@ -769,7 +769,7 @@
       (value 1k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P1.00KHCT-ND))
+        (field (name Digikey) P1.00KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55C9BF9D))
@@ -777,7 +777,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55C9C14B))
@@ -785,7 +785,7 @@
       (value RJ45x8)
       (footprint extras:TE_406967-3)
       (fields
-        (field (name digipart) A119312-ND))
+        (field (name Digikey) A119312-ND))
       (libsource (lib extras) (part RJ45x8))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55CC95A3))
@@ -793,7 +793,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55EB614B))
@@ -801,7 +801,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55EB623E))
@@ -809,7 +809,7 @@
       (value 10000pF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1311-1-ND))
+        (field (name Digikey) 445-1311-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55EB62BF))
@@ -817,7 +817,7 @@
       (value 2.7k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P2.70KHCT-ND))
+        (field (name Digikey) P2.70KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55EB6343))
@@ -825,7 +825,7 @@
       (value 1k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P1.00KHCT-ND))
+        (field (name Digikey) P1.00KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55EB6419))
@@ -833,7 +833,7 @@
       (value CONN_02X20_Double)
       (footprint extras:N3432-D302RB)
       (fields
-        (field (name digipart) 3M15351-ND))
+        (field (name Digikey) 3M15351-ND))
       (libsource (lib extras) (part CONN_02X20_Double))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 55F4BDE8))
@@ -841,7 +841,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 5605A63E))
@@ -849,7 +849,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 5605ACDA))
@@ -857,7 +857,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 5605AD5D))
@@ -865,7 +865,7 @@
       (value 10uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-11464-1-ND))
+        (field (name Digikey) 445-11464-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 5605ADEB))
@@ -873,7 +873,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/) (tstamps /55C47A4C/))
       (tstamp 560B787A))
@@ -881,7 +881,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB03))
@@ -889,7 +889,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB0F))
@@ -897,7 +897,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCAF6))
@@ -905,7 +905,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB27))
@@ -913,7 +913,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB17))
@@ -921,7 +921,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB1E))
@@ -929,7 +929,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB1F))
@@ -937,7 +937,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB30))
@@ -945,7 +945,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB36))
@@ -953,7 +953,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB40))
@@ -961,7 +961,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB46))
@@ -969,7 +969,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB4A))
@@ -977,7 +977,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB54))
@@ -985,7 +985,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCAFD))
@@ -993,7 +993,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB5D))
@@ -1001,7 +1001,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 55EBCB64))
@@ -1009,7 +1009,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel1/) (tstamps /55C47A4C/55C487E1/))
       (tstamp 5606444B))
@@ -1017,7 +1017,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB05))
@@ -1025,7 +1025,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB0E))
@@ -1033,7 +1033,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55CB5746))
@@ -1041,7 +1041,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB2C))
@@ -1049,7 +1049,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55CB5768))
@@ -1057,7 +1057,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB1C))
@@ -1065,7 +1065,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB20))
@@ -1073,7 +1073,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB2D))
@@ -1081,7 +1081,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB35))
@@ -1089,7 +1089,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB3C))
@@ -1097,7 +1097,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB48))
@@ -1105,7 +1105,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB4B))
@@ -1113,7 +1113,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB53))
@@ -1121,7 +1121,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB00))
@@ -1129,7 +1129,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EBCB57))
@@ -1137,7 +1137,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 55EB3809))
@@ -1145,7 +1145,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel4/) (tstamps /55C47A4C/55C99532/))
       (tstamp 56064448))
@@ -1153,7 +1153,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB04))
@@ -1161,7 +1161,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB10))
@@ -1169,7 +1169,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCAF7))
@@ -1177,7 +1177,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55CB578F))
@@ -1185,7 +1185,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB15))
@@ -1193,7 +1193,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB1B))
@@ -1201,7 +1201,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB22))
@@ -1209,7 +1209,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB33))
@@ -1217,7 +1217,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB34))
@@ -1225,7 +1225,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB41))
@@ -1233,7 +1233,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB44))
@@ -1241,7 +1241,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55CB57BD))
@@ -1249,7 +1249,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB51))
@@ -1257,7 +1257,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCAFE))
@@ -1265,7 +1265,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB5B))
@@ -1273,7 +1273,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 55EBCB63))
@@ -1281,7 +1281,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel3/) (tstamps /55C47A4C/55C992CC/))
       (tstamp 56064446))
@@ -1289,7 +1289,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB08))
@@ -1297,7 +1297,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB0A))
@@ -1305,7 +1305,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCAF8))
@@ -1313,7 +1313,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB26))
@@ -1321,7 +1321,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB16))
@@ -1329,7 +1329,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55CB576F))
@@ -1337,7 +1337,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB24))
@@ -1345,7 +1345,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB32))
@@ -1353,7 +1353,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB37))
@@ -1361,7 +1361,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB3D))
@@ -1369,7 +1369,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB43))
@@ -1377,7 +1377,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB4F))
@@ -1385,7 +1385,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55CB57C4))
@@ -1393,7 +1393,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCAFF))
@@ -1401,7 +1401,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB5C))
@@ -1409,7 +1409,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 55EBCB61))
@@ -1417,7 +1417,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel7/) (tstamps /55C47A4C/55CA496C/))
       (tstamp 56064447))
@@ -1425,7 +1425,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55CB5758))
@@ -1433,7 +1433,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55CB5765))
@@ -1441,7 +1441,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCAF5))
@@ -1449,7 +1449,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB28))
@@ -1457,7 +1457,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB13))
@@ -1465,7 +1465,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB1A))
@@ -1473,7 +1473,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB25))
@@ -1481,7 +1481,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB2E))
@@ -1489,7 +1489,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55CB57A8))
@@ -1497,7 +1497,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB3F))
@@ -1505,7 +1505,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB42))
@@ -1513,7 +1513,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB49))
@@ -1521,7 +1521,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB52))
@@ -1529,7 +1529,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB02))
@@ -1537,7 +1537,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55CB57CA))
@@ -1545,7 +1545,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 55EBCB60))
@@ -1553,7 +1553,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel5/) (tstamps /55C47A4C/55CA49B2/))
       (tstamp 5606444A))
@@ -1561,7 +1561,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB09))
@@ -1569,7 +1569,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB0B))
@@ -1577,7 +1577,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCAF9))
@@ -1585,7 +1585,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB2A))
@@ -1593,7 +1593,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB11))
@@ -1601,7 +1601,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB18))
@@ -1609,7 +1609,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55CB5780))
@@ -1617,7 +1617,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB2F))
@@ -1625,7 +1625,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB3A))
@@ -1633,7 +1633,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB3E))
@@ -1641,7 +1641,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB45))
@@ -1649,7 +1649,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB4E))
@@ -1657,7 +1657,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB50))
@@ -1665,7 +1665,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55CB574C))
@@ -1673,7 +1673,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB58))
@@ -1681,7 +1681,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 55EBCB5F))
@@ -1689,7 +1689,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel6/) (tstamps /55C47A4C/55CA49CE/))
       (tstamp 56064445))
@@ -1697,7 +1697,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB07))
@@ -1705,7 +1705,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB0D))
@@ -1713,7 +1713,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCAFB))
@@ -1721,7 +1721,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB2B))
@@ -1729,7 +1729,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB14))
@@ -1737,7 +1737,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB1D))
@@ -1745,7 +1745,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB21))
@@ -1753,7 +1753,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55CB579D))
@@ -1761,7 +1761,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB39))
@@ -1769,7 +1769,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB3B))
@@ -1777,7 +1777,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB47))
@@ -1785,7 +1785,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB4D))
@@ -1793,7 +1793,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB55))
@@ -1801,7 +1801,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB01))
@@ -1809,7 +1809,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB59))
@@ -1817,7 +1817,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 55EBCB5E))
@@ -1825,7 +1825,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel2/) (tstamps /55C47A4C/55C91921/))
       (tstamp 56064449))
@@ -1833,7 +1833,7 @@
       (value AD9219)
       (footprint extras:QFN-48-1EP)
       (fields
-        (field (name digipart) AD9219ABCPZ-40-ND))
+        (field (name Digikey) AD9219ABCPZ-40-ND))
       (libsource (lib extras) (part AD9219))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB06))
@@ -1841,7 +1841,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB0C))
@@ -1849,7 +1849,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCAFA))
@@ -1857,7 +1857,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB29))
@@ -1865,7 +1865,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB12))
@@ -1873,7 +1873,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB19))
@@ -1881,7 +1881,7 @@
       (value 10k)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P10.0KHCT-ND))
+        (field (name Digikey) P10.0KHCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB23))
@@ -1889,7 +1889,7 @@
       (value THS4524IDBTR)
       (footprint extras:TSSOP-38_4.4x9.7mm_Pitch0.5mm)
       (fields
-        (field (name digipart) 296-24315-1-ND))
+        (field (name Digikey) 296-24315-1-ND))
       (libsource (lib extras) (part THS4524IDBTR))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB31))
@@ -1897,7 +1897,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB38))
@@ -1905,7 +1905,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55CB57B1))
@@ -1913,7 +1913,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55CB57B5))
@@ -1921,7 +1921,7 @@
       (value Rt)
       (footprint Resistors_SMD:R_0603)
       (fields
-        (field (name digipart) P107HCT-ND))
+        (field (name Digikey) P107HCT-ND))
       (libsource (lib device) (part R))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB4C))
@@ -1929,7 +1929,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB56))
@@ -1937,7 +1937,7 @@
       (value Rf)
       (footprint extras:R4-MNR04)
       (fields
-        (field (name digipart) RHM1336CT-ND))
+        (field (name Digikey) RHM1336CT-ND))
       (libsource (lib device) (part R_PACK4))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCAFC))
@@ -1945,7 +1945,7 @@
       (value Ri)
       (footprint extras:R8_MNR18)
       (fields
-        (field (name digipart) RHM1564CT-ND))
+        (field (name Digikey) RHM1564CT-ND))
       (libsource (lib device) (part R_PACK8))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB5A))
@@ -1953,7 +1953,7 @@
       (value 2.2uF)
       (footprint Capacitors_SMD:C_0805)
       (fields
-        (field (name digipart) 445-1420-1-ND))
+        (field (name Digikey) 445-1420-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 55EBCB62))
@@ -1961,7 +1961,7 @@
       (value .1uF)
       (footprint Capacitors_SMD:C_0603)
       (fields
-        (field (name digipart) 445-1316-1-ND))
+        (field (name Digikey) 445-1316-1-ND))
       (libsource (lib device) (part C))
       (sheetpath (names /Frontend/ADCChannel8/) (tstamps /55C47A4C/55CA4942/))
       (tstamp 5605C69F)))
